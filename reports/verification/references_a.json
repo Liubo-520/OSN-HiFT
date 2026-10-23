@@ -1,0 +1,1054 @@
+{
+  "group": "a",
+  "verified_on": "2026-10-23",
+  "range": "BibTeX entries 1-15: marchetti2014 through ignacz2023a",
+  "scope": "Metadata and cited-claim audit only; shared BibTeX and manuscripts were not edited.",
+  "method": "Crossref DOI resolution first, exact-title search for two missing DOIs, then publisher or author-institution primary sources. Initial HTTP 429 for vandezande2008 was retried successfully. DOI substrings and online publication years were not treated as volume-year errors.",
+  "summary": {
+    "verified": 12,
+    "check_suggested": 2,
+    "needs_fix": 1
+  },
+  "semantic_summary": {
+    "supported": 7,
+    "supported_general_context": 2,
+    "supported_with_scope": 2,
+    "check_suggested": 1,
+    "needs_fix": 2,
+    "supported_general_claim_specific_figure_not_fully_checked": 1
+  },
+  "entries": [
+    {
+      "index": 1,
+      "key": "marchetti2014",
+      "original": {
+        "author": "Marchetti, Patrizia and Jimenez Solomon, Maria F. and Szekely, Gyorgy and Livingston, Andrew G.",
+        "title": "Molecular Separation with Organic Solvent Nanofiltration: A Critical Review",
+        "journal": "Chem. Rev.",
+        "year": "2014",
+        "volume": "114",
+        "pages": "10735--10806",
+        "doi": "10.1021/cr500006j"
+      },
+      "canonical_metadata": {
+        "title": "Molecular Separation with Organic Solvent Nanofiltration: A Critical Review",
+        "author": "Marchetti, Patrizia and Jimenez Solomon, Maria F. and Szekely, Gyorgy and Livingston, Andrew G.",
+        "year": "2014",
+        "volume": "114",
+        "number": "21",
+        "pages": "10735--10806",
+        "doi": "10.1021/cr500006j"
+      },
+      "corrected_fields": {
+        "number": "21"
+      },
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1021%2Fcr500006j",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://pubs.acs.org/toc/chreay/114/21",
+          "type": "publisher_issue_table",
+          "access": "search_indexed_primary_source",
+          "notes": "Title, four authors in order, year, volume, issue and full page range agree."
+        },
+        {
+          "url": "https://research.manchester.ac.uk/en/publications/molecular-separation-with-organic-solvent-nanofiltration-a-critic/",
+          "type": "author_institution",
+          "access": "search_indexed_primary_source",
+          "notes": "All bibliographic fields independently corroborated."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported",
+        "notes": [
+          "Supports broad OSN applications and membrane/solvent-dependent transport; avoid implying all OSN processes guarantee a particular energy saving."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\marchetti2014_crossref.json"
+      ]
+    },
+    {
+      "index": 2,
+      "key": "vandezande2008",
+      "original": {
+        "author": "Vandezande, Pieter and Gevers, Lieven E. M. and Vankelecom, Ivo F. J.",
+        "title": "Solvent Resistant Nanofiltration: Separating on a Molecular Level",
+        "journal": "Chem. Soc. Rev.",
+        "year": "2008",
+        "volume": "37",
+        "pages": "365--405",
+        "doi": "10.1039/B610848M"
+      },
+      "canonical_metadata": {
+        "title": "Solvent resistant nanofiltration: separating on a molecular level",
+        "author": "Vandezande, Pieter and Gevers, Lieven E. M. and Vankelecom, Ivo F. J.",
+        "year": "2008",
+        "volume": "37",
+        "number": "2",
+        "pages": "365--405",
+        "doi": "10.1039/b610848m"
+      },
+      "corrected_fields": {
+        "number": "2"
+      },
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1039%2FB610848M",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://pubs.rsc.org/en/content/articlelanding/2008/cs/b610848m/unauth",
+          "type": "publisher_indexed_record",
+          "access": "search_indexed_primary_source",
+          "notes": "Three authors in order; official citation gives 2008, volume 37, pages 365-405. First-online date is 2007, which does not invalidate the 2008 citation year."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported",
+        "notes": [
+          "Critical review supports energy/waste efficiency, membrane materials, transport models and industrial applications."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\vandezande2008_crossref.json"
+      ]
+    },
+    {
+      "index": 3,
+      "key": "sholl2016",
+      "original": {
+        "author": "Sholl, David S. and Lively, Ryan P.",
+        "title": "Seven Chemical Separations to Change the World",
+        "journal": "Nature",
+        "year": "2016",
+        "volume": "532",
+        "pages": "435--437",
+        "doi": "10.1038/532435a"
+      },
+      "canonical_metadata": {
+        "title": "Seven chemical separations to change the world",
+        "author": "Sholl, David S. and Lively, Ryan P.",
+        "year": "2016",
+        "volume": "532",
+        "number": "7600",
+        "pages": "435--437",
+        "doi": "10.1038/532435a"
+      },
+      "corrected_fields": {
+        "number": "7600"
+      },
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1038%2F532435a",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.nature.com/articles/532435a",
+          "type": "publisher_full_record",
+          "access": "live_web_retrieval",
+          "notes": "Both authors, title, year, volume, pages and DOI agree. Publisher notes a correction to a global distillation energy unit; no such number is used in the manuscript."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported_general_context",
+        "notes": [
+          "Supports the energy importance of nonthermal separations; does not itself establish a numerical OSN-specific savings factor."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\sholl2016_crossref.json"
+      ]
+    },
+    {
+      "index": 4,
+      "key": "lively2017",
+      "original": {
+        "author": "Lively, Ryan P. and Sholl, David S.",
+        "title": "From Water to Organics in Membrane Separations",
+        "journal": "Nat. Mater.",
+        "year": "2017",
+        "volume": "16",
+        "pages": "276--279",
+        "doi": "10.1038/nmat4860"
+      },
+      "canonical_metadata": {
+        "title": "From water to organics in membrane separations",
+        "author": "Lively, Ryan P. and Sholl, David S.",
+        "year": "2017",
+        "volume": "16",
+        "number": "3",
+        "pages": "276--279",
+        "doi": "10.1038/nmat4860"
+      },
+      "corrected_fields": {
+        "number": "3"
+      },
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1038%2Fnmat4860",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.nature.com/articles/nmat4860",
+          "type": "publisher_full_record",
+          "access": "live_web_retrieval",
+          "notes": "Both authors, title, year, volume, pages and DOI agree."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported_general_context",
+        "notes": [
+          "Supports the expansion and economics of membrane processing of organic fluids."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\lively2017_crossref.json"
+      ]
+    },
+    {
+      "index": 5,
+      "key": "szekely2014",
+      "original": {
+        "author": "Szekely, Gyorgy and Jimenez-Solomon, Maria F. and Marchetti, Patrizia and Kim, Jeong F. and Livingston, Andrew G.",
+        "title": "Sustainability Assessment of Organic Solvent Nanofiltration: From Fabrication to Application",
+        "journal": "Green Chem.",
+        "year": "2014",
+        "volume": "16",
+        "pages": "4440--4473",
+        "doi": "10.1039/C4GC00701H"
+      },
+      "canonical_metadata": {
+        "title": "Sustainability assessment of organic solvent nanofiltration: from fabrication to application",
+        "author": "Szekely, Gyorgy and Jimenez-Solomon, Maria F. and Marchetti, Patrizia and Kim, Jeong F. and Livingston, Andrew G.",
+        "year": "2014",
+        "volume": "16",
+        "number": "10",
+        "pages": "4440--4473",
+        "doi": "10.1039/c4gc00701h"
+      },
+      "corrected_fields": {
+        "number": "10"
+      },
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1039%2FC4GC00701H",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://pubs.rsc.org/en/content/articlehtml/2014/gc/c4gc00701h",
+          "type": "publisher_full_text_indexed",
+          "access": "search_indexed_primary_source",
+          "notes": "Five authors in order, title, year, volume, pages and DOI agree; sustainability benefits are conditional on process design."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported_with_scope",
+        "notes": [
+          "Supports sustainability discussion; assessment explicitly depends on solvent recovery, membrane manufacture and process boundaries."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\szekely2014_crossref.json"
+      ]
+    },
+    {
+      "index": 6,
+      "key": "ignacz2025",
+      "original": {
+        "author": "Ignacz, Gergo and Beke, Aron K. and Toth, Viktor and Szekely, Gyorgy",
+        "title": "A Hybrid Modelling Approach to Compare Chemical Separation Technologies in Terms of Energy Consumption and Carbon Dioxide Emissions",
+        "journal": "Nat. Energy",
+        "year": "2025",
+        "volume": "10",
+        "pages": "308--317",
+        "doi": "10.1038/s41560-024-01668-7"
+      },
+      "canonical_metadata": {
+        "title": "A hybrid modelling approach to compare chemical separation technologies in terms of energy consumption and carbon dioxide emissions",
+        "author": "Ignacz, Gergo and Beke, Aron K. and Toth, Viktor and Szekely, Gyorgy",
+        "year": "2025",
+        "volume": "10",
+        "number": "3",
+        "pages": "308--317",
+        "doi": "10.1038/s41560-024-01668-7"
+      },
+      "corrected_fields": {
+        "number": "3"
+      },
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1038%2Fs41560-024-01668-7",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41560-024-01668-7",
+          "type": "publisher_full_text",
+          "access": "live_web_retrieval",
+          "notes": "Four authors and all bibliographic fields agree. Volume 10 is explicitly dated 2025 although online publication was 27 November 2024."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported",
+        "notes": [
+          "Publisher full text explicitly develops a message-passing graph neural network for solute rejection, using molecular structure, solvent, membrane and process inputs. Thus manuscript GNN and molecular-representation citations are valid.",
+          "Publisher estimates an average 40% energy/emissions reduction across assessed applications and up to 90% for some pharmaceutical purification scenarios; broad energy claims should retain conditional wording."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\ignacz2025_crossref.json"
+      ]
+    },
+    {
+      "index": 7,
+      "key": "wijmans1995",
+      "original": {
+        "author": "Wijmans, J. G. and Baker, R. W.",
+        "title": "The Solution-Diffusion Model: A Review",
+        "journal": "J. Membr. Sci.",
+        "year": "1995",
+        "volume": "107",
+        "pages": "1--21",
+        "doi": "10.1016/0376-7388(95)00102-I"
+      },
+      "canonical_metadata": {
+        "title": "The solution-diffusion model: a review",
+        "author": "Wijmans, J.G. and Baker, R.W.",
+        "year": "1995",
+        "volume": "107",
+        "number": "1-2",
+        "pages": "1--21",
+        "doi": "10.1016/0376-7388(95)00102-i"
+      },
+      "corrected_fields": {
+        "number": "1-2"
+      },
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1016%2F0376-7388%2895%2900102-I",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/037673889500102I",
+          "type": "publisher_indexed_record",
+          "access": "search_indexed_primary_source",
+          "notes": "Two author names/initials, title, year, volume, issue, pages and DOI agree."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported",
+        "notes": [
+          "Publisher abstract supports solution-diffusion, chemical-potential gradients, and the transition to pore flow in nanofiltration."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\wijmans1995_crossref.json"
+      ]
+    },
+    {
+      "index": 8,
+      "key": "bhanushali2001",
+      "original": {
+        "author": "Bhanushali, Dharmesh and Kloos, Steve and Kurth, Christopher and Bhattacharyya, Dibakar",
+        "title": "Performance of Solvent-Resistant Membranes for Non-Aqueous Systems: Solvent Permeation Results and Modeling",
+        "journal": "J. Membr. Sci.",
+        "year": "2001",
+        "volume": "189",
+        "pages": "1--21"
+      },
+      "canonical_metadata": {
+        "title": "Performance of solvent-resistant membranes for non-aqueous systems: solvent permeation results and modeling",
+        "author": "Bhanushali, D and Kloos, S and Kurth, C and Bhattacharyya, D",
+        "year": "2001",
+        "volume": "189",
+        "number": "1",
+        "pages": "1--21",
+        "doi": "10.1016/s0376-7388(01)00356-8"
+      },
+      "corrected_fields": {
+        "number": "1",
+        "doi": "10.1016/s0376-7388(01)00356-8",
+        "author": "Bhanushali, D. and Kloos, S. and Kurth, C. and Bhattacharyya, D."
+      },
+      "status": "check_suggested",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "not_verified_use_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "field": "author",
+          "reason": "Original expanded given names not confirmed by primary records; use verified initials."
+        },
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        },
+        {
+          "severity": "info",
+          "field": "doi",
+          "reason": "Missing DOI recovered by exact-title match, then DOI record confirmed."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/?query.bibliographic=Performance%20of%20Solvent-Resistant%20Membranes%20for%20Non-Aqueous%20Systems%3A%20Solvent%20Permeation%20Results%20and%20Modeling&rows=3",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0376738801003568",
+          "type": "publisher_indexed_abstract",
+          "access": "search_indexed_primary_source",
+          "notes": "Title, transport model and DOI agree."
+        },
+        {
+          "url": "https://scholars.uky.edu/en/publications/performance-of-solvent-resistant-membranes-for-non-aqueous-system/",
+          "type": "author_institution",
+          "access": "search_indexed_primary_source",
+          "notes": "Four authors in order are provided as D. Bhanushali, S. Kloos, C. Kurth, D. Bhattacharyya. Year 2001, volume 189, issue 1, pages 1-21 and DOI agree; expanded given names in the original bibliography are not verified."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported_with_scope",
+        "notes": [
+          "Supports molar-volume/viscosity-based solvent-permeation modelling and extensions using surface energy and sorption. The manuscript should call the Vm/eta baseline Bhanushali-type scaling, not an exact reproduction of the complete published model.",
+          "The original expanded given names are unsupported by the retrievable primary metadata. Use the verified initials rather than guessing expansions."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\bhanushali2001_crossref.json",
+        "reports\\verification\\cache_a\\bhanushali2001_doi_crossref.json"
+      ]
+    },
+    {
+      "index": 9,
+      "key": "machado1999",
+      "original": {
+        "author": "Machado, D. R. and Hasson, D. and Semiat, R.",
+        "title": "Effect of Solvent Properties on Permeate Flow through Nanofiltration Membranes. Part I: Investigation of Parameters Affecting Solvent Flux",
+        "journal": "J. Membr. Sci.",
+        "year": "1999",
+        "volume": "163",
+        "pages": "93--102"
+      },
+      "canonical_metadata": {
+        "title": "Effect of solvent properties on permeate flow through nanofiltration membranes. Part I: investigation of parameters affecting solvent flux",
+        "author": "Machado, Darı́o R. and Hasson, David and Semiat, Raphael",
+        "year": "1999",
+        "volume": "163",
+        "number": "1",
+        "pages": "93--102",
+        "doi": "10.1016/s0376-7388(99)00158-1"
+      },
+      "corrected_fields": {
+        "number": "1",
+        "doi": "10.1016/s0376-7388(99)00158-1"
+      },
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        },
+        {
+          "severity": "info",
+          "field": "doi",
+          "reason": "Missing DOI recovered by exact-title match, then DOI record confirmed."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/?query.bibliographic=Effect%20of%20Solvent%20Properties%20on%20Permeate%20Flow%20through%20Nanofiltration%20Membranes.%20Part%20I%3A%20Investigation%20of%20Parameters%20Affecting%20Solvent%20Flux&rows=3",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0376738899001581",
+          "type": "publisher_indexed_record",
+          "access": "search_indexed_primary_source",
+          "notes": "Three authors in order, title, year 1999, volume 163, issue 1, pages 93-102 and recovered DOI agree."
+        }
+      ],
+      "semantic_notes": {
+        "status": "check_suggested",
+        "notes": [
+          "Part I reports solvent-flux experiments and the importance of viscosity, surface tension and dielectric constant. Its introduction places the mathematical correlation model in Part II.",
+          "If retaining a detailed statement that Machado model exponents are fitted per membrane, either describe the family of correlations without exact exponents or additionally cite the actual Part II transport-model paper after verifying it."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\machado1999_crossref.json",
+        "reports\\verification\\cache_a\\machado1999_doi_crossref.json"
+      ]
+    },
+    {
+      "index": 10,
+      "key": "darvishmanesh2009",
+      "original": {
+        "author": "Darvishmanesh, Siavash and Buekenhoudt, Anita and Degr{\\`e}ve, Jan and Van der Bruggen, Bart",
+        "title": "General Model for Prediction of Solvent Permeation through Organic and Inorganic Solvent Resistant Nanofiltration Membranes",
+        "journal": "J. Membr. Sci.",
+        "year": "2009",
+        "volume": "334",
+        "pages": "43--49",
+        "doi": "10.1016/j.memsci.2009.02.013"
+      },
+      "canonical_metadata": {
+        "title": "General model for prediction of solvent permeation through organic and inorganic solvent resistant nanofiltration membranes",
+        "author": "Darvishmanesh, Siavash and Buekenhoudt, Anita and Degrève, Jan and Van der Bruggen, Bart",
+        "year": "2009",
+        "volume": "334",
+        "number": "1-2",
+        "pages": "43--49",
+        "doi": "10.1016/j.memsci.2009.02.013"
+      },
+      "corrected_fields": {
+        "number": "1-2"
+      },
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1016%2Fj.memsci.2009.02.013",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0376738809001288",
+          "type": "publisher_indexed_record",
+          "access": "search_indexed_primary_source",
+          "notes": "Title, volume 334, issues 1-2, year 2009, pages 43-49 and DOI agree. Abstract specifies viscosity, surface-tension and dielectric terms."
+        }
+      ],
+      "semantic_notes": {
+        "status": "needs_fix",
+        "notes": [
+          "main_template.tex near lines 931-932 incorrectly says this model adds solvent-membrane solubility-parameter differences. Publisher abstract specifies viscosity plus nondimensional surface-tension and dielectric-constant terms.",
+          "Suggested repair: \"The Darvishmanesh correlation combines viscosity with surface-tension and dielectric terms\", with this reference; cite andecochea2018 separately for Hansen-parameter affinity arguments.",
+          "The other broad statements about convective-diffusive solvent transport are supported."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\darvishmanesh2009_crossref.json"
+      ]
+    },
+    {
+      "index": 11,
+      "key": "darvishmanesh2009b",
+      "original": {
+        "author": "Darvishmanesh, Siavash and Buekenhoudt, Anita and Degr{\\`e}ve, Jan and Van der Bruggen, Bart",
+        "title": "Coupled Series--Parallel Resistance Model for Transport of Solvent through Inorganic Nanofiltration Membranes",
+        "journal": "Sep. Purif. Technol.",
+        "year": "2009",
+        "doi": "10.1016/j.seppur.2009.08.011"
+      },
+      "canonical_metadata": {
+        "title": "Coupled series–parallel resistance model for transport of solvent through inorganic nanofiltration membranes",
+        "author": "Darvishmanesh, Siavash and Buekenhoudt, Anita and Degrève, Jan and Van der Bruggen, Bart",
+        "year": "2009",
+        "volume": "70",
+        "number": "1",
+        "pages": "46--52",
+        "doi": "10.1016/j.seppur.2009.08.011"
+      },
+      "corrected_fields": {
+        "volume": "70",
+        "number": "1",
+        "pages": "46--52"
+      },
+      "status": "check_suggested",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "field": "volume/pages",
+          "reason": "Original entry lacks core volume and page metadata, recovered consistently from Crossref, publisher and author institution."
+        },
+        {
+          "severity": "info",
+          "field": "number",
+          "reason": "Issue number supplied from current Crossref metadata; omission did not alter identity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1016%2Fj.seppur.2009.08.011",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S138358660900361X",
+          "type": "publisher_indexed_record",
+          "access": "search_indexed_primary_source",
+          "notes": "Title, volume 70, issue 1, year 2009, pages 46-52 and DOI agree."
+        },
+        {
+          "url": "https://cit.kuleuven.be/creas/our-team/professors/00005764/view?fromnr=21&pubsonpage=20&pubtype=journal-article&sortby=stitle",
+          "type": "author_institution",
+          "access": "search_indexed_primary_source",
+          "notes": "All four authors in order and volume/issue/page fields corroborated; original bib omitted volume/issue/pages."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported",
+        "notes": [
+          "Supports the ceramic membrane series-parallel resistance picture, combining convection/diffusion with solvent viscosity, surface tension, molecular diameter and dielectric constant."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\darvishmanesh2009b_crossref.json"
+      ]
+    },
+    {
+      "index": 12,
+      "key": "andecochea2018",
+      "original": {
+        "author": "{Andecochea Saiz} and others",
+        "title": "Shortcut Applications of the {Hansen} Solubility Parameter for Organic Solvent Nanofiltration",
+        "journal": "J. Membr. Sci.",
+        "year": "2018",
+        "doi": "10.1016/j.memsci.2017.10.016"
+      },
+      "canonical_metadata": {
+        "title": "Shortcut applications of the Hansen Solubility Parameter for Organic Solvent Nanofiltration",
+        "author": "Andecochea Saiz, Carlos and Darvishmanesh, Siavash and Buekenhoudt, Anita and Van der Bruggen, Bart",
+        "year": "2018",
+        "volume": "546",
+        "number": null,
+        "pages": "120--127",
+        "doi": "10.1016/j.memsci.2017.10.016"
+      },
+      "corrected_fields": {
+        "volume": "546",
+        "pages": "120--127",
+        "author": "{Andecochea Saiz}, Carlos and Darvishmanesh, Siavash and Buekenhoudt, Anita and {Van der Bruggen}, Bart"
+      },
+      "status": "needs_fix",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "original_incomplete",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [
+        {
+          "severity": "critical",
+          "field": "author",
+          "reason": "Truncated/unnamed author list replaced with all four names from Crossref and author institution."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1016%2Fj.memsci.2017.10.016",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0376738817312334",
+          "type": "publisher_indexed_record",
+          "access": "search_indexed_primary_source",
+          "notes": "Title and DOI resolve to the expected Hansen-parameter paper."
+        },
+        {
+          "url": "https://cit.kuleuven.be/process/people_of_process/00007540/view?fromnr=1&pubsonpage=50&pubtype=journal-article&sortby=screator",
+          "type": "author_institution",
+          "access": "search_indexed_primary_source",
+          "notes": "Four full authors in order, publication year 2018, volume 546 and pages 120-127 corroborated. Copyright/online 2017 is not the volume citation year."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported_general_claim_specific_figure_not_fully_checked",
+        "notes": [
+          "Supports qualitative Hansen-parameter affinity arguments and the limitation of solvent-only universal correlations.",
+          "The SI exemplar figure (template lines 451-453) attributes a TiO2/benzyl-grafting series directly to this paper. The accessible publisher preview confirms ceramic-membrane HSP treatment but does not expose the specific benzyl-grafting series; verify original experimental provenance before claiming that precise attribution. The main text already cites rezaei2014 for this exemplar."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\andecochea2018_crossref.json"
+      ]
+    },
+    {
+      "index": 13,
+      "key": "goebel2020",
+      "original": {
+        "author": "Goebel, Rebecca and Skiborowski, Mirko",
+        "title": "Machine-Based Learning of Predictive Models in Organic Solvent Nanofiltration: Pure and Mixed Solvent Flux",
+        "journal": "Sep. Purif. Technol.",
+        "year": "2020",
+        "volume": "237",
+        "pages": "116363",
+        "doi": "10.1016/j.seppur.2019.116363"
+      },
+      "canonical_metadata": {
+        "title": "Machine-based learning of predictive models in organic solvent nanofiltration: Pure and mixed solvent flux",
+        "author": "Goebel, Rebecca and Skiborowski, Mirko",
+        "year": "2020",
+        "volume": "237",
+        "number": null,
+        "pages": "116363",
+        "doi": "10.1016/j.seppur.2019.116363"
+      },
+      "corrected_fields": {},
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1016%2Fj.seppur.2019.116363",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1383586619336421",
+          "type": "publisher_indexed_record",
+          "access": "search_indexed_primary_source",
+          "notes": "Two authors, title, year 2020, article number and DOI agree."
+        },
+        {
+          "url": "https://tore.tuhh.de/entities/publication/960408e9-2388-488e-b054-efa1ee98302b",
+          "type": "author_institution",
+          "access": "search_indexed_primary_source",
+          "notes": "Two full authors in order, volume 237, article 116363 and date 15 April 2020 corroborated."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported",
+        "notes": [
+          "Supports membrane-specific predictive flux correlations learned by genetic programming and the difficulty identifying classical model parameters."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\goebel2020_crossref.json"
+      ]
+    },
+    {
+      "index": 14,
+      "key": "hu2021",
+      "original": {
+        "author": "Hu, Jiahui and Kim, Changsu and Halasz, Peter and Kim, Jeong F. and Kim, Jiyong and Szekely, Gyorgy",
+        "title": "Artificial Intelligence for Performance Prediction of Organic Solvent Nanofiltration Membranes",
+        "journal": "J. Membr. Sci.",
+        "year": "2021",
+        "volume": "619",
+        "pages": "118513",
+        "doi": "10.1016/j.memsci.2020.118513"
+      },
+      "canonical_metadata": {
+        "title": "Artificial intelligence for performance prediction of organic solvent nanofiltration membranes",
+        "author": "Hu, Jiahui and Kim, Changsu and Halasz, Peter and Kim, Jeong F. and Kim, Jiyong and Szekely, Gyorgy",
+        "year": "2021",
+        "volume": "619",
+        "number": null,
+        "pages": "118513",
+        "doi": "10.1016/j.memsci.2020.118513"
+      },
+      "corrected_fields": {},
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1016%2Fj.memsci.2020.118513",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0376738820310905",
+          "type": "publisher_indexed_record",
+          "access": "search_indexed_primary_source",
+          "notes": "All six authors in CRediT order, title, volume 619, article 118513 and year 2021 corroborated."
+        }
+      ],
+      "semantic_notes": {
+        "status": "needs_fix",
+        "notes": [
+          "The publisher abstract confirms reported accuracy up to 98% for permeance and 91% for rejection.",
+          "The three algorithms used by this paper are artificial neural networks, support vector machines and random forests. main_template.tex near lines 135-137 says neural networks, random forests and gradient boosting under this citation. Replace gradient boosting with support vector machines or supply a separate verified boosting reference."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\hu2021_crossref.json"
+      ]
+    },
+    {
+      "index": 15,
+      "key": "ignacz2023a",
+      "original": {
+        "author": "Ignacz, Gergo and Alqadhi, Nawader and Szekely, Gyorgy",
+        "title": "Explainable Machine Learning for Unraveling Solvent Effects in Polyimide Organic Solvent Nanofiltration Membranes",
+        "journal": "Adv. Membr.",
+        "year": "2023",
+        "volume": "3",
+        "pages": "100061",
+        "doi": "10.1016/j.advmem.2023.100061"
+      },
+      "canonical_metadata": {
+        "title": "Explainable machine learning for unraveling solvent effects in polyimide organic solvent nanofiltration membranes",
+        "author": "Ignacz, Gergo and Alqadhi, Nawader and Szekely, Gyorgy",
+        "year": "2023",
+        "volume": "3",
+        "number": null,
+        "pages": "100061",
+        "doi": "10.1016/j.advmem.2023.100061"
+      },
+      "corrected_fields": {},
+      "status": "verified",
+      "verification_level": "independently_crosschecked",
+      "verification_scope_note": "Crossref and a separately retrieved publisher/author-institution record agree on identity. Some publisher pages blocked direct opening; indexed primary-source content was available. Not every field was independently exposed on every page.",
+      "checks": {
+        "doi_resolves": true,
+        "title_identity": "matches_ignoring_case_and_typography",
+        "author_count_and_order": "matches",
+        "expanded_given_names": "matches_or_acceptable_initials",
+        "volume_year": "publisher_volume_year_confirmed",
+        "issue": "from_crossref_if_available",
+        "pages_or_article_number": "matches_or_filled_from_sources"
+      },
+      "issues": [],
+      "sources": [
+        {
+          "url": "https://api.crossref.org/works/10.1016%2Fj.advmem.2023.100061",
+          "type": "crossref_registry",
+          "access": "live_api_cached"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2772823423000027",
+          "type": "publisher_indexed_record",
+          "access": "search_indexed_primary_source",
+          "notes": "Title, volume 3, year 2023, article 100061 and DOI agree; abstract explicitly reports a graph neural network."
+        },
+        {
+          "url": "https://repository.kaust.edu.sa/bitstreams/54ac36ad-7aa0-460a-93f5-6ed8b27d0cb8/download",
+          "type": "author_institution_publisher_pdf",
+          "access": "search_indexed_primary_source",
+          "notes": "First page confirms all three full authors in order and complete publication metadata."
+        }
+      ],
+      "semantic_notes": {
+        "status": "supported",
+        "notes": [
+          "Publisher abstract explicitly builds a GNN on measured rejection of 407 solutes in 11 solvents; citation for GNN solvent-dependent rejection and molecular solute representation is supported."
+        ]
+      },
+      "cached_metadata_paths": [
+        "reports\\verification\\cache_a\\ignacz2023a_crossref.json"
+      ]
+    }
+  ]
+}

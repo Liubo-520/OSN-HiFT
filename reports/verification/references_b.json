@@ -1,0 +1,928 @@
+{
+  "checked_at": "2026-10-23 Asia/Tokyo",
+  "scope": "Original BibTeX order 16--30 of paper_src/references.bib; no shared manuscript or bibliography edited by this subtask",
+  "method": "DOI-first Crossref registered metadata, then publisher/primary institutional records. Crossref plus DOI content negotiation would be one registry source, not independent corroboration; those are not counted as two sources. Search-indexed primary content is distinguished from live pages in evidence caches. Status reflects original metadata before recommended corrections.",
+  "counts": {
+    "verified": 2,
+    "check_suggested": 10,
+    "needs_fix": 3
+  },
+  "doi_identity": {
+    "registered_records_resolved": 15,
+    "wrong_article_dois": 0,
+    "unresolved": 0
+  },
+  "semantic_action_keys": [
+    "ignacz2023b",
+    "vanbuggenhout2025",
+    "ritt2022",
+    "hirschfeld2020"
+  ],
+  "references": [
+    {
+      "ordinal": 16,
+      "key": "ignacz2023b",
+      "original": {
+        "author": "Ignacz, Gergo and Beke, Aron K. and Szekely, Gyorgy",
+        "title": "Data-Driven Investigation of Process Solvent and Membrane Material on Organic Solvent Nanofiltration",
+        "journal": "J. Membr. Sci.",
+        "year": "2023",
+        "volume": "674",
+        "pages": "121519",
+        "doi": "10.1016/j.memsci.2023.121519"
+      },
+      "canonical_fields": {
+        "title": "Data-driven investigation of process solvent and membrane material on organic solvent nanofiltration",
+        "doi": "10.1016/j.memsci.2023.121519",
+        "year": "2023",
+        "volume": "674",
+        "pages": "121519",
+        "author": "Ignacz, Gergo and Beke, Aron K. and Szekely, Gyorgy",
+        "journal": "Journal of Membrane Science"
+      },
+      "corrected_fields": {},
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "not applicable or not provided by registry; not invented",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016%2Fj.memsci.2023.121519",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0376738823001758",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://szekelygroup.com/research/",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "verified",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "Main template lines 138-139 cite this work as evidence for graph neural networks for rejection across solvents. The publisher abstract describes 1938 rejection measurements (3 membranes, 10 solvents), descriptive structure-property and process/selectivity analysis; it does not establish that GNN claim. Replace the clause with data-driven analyses of membrane/solvent/solute interactions, or cite an actual GNN study."
+      ]
+    },
+    {
+      "ordinal": 17,
+      "key": "wang2023",
+      "original": {
+        "author": "Wang, Mao and Shi, Gui Min and Zhao, Daohui and Liu, Xinyi and Jiang, Jianwen",
+        "title": "Machine Learning-Assisted Design of Thin-Film Composite Membranes for Solvent Recovery",
+        "journal": "Environ. Sci. Technol.",
+        "year": "2023",
+        "volume": "57",
+        "pages": "15914--15924",
+        "doi": "10.1021/acs.est.3c04773"
+      },
+      "canonical_fields": {
+        "title": "Machine Learning-Assisted Design of Thin-Film Composite Membranes for Solvent Recovery",
+        "doi": "10.1021/acs.est.3c04773",
+        "year": "2023",
+        "volume": "57",
+        "number": "42",
+        "pages": "15914--15924",
+        "author": "Wang, Mao and Shi, Gui Min and Zhao, Daohui and Liu, Xinyi and Jiang, Jianwen",
+        "journal": "Environmental Science & Technology"
+      },
+      "corrected_fields": {
+        "number": "42"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "missing in original; fill from canonical metadata",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1021%2Facs.est.3c04773",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.acs.org/doi/abs/10.1021/acs.est.3c04773",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.acs.org/toc/esthag/57/42",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "check_suggested",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "Main template monomer-based TFC design claim is supported: the primary abstract explicitly featurizes interfacial-polymerization monomers, uses gradient boosting, designs 167 membranes, and experimentally tests one candidate."
+      ]
+    },
+    {
+      "ordinal": 18,
+      "key": "vanbuggenhout2025",
+      "original": {
+        "author": "{Van Buggenhout}, Simon and Ignacz, Gergo and Caspers, Scout and Dhondt, Robin and Lenaerts, Marie and others",
+        "title": "Open and {FAIR} Data for Nanofiltration in Organic Media: A Unified Approach",
+        "journal": "J. Membr. Sci.",
+        "year": "2025",
+        "volume": "713",
+        "pages": "123356",
+        "doi": "10.1016/j.memsci.2024.123356"
+      },
+      "canonical_fields": {
+        "title": "Open and FAIR data for nanofiltration in organic media: A unified approach",
+        "doi": "10.1016/j.memsci.2024.123356",
+        "year": "2025",
+        "volume": "713",
+        "pages": "123356",
+        "author": "Van Buggenhout, Simon and Ignacz, Gergo and Caspers, Scout and Dhondt, Robin and Lenaerts, Marie and Lenaerts, Nathalie and Hosseinabadi, Sareh Rezaei and Nulens, Ines and Koeckelberghs, Guy and Ren, Yi and Lively, Ryan P. and Rabiller-Baudry, Murielle and Lim, Ki Min and Ghazali, Nazlee and Coronas, Joaquin and Abel, Milan and Wessling, Matthias and Skiborowski, Mirko and Oxley, Adam and Han, Seok Ju and Livingston, Andrew and Yi, Zhuan and Gao, Congjie and Guan, Kecheng and Gonzales, Ralph Rolly and Matsuyama, Hideto and Bettahalli, Srivatsa NM. and McCutcheon, Jeffrey R. and Radmanesh, Farzaneh and Benes, Nieck E. and Tashvigh, Akbar Asadi and Fang, Qing and Zhang, Kaisong and Chen, Guining and Jin, Wanqin and Zhang, Yatao and Zhang, Chun-Xu and Liu, Mei-Ling and Sun, Shi-Peng and Buekenhoudt, Anita and Zhao, Chen and Bruggen, Bart Van der and Kim, Jeong F. and Condes, Lucas C. and Webb, Matthew T. and Galizia, Michele and Alhazmi, Banan and Upadhyaya, Lakshmeesha and Nunes, Suzana P. and Kim, Dae Woo and Schröter, Henrik and Kragl, Udo and Störtte, Sven and Vorholt, Andreas J. and Culfaz-Emecen, P. Zeynep and Pizzoccaro-Zilamy, Marie-Alix and Winnubst, Louis and Yushkin, Alexey and Volkov, Alexey and Chau, John and Sirkar, Kamalesh K. and Lu, Shao and Szekely, Gyorgy and Vankelecom, Ivo and Verbeke, Rhea",
+        "journal": "Journal of Membrane Science"
+      },
+      "corrected_fields": {
+        "author": "Van Buggenhout, Simon and Ignacz, Gergo and Caspers, Scout and Dhondt, Robin and Lenaerts, Marie and Lenaerts, Nathalie and Hosseinabadi, Sareh Rezaei and Nulens, Ines and Koeckelberghs, Guy and Ren, Yi and Lively, Ryan P. and Rabiller-Baudry, Murielle and Lim, Ki Min and Ghazali, Nazlee and Coronas, Joaquin and Abel, Milan and Wessling, Matthias and Skiborowski, Mirko and Oxley, Adam and Han, Seok Ju and Livingston, Andrew and Yi, Zhuan and Gao, Congjie and Guan, Kecheng and Gonzales, Ralph Rolly and Matsuyama, Hideto and Bettahalli, Srivatsa NM. and McCutcheon, Jeffrey R. and Radmanesh, Farzaneh and Benes, Nieck E. and Tashvigh, Akbar Asadi and Fang, Qing and Zhang, Kaisong and Chen, Guining and Jin, Wanqin and Zhang, Yatao and Zhang, Chun-Xu and Liu, Mei-Ling and Sun, Shi-Peng and Buekenhoudt, Anita and Zhao, Chen and Bruggen, Bart Van der and Kim, Jeong F. and Condes, Lucas C. and Webb, Matthew T. and Galizia, Michele and Alhazmi, Banan and Upadhyaya, Lakshmeesha and Nunes, Suzana P. and Kim, Dae Woo and Schröter, Henrik and Kragl, Udo and Störtte, Sven and Vorholt, Andreas J. and Culfaz-Emecen, P. Zeynep and Pizzoccaro-Zilamy, Marie-Alix and Winnubst, Louis and Yushkin, Alexey and Volkov, Alexey and Chau, John and Sirkar, Kamalesh K. and Lu, Shao and Szekely, Gyorgy and Vankelecom, Ivo and Verbeke, Rhea"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "original manually truncated with 'others'; full 65-author list registered and order crosschecked against primary/institutional record",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "not applicable or not provided by registry; not invented",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016%2Fj.memsci.2024.123356",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0376738824009505",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://www.dwi.rwth-aachen.de/en/page/publications?field_publication_research_field=All&field_publication_working_group=234&field_publication_year=All&order=field_publication_journal&page=13&search=&sort=asc",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "needs_fix",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Publisher independently confirms title, January 2025 volume 713/article 123356/DOI and first 20 authors; DWI primary institution lists all 65 authors in order in abbreviated form. Full given-name expansions for all 65 rely on Crossref registered metadata, not two independent full-name records.",
+      "semantic_notes": [
+        "Main template lines 140-144 should describe a SHARED dataset hosted on OSN Database and OMD4SRNF, not two independent datasets to be added: the publisher gives 5006 unique filtrations / 294 publications / 42 solvents as of April 2024. Cite this paper alone for those counts. The original wording 'together contain' risks double-counting the same shared data."
+      ]
+    },
+    {
+      "ordinal": 19,
+      "key": "ritt2022",
+      "original": {
+        "author": "Ritt, Cody L. and others",
+        "title": "The Open Membrane Database: Synthesis--Structure--Performance Relationships of Reverse Osmosis Membranes",
+        "journal": "J. Membr. Sci.",
+        "year": "2022",
+        "volume": "641",
+        "pages": "119927",
+        "doi": "10.1016/j.memsci.2021.119927"
+      },
+      "canonical_fields": {
+        "title": "The open membrane database: Synthesis–structure–performance relationships of reverse osmosis membranes",
+        "doi": "10.1016/j.memsci.2021.119927",
+        "year": "2022",
+        "volume": "641",
+        "pages": "119927",
+        "author": "Ritt, Cody L. and Stassin, Timothée and Davenport, Douglas M. and DuChanois, Ryan M. and Nulens, Ines and Yang, Zhe and Ben-Zvi, Adi and Segev-Mark, Naama and Elimelech, Menachem and Tang, Chuyang Y. and Ramon, Guy Z. and Vankelecom, Ivo F.J. and Verbeke, Rhea",
+        "journal": "Journal of Membrane Science"
+      },
+      "corrected_fields": {
+        "author": "Ritt, Cody L. and Stassin, Timothée and Davenport, Douglas M. and DuChanois, Ryan M. and Nulens, Ines and Yang, Zhe and Ben-Zvi, Adi and Segev-Mark, Naama and Elimelech, Menachem and Tang, Chuyang Y. and Ramon, Guy Z. and Vankelecom, Ivo F.J. and Verbeke, Rhea"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "original manually truncated with 'others'; full 13-author list registered and order crosschecked against primary/institutional record",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "not applicable or not provided by registry; not invented",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016%2Fj.memsci.2021.119927",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://www.sciencedirect.com/science/article/am/pii/S037673882100870X",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/the-open-membrane-database-synthesisstructureperformance-relation/",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "needs_fix",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "Main template lines 143-144 currently cites this reverse-osmosis/water-desalination database paper alongside OSN dataset counts. It does not support 5000 OSN filtration records or 294 OSN publications. Keep it for the later analogous reverse-osmosis data-sharing statement (around line 1049), remove it from the OSN numerical provenance."
+      ]
+    },
+    {
+      "ordinal": 20,
+      "key": "glass2026",
+      "original": {
+        "author": "Gla{\\ss}, Sarah and Merten, Petra and Brinkmann, Torsten and Filiz, Volkan",
+        "title": "Interpretable Machine Learning for Predicting Membrane Performance of Organic Solvent Nanofiltration Membranes Using an Open-Access Database",
+        "journal": "J. Membr. Sci.",
+        "year": "2026",
+        "pages": "126088",
+        "doi": "10.1016/j.memsci.2026.126088"
+      },
+      "canonical_fields": {
+        "title": "Interpretable machine learning for predicting membrane performance of organic solvent nanofiltration membranes using an open-access database",
+        "doi": "10.1016/j.memsci.2026.126088",
+        "year": "2026",
+        "volume": "759",
+        "pages": "126088",
+        "author": "Glass, Sarah and Merten, Petra and Brinkmann, Torsten and Filiz, Volkan",
+        "journal": "Journal of Membrane Science"
+      },
+      "corrected_fields": {
+        "volume": "759",
+        "author": "Glass, Sarah and Merten, Petra and Brinkmann, Torsten and Filiz, Volkan"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "surname mismatch Gla{\\ss} -> Glass; all four author names/order crosschecked against Hereon",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "missing in original; fill from canonical metadata",
+        "number": "not applicable or not provided by registry; not invented",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016%2Fj.memsci.2026.126088",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0376738826009695",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://publications.hereon.de/id/87057",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "needs_fix",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "The Hereon primary institutional abstract supports R2=0.76 permeance and 0.70 MWCO plus selective-layer chemistry/deposition/nanocomposite importance. It reports 5600+ experiments and up to 154 descriptors. The source author's surname is Glass, not the German sharp-s spelling Glaß. Current Crossref and institution give final volume 759 despite the older ScienceDirect search snapshot saying journal pre-proof; 2026 is valid and November is the scheduled print date."
+      ]
+    },
+    {
+      "ordinal": 21,
+      "key": "sheridan2013",
+      "original": {
+        "author": "Sheridan, Robert P.",
+        "title": "Time-Split Cross-Validation as a Method for Estimating the Goodness of Prospective Prediction",
+        "journal": "J. Chem. Inf. Model.",
+        "year": "2013",
+        "volume": "53",
+        "pages": "783--790",
+        "doi": "10.1021/ci400084k"
+      },
+      "canonical_fields": {
+        "title": "Time-Split Cross-Validation as a Method for Estimating the Goodness of Prospective Prediction.",
+        "doi": "10.1021/ci400084k",
+        "year": "2013",
+        "volume": "53",
+        "number": "4",
+        "pages": "783--790",
+        "author": "Sheridan, Robert P.",
+        "journal": "Journal of Chemical Information and Modeling"
+      },
+      "corrected_fields": {
+        "number": "4"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "missing in original; fill from canonical metadata",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1021%2Fci400084k",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.acs.org/doi/10.1021/ci400084k",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.acs.org/jcisd8/issue/53/4",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "check_suggested",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "Time-split vs random split claim is directly supported by publisher abstract. Avoid claiming that random splitting is always invalid: the primary paper says optimism/pessimism depends on selection and intended prospective deployment."
+      ]
+    },
+    {
+      "ordinal": 22,
+      "key": "wallach2018",
+      "original": {
+        "author": "Wallach, Izhar and Heifets, Abraham",
+        "title": "Most Ligand-Based Classification Benchmarks Reward Memorization Rather than Generalization",
+        "journal": "J. Chem. Inf. Model.",
+        "year": "2018",
+        "volume": "58",
+        "pages": "916--932",
+        "doi": "10.1021/acs.jcim.7b00403"
+      },
+      "canonical_fields": {
+        "title": "Most Ligand-Based Classification Benchmarks Reward Memorization Rather than Generalization",
+        "doi": "10.1021/acs.jcim.7b00403",
+        "year": "2018",
+        "volume": "58",
+        "number": "5",
+        "pages": "916--932",
+        "author": "Wallach, Izhar and Heifets, Abraham",
+        "journal": "Journal of Chemical Information and Modeling"
+      },
+      "corrected_fields": {
+        "number": "5"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "missing in original; fill from canonical metadata",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1021%2Facs.jcim.7b00403",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.acs.org/doi/abs/10.1021/acs.jcim.7b00403",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "check_suggested",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "Redundancy-driven benchmark memorization/optimism claim is supported by the primary abstract, specifically ligand-based classification benchmarks. The membrane application is an explicitly cross-domain motivation rather than evidence about this dataset."
+      ]
+    },
+    {
+      "ordinal": 23,
+      "key": "yang2019",
+      "original": {
+        "author": "Yang, Kevin and Swanson, Kyle and Jin, Wengong and Coley, Connor and Eiden, Philipp and Gao, Hua and Guzman-Perez, Angel and Hopper, Timothy and Kelley, Brian and Mathea, Miriam and Palmer, Andrew and Settels, Volker and Jaakkola, Tommi and Jensen, Klavs and Barzilay, Regina",
+        "title": "Analyzing Learned Molecular Representations for Property Prediction",
+        "journal": "J. Chem. Inf. Model.",
+        "year": "2019",
+        "volume": "59",
+        "pages": "3370--3388",
+        "doi": "10.1021/acs.jcim.9b00237"
+      },
+      "canonical_fields": {
+        "title": "Analyzing Learned Molecular Representations for Property Prediction",
+        "doi": "10.1021/acs.jcim.9b00237",
+        "year": "2019",
+        "volume": "59",
+        "number": "8",
+        "pages": "3370--3388",
+        "author": "Yang, Kevin and Swanson, Kyle and Jin, Wengong and Coley, Connor and Eiden, Philipp and Gao, Hua and Guzman-Perez, Angel and Hopper, Timothy and Kelley, Brian and Mathea, Miriam and Palmer, Andrew and Settels, Volker and Jaakkola, Tommi and Jensen, Klavs and Barzilay, Regina",
+        "journal": "Journal of Chemical Information and Modeling"
+      },
+      "corrected_fields": {
+        "number": "8"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "missing in original; fill from canonical metadata",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1021%2Facs.jcim.9b00237",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.9b00237",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "check_suggested",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "Scaffold overlap, random-vs-temporal/scaffold comparisons, and molecular property prediction claims are supported by the ACS primary text."
+      ]
+    },
+    {
+      "ordinal": 24,
+      "key": "meredig2018",
+      "original": {
+        "author": "Meredig, Bryce and Antono, Erin and Church, Carena and Hutchinson, Maxwell and Ling, Julia and Paradiso, Sean and Blaiszik, Ben and Foster, Ian and Gibbons, Brenna and Hattrick-Simpers, Jason and Mehta, Apurva and Ward, Logan",
+        "title": "Can Machine Learning Identify the Next High-Temperature Superconductor? {Examining} Extrapolation Performance for Materials Discovery",
+        "journal": "Mol. Syst. Des. Eng.",
+        "year": "2018",
+        "volume": "3",
+        "pages": "819--825",
+        "doi": "10.1039/C8ME00012C"
+      },
+      "canonical_fields": {
+        "title": "Can machine learning identify the next high-temperature superconductor? Examining extrapolation performance for materials discovery",
+        "doi": "10.1039/c8me00012c",
+        "year": "2018",
+        "volume": "3",
+        "number": "5",
+        "pages": "819--825",
+        "author": "Meredig, Bryce and Antono, Erin and Church, Carena and Hutchinson, Maxwell and Ling, Julia and Paradiso, Sean and Blaiszik, Ben and Foster, Ian and Gibbons, Brenna and Hattrick-Simpers, Jason and Mehta, Apurva and Ward, Logan",
+        "journal": "Molecular Systems Design & Engineering"
+      },
+      "corrected_fields": {
+        "number": "5"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "missing in original; fill from canonical metadata",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1039%2FC8ME00012C",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.rsc.org/en/content/articlelanding/2018/me/c8me00012c",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.rsc.org/en/content/articlepdf/2018/me/c8me00012c",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "check_suggested",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.Full given names verified against primary PDF header; issue via registered metadata (MatFold also issue contents PDF).",
+      "semantic_notes": [
+        "Leave-one-cluster-out materials validation and extrapolation claim is directly supported by the RSC abstract and conclusion."
+      ]
+    },
+    {
+      "ordinal": 25,
+      "key": "witman2025",
+      "original": {
+        "author": "Witman, Matthew D. and Schindler, Peter",
+        "title": "{MatFold}: Systematic Insights into Materials Discovery Models' Performance through Standardized Cross-Validation Protocols",
+        "journal": "Digital Discovery",
+        "year": "2025",
+        "doi": "10.1039/D4DD00250D"
+      },
+      "canonical_fields": {
+        "title": "MatFold: systematic insights into materials discovery models' performance through standardized cross-validation protocols",
+        "doi": "10.1039/d4dd00250d",
+        "year": "2025",
+        "volume": "4",
+        "number": "3",
+        "pages": "625--635",
+        "author": "Witman, Matthew D. and Schindler, Peter",
+        "journal": "Digital Discovery"
+      },
+      "corrected_fields": {
+        "volume": "4",
+        "number": "3",
+        "pages": "625--635"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "missing in original; fill from canonical metadata",
+        "number": "missing in original; fill from canonical metadata",
+        "pages": "missing in original; fill from canonical metadata",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1039%2FD4DD00250D",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.rsc.org/en/content/articlehtml/2025/dd/d4dd00250d",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.rsc.org/en/content/articlepdf/2025/dd/d4dd00250d",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.rsc.org/en/content/articlepdf/2025/dd/d5dd90012c",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "check_suggested",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.Full given names verified against primary PDF header; issue via registered metadata (MatFold also issue contents PDF).",
+      "semantic_notes": [
+        "Chemically/structurally stricter standardized holdouts, possible random-split leakage, and model generalizability claims are supported. Formal issue year is 2025 although first online publication was 9 December 2024; retain 2025."
+      ]
+    },
+    {
+      "ordinal": 26,
+      "key": "kapoor2023",
+      "original": {
+        "author": "Kapoor, Sayash and Narayanan, Arvind",
+        "title": "Leakage and the Reproducibility Crisis in Machine-Learning-Based Science",
+        "journal": "Patterns",
+        "year": "2023",
+        "volume": "4",
+        "pages": "100804",
+        "doi": "10.1016/j.patter.2023.100804"
+      },
+      "canonical_fields": {
+        "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+        "doi": "10.1016/j.patter.2023.100804",
+        "year": "2023",
+        "volume": "4",
+        "number": "9",
+        "pages": "100804",
+        "author": "Kapoor, Sayash and Narayanan, Arvind",
+        "journal": "Patterns"
+      },
+      "corrected_fields": {
+        "number": "9"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "missing in original; fill from canonical metadata",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016%2Fj.patter.2023.100804",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10499856/",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "check_suggested",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "General leakage/reproducibility concern is supported. The primary article treats inappropriate dependence and target-distribution mismatch as leakage; it does not show every random partition in every task is invalid. Frame this as matching evaluation to the intended deployment."
+      ]
+    },
+    {
+      "ordinal": 27,
+      "key": "vovk2005",
+      "original": {
+        "author": "Vovk, Vladimir and Gammerman, Alexander and Shafer, Glenn",
+        "title": "Algorithmic Learning in a Random World",
+        "publisher": "Springer",
+        "address": "New York",
+        "year": "2005"
+      },
+      "canonical_fields": {
+        "title": "Algorithmic Learning in a Random World",
+        "doi": "10.1007/b106715",
+        "year": "2005",
+        "author": "Vovk, Vladimir and Gammerman, Alexander and Shafer, Glenn",
+        "publisher": "Springer New York, NY",
+        "edition": "1"
+      },
+      "corrected_fields": {
+        "doi": "10.1007/b106715"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "all three authors independently verified from Springer; Crossref book-level response omits authors",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "not applicable or not provided by registry; not invented",
+        "number": "not applicable or not provided by registry; not invented",
+        "pages": "not applicable or not provided by registry; not invented",
+        "doi": "original omitted DOI; add DOI confirmed by Crossref and Springer"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works?query.title=Algorithmic%20Learning%20in%20a%20Random%20World&rows=3",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://link.springer.com/book/10.1007/b106715",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "verified",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Crossref confirms exact book title/year/DOI; Springer independently confirms all authors/order, title/year/edition/publisher/DOI.",
+      "semantic_notes": [
+        "Book title, all three authors/order, 2005 first edition, Springer New York and DOI are independently listed by Springer. Conformal prediction citation is appropriate. Coverage theorems require exchangeability/appropriate sampling; grouped-study distribution shift is not automatically covered."
+      ]
+    },
+    {
+      "ordinal": 28,
+      "key": "lei2018",
+      "original": {
+        "author": "Lei, Jing and G'Sell, Max and Rinaldo, Alessandro and Tibshirani, Ryan J. and Wasserman, Larry",
+        "title": "Distribution-Free Predictive Inference for Regression",
+        "journal": "J. Am. Stat. Assoc.",
+        "year": "2018",
+        "volume": "113",
+        "pages": "1094--1111",
+        "doi": "10.1080/01621459.2017.1307116"
+      },
+      "canonical_fields": {
+        "title": "Distribution-Free Predictive Inference for Regression",
+        "doi": "10.1080/01621459.2017.1307116",
+        "year": "2018",
+        "volume": "113",
+        "number": "523",
+        "pages": "1094--1111",
+        "author": "Lei, Jing and G’Sell, Max and Rinaldo, Alessandro and Tibshirani, Ryan J. and Wasserman, Larry",
+        "journal": "Journal of the American Statistical Association"
+      },
+      "corrected_fields": {
+        "number": "523"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "missing in original; fill from canonical metadata",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1080%2F01621459.2017.1307116",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.2017.1307116",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://www.tandfonline.com/toc/uasa20/113/523",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "check_suggested",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "Split-conformal and finite-sample marginal prediction-interval claims are supported by the primary article. Main Uncertainty Calibration paragraph should explicitly distinguish empirical grouped/future-paper coverage from exchangeability-based formal coverage guarantees."
+      ]
+    },
+    {
+      "ordinal": 29,
+      "key": "norinder2014",
+      "original": {
+        "author": "Norinder, Ulf and Carlsson, Lars and Boyer, Scott and Eklund, Martin",
+        "title": "Introducing Conformal Prediction in Predictive Modeling. A Transparent and Flexible Alternative to Applicability Domain Determination",
+        "journal": "J. Chem. Inf. Model.",
+        "year": "2014",
+        "volume": "54",
+        "pages": "1596--1603",
+        "doi": "10.1021/ci5001168"
+      },
+      "canonical_fields": {
+        "title": "Introducing Conformal Prediction in Predictive Modeling. A Transparent and Flexible Alternative to Applicability Domain Determination",
+        "doi": "10.1021/ci5001168",
+        "year": "2014",
+        "volume": "54",
+        "number": "6",
+        "pages": "1596--1603",
+        "author": "Norinder, Ulf and Carlsson, Lars and Boyer, Scott and Eklund, Martin",
+        "journal": "Journal of Chemical Information and Modeling"
+      },
+      "corrected_fields": {
+        "number": "6"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "missing in original; fill from canonical metadata",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1021%2Fci5001168",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.acs.org/doi/abs/10.1021/ci5001168",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "check_suggested",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "Conformal prediction as a flexible alternative to applicability-domain determination and its chemistry applications are supported. Does not supply unconditional guaranteed coverage under laboratory distribution shift."
+      ]
+    },
+    {
+      "ordinal": 30,
+      "key": "hirschfeld2020",
+      "original": {
+        "author": "Hirschfeld, Lior and Swanson, Kyle and Yang, Kevin and Barzilay, Regina and Coley, Connor W.",
+        "title": "Uncertainty Quantification Using Neural Networks for Molecular Property Prediction",
+        "journal": "J. Chem. Inf. Model.",
+        "year": "2020",
+        "volume": "60",
+        "pages": "3770--3780",
+        "doi": "10.1021/acs.jcim.0c00502"
+      },
+      "canonical_fields": {
+        "title": "Uncertainty Quantification Using Neural Networks for Molecular Property Prediction",
+        "doi": "10.1021/acs.jcim.0c00502",
+        "year": "2020",
+        "volume": "60",
+        "number": "8",
+        "pages": "3770--3780",
+        "author": "Hirschfeld, Lior and Swanson, Kyle and Yang, Kevin and Barzilay, Regina and Coley, Connor W.",
+        "journal": "Journal of Chemical Information and Modeling"
+      },
+      "corrected_fields": {
+        "number": "8"
+      },
+      "field_checks": {
+        "title": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "author": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "year": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "volume": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "number": "missing in original; fill from canonical metadata",
+        "pages": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)",
+        "doi": "matches (normalizing case, punctuation, whitespace, journal abbreviation and page dashes)"
+      },
+      "sources": [
+        {
+          "type": "registered_metadata",
+          "name": "Crossref",
+          "url": "https://api.crossref.org/works/10.1021%2Facs.jcim.0c00502",
+          "accessed": "2026-10-23",
+          "status": "200",
+          "cache": "reports/verification/references_b_crossref_raw.json"
+        },
+        {
+          "type": "publisher_or_primary_institution",
+          "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.0c00502",
+          "accessed": "2026-10-23",
+          "access_mode": "web search indexed primary content and/or live page; see cached evidence"
+        }
+      ],
+      "status": "check_suggested",
+      "verification_level": "multisource_crosscheck_with_field_scope",
+      "independent_crosscheck_scope": "Title, author order/names, year, volume, pages and DOI crosschecked with publisher/primary institutional record; issue where available. Full registered field values are in canonical_fields.",
+      "semantic_notes": [
+        "Main template lines 165-169 calls calibrated uncertainty estimates 'established answers' and cites this paper. Its primary abstract actually finds no evaluated UQ method unequivocally superior or particularly reliable across datasets. Better: molecular property studies have investigated few-shot learning and uncertainty quantification; cite Norinder/Lei for conformal calibration, and Hirschfeld for the need to evaluate reliability."
+      ]
+    }
+  ]
+}

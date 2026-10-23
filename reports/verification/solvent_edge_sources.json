@@ -1,0 +1,170 @@
+{
+  "checked_at": "2026-10-23 Asia/Tokyo",
+  "scope": "Core edge-source descriptor values only; parent integrates into model table. Units MW g/mol, rho g/cm3, eta mPa s. Temperature null applies to molar mass. No estimated numerical uncertainty is invented.",
+  "rows": [
+    {
+      "solvent": "1-Methyl-2-pyrrolidinone (NMP)",
+      "field": "eta",
+      "adopted_value": 1.661,
+      "temperature_C": 25,
+      "source_url": "https://productcatalog.eastman.com/tds/ProdDatasheet.aspx?product=71103627",
+      "location": "Typical Properties; Viscosity @25C",
+      "note": "mPa s; original1.666 differs0.3%; primary manufacturer typical value adopted; uncertainty not specified",
+      "evidence": "live Eastman TDS and saved HTML"
+    },
+    {
+      "solvent": "1-Methyl-2-pyrrolidinone (NMP)",
+      "field": "rho",
+      "adopted_value": 1.03,
+      "temperature_C": 25,
+      "source_url": "https://productcatalog.eastman.com/tds/ProdDatasheet.aspx?product=71103627",
+      "location": "Typical Properties; Density @25C",
+      "note": "g/cm3; original1.0279 exact not corroborated by inspected primary source; CRC84 p15-17/PDF2268 and p3-408/PDF527 give1.0230@25C; primary manufacturer rounded typical adopted with discrepancy retained; uncertainty not specified",
+      "evidence": "live Eastman TDS and saved HTML; local CRC84 visually inspected"
+    },
+    {
+      "solvent": "Anisole",
+      "field": "MW",
+      "adopted_value": 108.138,
+      "temperature_C": null,
+      "source_url": "reports/sources/handbooks/crc84_handbook.pdf",
+      "location": "Physical Constants of Organic Compounds; entry474; printed3-30; PDF149",
+      "note": "g/mol; original108.14 is rounding of handbook108.138; no temperature dependence for tabulated molar mass",
+      "evidence": "local CRC84 PDF visually inspected"
+    },
+    {
+      "solvent": "Anisole",
+      "field": "rho",
+      "adopted_value": 0.9893,
+      "temperature_C": 25,
+      "source_url": "https://api.pageplace.de/preview/DT0400.9781000102574_A40413991/preview-9781000102574_A40413991.pdf",
+      "location": "Table2.1.1 printed39/PDF50 rowAnisole; definition printed25/PDF36 explicitly298.15K",
+      "note": "g/cm3; retain original25C value; CRC84 entry474 printed3-30/PDF149 gives0.9940@20C; Sigma catalog0.995@25C differs and is not adopted; source uncertainty not specified",
+      "evidence": "publisher CRC Handbook Thermophysical and Thermochemical Data1994 preview PDF downloaded; row visually inspected"
+    },
+    {
+      "solvent": "Isobutanol",
+      "field": "eta",
+      "adopted_value": 3.333,
+      "temperature_C": 25,
+      "source_url": "https://hpvchemicals.oecd.org/ui/handler.axd?id=c215e862-45fb-4a03-8643-85155a519c6b",
+      "location": "OECD SIDS2004 PDF32; section2.13(b) cites Riddick Bunger Sakano Organic Solvents4ed volII p201; independent measurement paper Table1 printed134 at298.15K",
+      "note": "mPa s; exact handbook value reprinted by OECD without temperature; 25C assignment independently corroborated by university-hosted primary measurement paper Table1 literature3.333 and measured3.350@298.15K (https://sciences.uodiyala.edu.iq/uploads/Journals/8-2.pdf); measurement differs0.51%; source uncertainty not specified",
+      "evidence": "OECD PDF downloaded; primary measurement Table1 web-indexed; Eastman4@20C consistent different temperature"
+    },
+    {
+      "solvent": "Isopropyl acetate",
+      "field": "eta",
+      "adopted_value": 0.49,
+      "temperature_C": 25,
+      "source_url": "https://www.fishersci.ca/shop/products/isopropyl-acetate-99-acros-organics-3/ac150860010",
+      "location": "Acros Organics99% productAC150860010; Specifications; Viscosity",
+      "note": "mPa s; retain original; source explicitly0.49mPa.s(25C); no uncertainty stated; direct fetch403 so evidence is indexed primary manufacturer/supplier page",
+      "evidence": "Fisher primary product page web-indexed numeric and temperature; direct download blocked"
+    },
+    {
+      "solvent": "Propylene glycol methyl ether acetate",
+      "field": "MW",
+      "adopted_value": 132.2,
+      "temperature_C": null,
+      "source_url": "https://www.dow.com/documents/110/110-00588-01-dowanol-pma.pdf?iframe=true",
+      "location": "DOWANOL PMA TDS Form110-00588-0812 p1 Typical Physical Properties",
+      "note": "g/mol; manufacturer's displayed precision; original132.16 only more digits than TDS; CAS108-65-6 major1-methoxy-2-propyl acetate; product isomer caveat",
+      "evidence": "Dow manufacturer PDF accessed through web; exact numeric row inspected"
+    },
+    {
+      "solvent": "Propylene glycol methyl ether acetate",
+      "field": "rho",
+      "adopted_value": 0.963,
+      "temperature_C": 25,
+      "source_url": "https://www.dow.com/documents/110/110-00588-01-dowanol-pma.pdf?iframe=true",
+      "location": "DOWANOL PMA TDS Form110-00588-0812 p1 Liquid Density @25C",
+      "note": "g/cm3; manufacturer0.967@20C and0.963@25C; original0.965 lacks source-temperature support; use25C product typical; uncertainty not specified",
+      "evidence": "Dow manufacturer PDF accessed through web; exact numeric row inspected"
+    },
+    {
+      "solvent": "Propylene glycol methyl ether acetate",
+      "field": "eta",
+      "adopted_value": 1.1,
+      "temperature_C": 25,
+      "source_url": "https://www.dow.com/documents/110/110-00588-01-dowanol-pma.pdf?iframe=true",
+      "location": "DOWANOL PMA TDS Form110-00588-0812 p1 Viscosity",
+      "note": "mPa s=cP; retain original; product major isomer CAS108-65-6; no uncertainty specified",
+      "evidence": "Dow manufacturer PDF accessed through web; exact numeric row inspected"
+    },
+    {
+      "solvent": "dimethyl carbonate",
+      "field": "MW",
+      "adopted_value": 90.078,
+      "temperature_C": null,
+      "source_url": "reports/sources/handbooks/crc84_handbook.pdf",
+      "location": "Physical Constants of Organic Compounds; entry4005; printed3-214; PDF333",
+      "note": "g/mol; original90.08 is rounded handbook90.078",
+      "evidence": "local CRC84 PDF visually inspected"
+    },
+    {
+      "solvent": "dimethyl carbonate",
+      "field": "rho",
+      "adopted_value": 1.0636,
+      "temperature_C": 25,
+      "source_url": "reports/sources/handbooks/crc84_handbook.pdf",
+      "location": "Physical Constants of Organic Compounds; entry4005; printed3-214; PDF333 density with superscript25",
+      "note": "g/cm3; retain original; independent direct TNJ manufacturer TDS p1 gives1.0636@25C and1.069@20C (https://www.tnjchem.com/uploadfile/attachment/c6fa19c0194466bda7e0cf5edeee3614.pdf); uncertainty not specified",
+      "evidence": "local CRC84 row visually inspected; manufacturer PDF downloaded and read"
+    },
+    {
+      "solvent": "dimethyl carbonate",
+      "field": "eta",
+      "adopted_value": 0.585,
+      "temperature_C": 25,
+      "source_url": "https://siliamb.apambiente.pt/consultapublica/?code=6de26b3757647b995b3c8d53b4f16ea9&file=true",
+      "location": "Dimethyl carbonate SDS03/12/2020 Version1.00; section9 p5/10; Dynamic viscosity OECD114",
+      "note": "mPa s; retain original; indexed regulator-hosted SDS explicitly0.585@25C/OECD114; direct PDF retrieval unavailable; primary research PMC6273218 cites0.589@25C, a0.68% source difference; no uncertainty specified",
+      "evidence": "regulator-hosted SDS primary page web-indexed; numeric/temp/method exact excerpt cached"
+    },
+    {
+      "solvent": "Dimethylacetamide (DMAC)",
+      "field": "eta",
+      "adopted_value": 0.92,
+      "temperature_C": 25,
+      "source_url": "https://productcatalog.eastman.com/tds/ProdDatasheet.aspx?pn=dimethylacetamide-dmac&product=71103648",
+      "location": "Typical Properties; Viscosity @25C; adjacent values1.02@20C/0.78@40C",
+      "note": "mPa s; override original0.927 with explicit manufacturer0.92; CRC84 viscosity p6-188/PDF1158 actually prints1.927 at25C (visually checked), inconsistent with independent primary manufacturer and not adopted; uncertainty not specified",
+      "evidence": "live Eastman TDS and saved HTML; CRC84 row visually inspected"
+    }
+  ],
+  "identity_decisions": [
+    {
+      "solvent": "Xylene",
+      "decision": "Exclude unspecified generic Xylene from descriptor-dependent analyses; retain provenance and counts. No o-/m-/p-xylene constants may be assigned without isomer or product composition.",
+      "reason": "Isomer identity is missing. A mixture or unspecified xylene cannot be treated as one pure isomer."
+    },
+    {
+      "solvent": "Propylene glycol methyl ether acetate",
+      "decision": "DOWANOL PMA CAS108-65-6 major isomer provides conventional representative values; retain label and source-grade caveat.",
+      "reason": "The primary TDS explicitly draws the major isomer CH3OCH2CH(CH3)OAc; it does not establish that every experimental record is chemically pure single-regioisomer material. Do not map beta isomer CAS70657-70-4 or other glycol acetates to the same identity."
+    }
+  ],
+  "additional_sources": [
+    {
+      "title": "CRC Handbook of Thermophysical and Thermochemical Data",
+      "authors": "David R. Lide; Henry V. Kehiaian",
+      "year": 1994,
+      "isbn": "0-8493-0197-1",
+      "url": "https://api.pageplace.de/preview/DT0400.9781000102574_A40413991/preview-9781000102574_A40413991.pdf",
+      "cache": "reports/sources/edge_solvents/crc_thermophysical_preview.pdf",
+      "note": "Anisole density0.9893@25C table2.1.1; book not the CRC Chemistry and Physics97th edition."
+    },
+    {
+      "url": "https://www.tnjchem.com/uploadfile/attachment/c6fa19c0194466bda7e0cf5edeee3614.pdf",
+      "cache": "reports/sources/edge_solvents/dmc_tnj_tds.pdf",
+      "note": "Independent manufacturer TDS density25C agreement; calls it Specific Gravity(water=1); CRC84 source directly states density."
+    }
+  ],
+  "limitations": [
+    "Primary indexed Fisher viscosity and DMC SDS could not be downloaded; their exact numeric/temperature evidence is cached from web tool. Neither is falsely described as a locally inspected PDF.",
+    "OECD exact isobutanol viscosity omits temperature; temperature is crosschecked through the primary measurement paper Table1, available in web index. Original handbook page201 was not directly inspected.",
+    "NMP density cross-source discrepancy remains explicit: adopting rounded manufacturer1.03@25C does not prove that CRC84 1.0230 is a printing error.",
+    "Manufacturer/supplier typical property values lack quantitative experimental uncertainties and lot-specific guarantees; extra displayed digits do not constitute measured precision."
+  ]
+}

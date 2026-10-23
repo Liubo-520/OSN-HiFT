@@ -1,0 +1,1712 @@
+{
+  "checked_date": "2026-10-23",
+  "scope": "Original bibliography entries31--44 plus4userrequested additions",
+  "method": "Crossref-first; publisher primary pages, official publication BibTeX, official indexed article contents; no paywall bypass",
+  "important_limits": [
+    "Publisher direct requests often403; indexed primary publisher extracts were read and are identified as such.",
+    "Crossref missing-record search results were never assumed to be matches.",
+    "No numerical handbook descriptor verification is asserted by this bibliographic check.",
+    "LightGBM page range remains secondary-corroborated; original publisher bib has no pages."
+  ],
+  "entries": [
+    {
+      "index": 31,
+      "key": "altaetran2017",
+      "original": {
+        "author": "Altae-Tran, Han and Ramsundar, Bharath and Pappu, Aneesh S. and Pande, Vijay",
+        "title": "Low Data Drug Discovery with One-Shot Learning",
+        "journal": "ACS Cent. Sci.",
+        "year": "2017",
+        "volume": "3",
+        "pages": "283--293",
+        "doi": "10.1021/acscentsci.6b00367"
+      },
+      "corrected_fields": {
+        "author": "Altae-Tran, Han and Ramsundar, Bharath and Pappu, Aneesh S. and Pande, Vijay",
+        "title": "Low Data Drug Discovery with One-Shot Learning",
+        "journal": "ACS Cent. Sci.",
+        "year": "2017",
+        "volume": "3",
+        "pages": "283--293",
+        "doi": "10.1021/acscentsci.6b00367",
+        "number": "4"
+      },
+      "changes": {
+        "number": {
+          "original": null,
+          "corrected": "4"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1021/acscentsci.6b00367",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "altaetran2017_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://pubs.acs.org/doi/full/10.1021/acscentsci.6b00367",
+          "basis": "Publisher indexed full article; bibliographic header and abstract observed"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [],
+      "crossref_metadata": {
+        "DOI": "10.1021/acscentsci.6b00367",
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              17
+            ]
+          ],
+          "date-time": "2023-04-17T10:15:01Z",
+          "timestamp": 1681726501000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              16
+            ]
+          ],
+          "date-time": "2026-10-16T16:21:26Z",
+          "timestamp": 1792167686820,
+          "version": "4.4.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              4,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              4,
+              26
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              4,
+              3
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:17.227901+00:00",
+        "raw_search_file": "altaetran2017_crossref.json"
+      }
+    },
+    {
+      "index": 32,
+      "key": "laird1982",
+      "original": {
+        "author": "Laird, Nan M. and Ware, James H.",
+        "title": "Random-Effects Models for Longitudinal Data",
+        "journal": "Biometrics",
+        "year": "1982",
+        "volume": "38",
+        "pages": "963--974",
+        "doi": "10.2307/2529876"
+      },
+      "corrected_fields": {
+        "author": "Laird, Nan M. and Ware, James H.",
+        "title": "Random-Effects Models for Longitudinal Data",
+        "journal": "Biometrics",
+        "year": "1982",
+        "volume": "38",
+        "pages": "963--974",
+        "doi": "10.2307/2529876",
+        "number": "4"
+      },
+      "changes": {
+        "number": {
+          "original": null,
+          "corrected": "4"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.2307/2529876",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "laird1982_crossref.json"
+        },
+        {
+          "kind": "NLM_index",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7168798/",
+          "basis": "NLM record verifies 1982, 38(4),963-974; publisher JSTOR body was not readable"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [
+        "Crossref registers only first page963. Retain complete963--974 from NLM; do not truncate to963."
+      ],
+      "crossref_metadata": {
+        "DOI": "10.2307/2529876",
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              17
+            ]
+          ],
+          "date-time": "2018-04-17T16:39:02Z",
+          "timestamp": 1523983142000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              22
+            ]
+          ],
+          "date-time": "2026-10-22T03:00:29Z",
+          "timestamp": 1792638029919,
+          "version": "4.5.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              1982,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1982,
+              12
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:20.801892+00:00",
+        "raw_search_file": "laird1982_crossref.json"
+      }
+    },
+    {
+      "index": 33,
+      "key": "efron1975",
+      "original": {
+        "author": "Efron, Bradley and Morris, Carl",
+        "title": "Data Analysis Using {Stein}'s Estimator and Its Generalizations",
+        "journal": "J. Am. Stat. Assoc.",
+        "year": "1975",
+        "volume": "70",
+        "pages": "311--319",
+        "doi": "10.1080/01621459.1975.10479864"
+      },
+      "corrected_fields": {
+        "author": "Efron, Bradley and Morris, Carl",
+        "title": "Data Analysis Using {Stein}'s Estimator and Its Generalizations",
+        "journal": "J. Am. Stat. Assoc.",
+        "year": "1975",
+        "volume": "70",
+        "pages": "311--319",
+        "doi": "10.1080/01621459.1975.10479864",
+        "number": "350"
+      },
+      "changes": {
+        "number": {
+          "original": null,
+          "corrected": "350"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1080/01621459.1975.10479864",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "efron1975_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1975.10479864",
+          "basis": "Publisher indexed bibliographic header observed; direct page 403"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [
+        "1975 is issue year; 2012 online date is digitization, not publication year. Publisher byline is Carl Morris; do not force extra middle initial from secondary records."
+      ],
+      "crossref_metadata": {
+        "DOI": "10.1080/01621459.1975.10479864",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              6
+            ]
+          ],
+          "date-time": "2026-02-06T16:09:29Z",
+          "timestamp": 1770394169000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              22
+            ]
+          ],
+          "date-time": "2026-10-22T22:33:01Z",
+          "timestamp": 1792708381375,
+          "version": "4.5.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              1975,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1975,
+              6
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              4,
+              6
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:11.218501+00:00",
+        "raw_search_file": "efron1975_crossref.json"
+      }
+    },
+    {
+      "index": 34,
+      "key": "hajjem2014",
+      "original": {
+        "author": "Hajjem, Ahlem and Bellavance, Fran{\\c{c}}ois and Larocque, Denis",
+        "title": "Mixed-Effects Random Forest for Clustered Data",
+        "journal": "J. Stat. Comput. Simul.",
+        "year": "2014",
+        "volume": "84",
+        "pages": "1313--1328"
+      },
+      "corrected_fields": {
+        "author": "Hajjem, Ahlem and Bellavance, Fran{\\c{c}}ois and Larocque, Denis",
+        "title": "Mixed-Effects Random Forest for Clustered Data",
+        "journal": "J. Stat. Comput. Simul.",
+        "year": "2014",
+        "volume": "84",
+        "pages": "1313--1328",
+        "doi": "10.1080/00949655.2012.741599",
+        "number": "6"
+      },
+      "changes": {
+        "doi": {
+          "original": null,
+          "corrected": "10.1080/00949655.2012.741599"
+        },
+        "number": {
+          "original": null,
+          "corrected": "6"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1080/00949655.2012.741599",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "hajjem2014_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/00949655.2012.741599",
+          "basis": "Publisher indexed bibliographic header observed"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [
+        "2014 is final volume84 issue6 year despite2012 DOI/online date."
+      ],
+      "crossref_metadata": {
+        "DOI": "10.1080/00949655.2012.741599",
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2024-05-01T09:09:01Z",
+          "timestamp": 1714554541000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2026-10-14T02:30:00Z",
+          "timestamp": 1791945000035,
+          "version": "4.3.4"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              11,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              6,
+              3
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              11,
+              12
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:14.663181+00:00",
+        "raw_search_file": "hajjem2014_crossref.json"
+      }
+    },
+    {
+      "index": 35,
+      "key": "sigrist2022",
+      "original": {
+        "author": "Sigrist, Fabio",
+        "title": "Gaussian Process Boosting",
+        "journal": "J. Mach. Learn. Res.",
+        "year": "2022",
+        "volume": "23",
+        "pages": "1--46"
+      },
+      "corrected_fields": {
+        "author": "Sigrist, Fabio",
+        "title": "Gaussian Process Boosting",
+        "journal": "J. Mach. Learn. Res.",
+        "year": "2022",
+        "volume": "23",
+        "pages": "1--46",
+        "number": "232",
+        "url": "https://www.jmlr.org/papers/v23/20-322.html"
+      },
+      "changes": {
+        "number": {
+          "original": null,
+          "corrected": "232"
+        },
+        "url": {
+          "original": null,
+          "corrected": "https://www.jmlr.org/papers/v23/20-322.html"
+        }
+      },
+      "sources": [
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.jmlr.org/papers/v23/20-322.html",
+          "basis": "Publisher HTML and downloaded BibTeX"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [
+        "No matching Crossref journal record located; publisher is authoritative. Do not substitute gpboost CRAN package DOI or Latent Gaussian Model Boosting DOI."
+      ],
+      "crossref_metadata": {},
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:10.228103+00:00",
+        "raw_search_file": "sigrist2022_crossref.json"
+      }
+    },
+    {
+      "index": 36,
+      "key": "ke2017",
+      "original": {
+        "author": "Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan",
+        "title": "{LightGBM}: A Highly Efficient Gradient Boosting Decision Tree",
+        "booktitle": "Advances in Neural Information Processing Systems 30",
+        "year": "2017",
+        "pages": "3146--3154"
+      },
+      "corrected_fields": {
+        "author": "Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan",
+        "title": "{LightGBM}: A Highly Efficient Gradient Boosting Decision Tree",
+        "booktitle": "Advances in Neural Information Processing Systems",
+        "year": "2017",
+        "pages": "3146--3154",
+        "volume": "30",
+        "publisher": "Curran Associates, Inc.",
+        "url": "https://papers.nips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html"
+      },
+      "changes": {
+        "booktitle": {
+          "original": "Advances in Neural Information Processing Systems 30",
+          "corrected": "Advances in Neural Information Processing Systems"
+        },
+        "volume": {
+          "original": null,
+          "corrected": "30"
+        },
+        "publisher": {
+          "original": null,
+          "corrected": "Curran Associates, Inc."
+        },
+        "url": {
+          "original": null,
+          "corrected": "https://papers.nips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html"
+        }
+      },
+      "sources": [
+        {
+          "kind": "primary_publisher",
+          "url": "https://papers.nips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html",
+          "basis": "Publisher HTML and downloaded BibTeX; original source bib has empty pages"
+        }
+      ],
+      "status": "verified_with_field_limit",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [
+        "No matching Crossref proceedings record located; do not substitute lightgbm CRAN package DOI. Original3146--3154 corroborated in later NeurIPS references, but publisher BibTeX leaves pages blank; preserve original pages and flag this precise field as secondary corroboration only."
+      ],
+      "crossref_metadata": {},
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:11.106469+00:00",
+        "raw_search_file": "ke2017_crossref.json"
+      }
+    },
+    {
+      "index": 37,
+      "key": "pedregosa2011",
+      "original": {
+        "author": "Pedregosa, Fabian and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and others",
+        "title": "Scikit-learn: Machine Learning in {Python}",
+        "journal": "J. Mach. Learn. Res.",
+        "year": "2011",
+        "volume": "12",
+        "pages": "2825--2830"
+      },
+      "corrected_fields": {
+        "author": "Pedregosa, Fabian and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and Vanderplas, Jake and Passos, Alexandre and Cournapeau, David and Brucher, Matthieu and Perrot, Matthieu and Duchesnay, {\\'E}douard",
+        "title": "Scikit-learn: Machine Learning in {Python}",
+        "journal": "J. Mach. Learn. Res.",
+        "year": "2011",
+        "volume": "12",
+        "pages": "2825--2830",
+        "number": "85",
+        "url": "https://www.jmlr.org/papers/v12/pedregosa11a.html"
+      },
+      "changes": {
+        "author": {
+          "original": "Pedregosa, Fabian and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and others",
+          "corrected": "Pedregosa, Fabian and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and Vanderplas, Jake and Passos, Alexandre and Cournapeau, David and Brucher, Matthieu and Perrot, Matthieu and Duchesnay, {\\'E}douard"
+        },
+        "number": {
+          "original": null,
+          "corrected": "85"
+        },
+        "url": {
+          "original": null,
+          "corrected": "https://www.jmlr.org/papers/v12/pedregosa11a.html"
+        }
+      },
+      "sources": [
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.jmlr.org/papers/v12/pedregosa11a.html",
+          "basis": "Publisher HTML, PDF header and downloaded BibTeX"
+        }
+      ],
+      "status": "needs_author_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [
+        "Full16author list recovered. Journal number85 is article number in JMLR publisher BibTeX. No matching Crossref record; do not assign related neuroimaging or ACM scikit-learn paper DOI."
+      ],
+      "crossref_metadata": {},
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:11.824648+00:00",
+        "raw_search_file": "pedregosa2011_crossref.json"
+      }
+    },
+    {
+      "index": 38,
+      "key": "seabold2010",
+      "original": {
+        "author": "Seabold, Skipper and Perktold, Josef",
+        "title": "Statsmodels: Econometric and Statistical Modeling with {Python}",
+        "booktitle": "Proceedings of the 9th Python in Science Conference",
+        "year": "2010",
+        "pages": "92--96"
+      },
+      "corrected_fields": {
+        "author": "Seabold, Skipper and Perktold, Josef",
+        "title": "Statsmodels: Econometric and Statistical Modeling with {Python}",
+        "booktitle": "Proceedings of the 9th Python in Science Conference",
+        "year": "2010",
+        "pages": "92--96",
+        "doi": "10.25080/Majora-92bf1922-011",
+        "url": "https://proceedings.scipy.org/articles/Majora-92bf1922-011"
+      },
+      "changes": {
+        "doi": {
+          "original": null,
+          "corrected": "10.25080/Majora-92bf1922-011"
+        },
+        "url": {
+          "original": null,
+          "corrected": "https://proceedings.scipy.org/articles/Majora-92bf1922-011"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.25080/majora-92bf1922-011",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "seabold2010_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://proceedings.scipy.org/articles/Majora-92bf1922-011.pdf",
+          "basis": "Official proceedings indexed PDF header; Crossref direct DOI confirms pages"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [],
+      "crossref_metadata": {
+        "DOI": "10.25080/majora-92bf1922-011",
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              28
+            ]
+          ],
+          "date-time": "2024-08-28T12:07:53Z",
+          "timestamp": 1724846873000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2026-10-23T03:01:47Z",
+          "timestamp": 1792724507062,
+          "version": "4.5.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2010
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:26.972595+00:00",
+        "raw_search_file": "seabold2010_crossref.json"
+      }
+    },
+    {
+      "index": 39,
+      "key": "hansen2007",
+      "original": {
+        "author": "Hansen, Charles M.",
+        "title": "Hansen Solubility Parameters: A User's Handbook",
+        "edition": "2",
+        "publisher": "CRC Press",
+        "address": "Boca Raton, FL",
+        "year": "2007"
+      },
+      "corrected_fields": {
+        "author": "Hansen, Charles M.",
+        "title": "Hansen Solubility Parameters: A User's Handbook",
+        "edition": "2",
+        "publisher": "CRC Press",
+        "address": "Boca Raton, FL",
+        "year": "2007",
+        "doi": "10.1201/9781420006834"
+      },
+      "changes": {
+        "doi": {
+          "original": null,
+          "corrected": "10.1201/9781420006834"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1201/9781420006834",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "hansen_book_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.routledge.com/Hansen-Solubility-Parameters-A-Users-Handbook-Second-Edition/Durkee-Redelius-Hansen-Kontogeorgis-Panayiotou-Willliams-Poulsen-Priebe/p/book/9780849372483",
+          "basis": "Publisher product page verifies Charles M. Hansen, second edition, copyright 2007, CRC Press; no tabulated descriptor values read here"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [
+        "Crossref edition-number0 is erroneous; title subtitle and publisher product page explicitly say second edition. Bibliographic source existence verified, numeric descriptor audit separate."
+      ],
+      "crossref_metadata": {
+        "DOI": "10.1201/9781420006834",
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              26
+            ]
+          ],
+          "date-time": "2019-04-26T01:38:19Z",
+          "timestamp": 1556242699000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              21
+            ]
+          ],
+          "date-time": "2026-10-21T14:54:10Z",
+          "timestamp": 1792594450961,
+          "version": "4.5.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              6,
+              15
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2007,
+              6,
+              15
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:17.432701+00:00",
+        "raw_search_file": "hansen2007_crossref.json"
+      }
+    },
+    {
+      "index": 40,
+      "key": "crc2016",
+      "original": {
+        "editor": "Haynes, William M.",
+        "title": "CRC Handbook of Chemistry and Physics",
+        "edition": "97",
+        "publisher": "CRC Press",
+        "address": "Boca Raton, FL",
+        "year": "2016"
+      },
+      "corrected_fields": {
+        "editor": "Haynes, W. M. and Lide, David R. and Bruno, Thomas J.",
+        "title": "CRC Handbook of Chemistry and Physics",
+        "edition": "97",
+        "publisher": "CRC Press",
+        "address": "Boca Raton, FL",
+        "year": "2016",
+        "doi": "10.1201/9781315380476"
+      },
+      "changes": {
+        "editor": {
+          "original": "Haynes, William M.",
+          "corrected": "Haynes, W. M. and Lide, David R. and Bruno, Thomas J."
+        },
+        "doi": {
+          "original": null,
+          "corrected": "10.1201/9781315380476"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1201/9781315380476",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "crc97_book_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.routledge.com/rsc/downloads/HBCP_Preface.pdf",
+          "basis": "Official CRC 97th edition preface, copyright 2016, Haynes editor in chief; Crossref book DOI supplies edition 97 and editor list; no tabulated descriptor values read here"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [
+        "Crossref book metadata lists three editors; original names only editor-in-chief Haynes. Added Lide and Bruno for complete registered list. Bibliographic source existence verified, numeric descriptor audit separate."
+      ],
+      "crossref_metadata": {
+        "DOI": "10.1201/9781315380476",
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2021-04-04T09:04:00Z",
+          "timestamp": 1617527040000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              22
+            ]
+          ],
+          "date-time": "2026-10-22T17:19:58Z",
+          "timestamp": 1792689598226,
+          "version": "4.5.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              24
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              24
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:19.678203+00:00",
+        "raw_search_file": "crc2016_crossref.json"
+      }
+    },
+    {
+      "index": 41,
+      "key": "rezaei2014",
+      "original": {
+        "author": "{Rezaei Hosseinabadi}, S. and Wyns, K. and Meynen, V. and Carleer, R. and Adriaensens, P. and Buekenhoudt, A. and {Van der Bruggen}, B.",
+        "title": "Organic Solvent Nanofiltration with {Grignard} Functionalised Ceramic Nanofiltration Membranes",
+        "journal": "J. Membr. Sci.",
+        "year": "2014",
+        "doi": "10.1016/j.memsci.2013.12.032"
+      },
+      "corrected_fields": {
+        "author": "{Rezaei Hosseinabadi}, S. and Wyns, K. and Meynen, V. and Carleer, R. and Adriaensens, P. and Buekenhoudt, A. and {Van der Bruggen}, B.",
+        "title": "Organic Solvent Nanofiltration with {Grignard} Functionalised Ceramic Nanofiltration Membranes",
+        "journal": "J. Membr. Sci.",
+        "year": "2014",
+        "doi": "10.1016/j.memsci.2013.12.032",
+        "volume": "454",
+        "pages": "496--504"
+      },
+      "changes": {
+        "volume": {
+          "original": null,
+          "corrected": "454"
+        },
+        "pages": {
+          "original": null,
+          "corrected": "496--504"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016/j.memsci.2013.12.032",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "rezaei2014_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S037673881300985X",
+          "basis": "Publisher indexed article title, volume 454, date 15 March 2014 and pp496-504 observed"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [],
+      "crossref_metadata": {
+        "DOI": "10.1016/j.memsci.2013.12.032",
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              10,
+              7
+            ]
+          ],
+          "date-time": "2018-10-07T23:23:26Z",
+          "timestamp": 1538954606000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              22
+            ]
+          ],
+          "date-time": "2026-10-22T03:57:17Z",
+          "timestamp": 1792641437225,
+          "version": "4.5.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              3
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:19.998058+00:00",
+        "raw_search_file": "rezaei2014_crossref.json"
+      }
+    },
+    {
+      "index": 42,
+      "key": "jansen2013",
+      "original": {
+        "author": "{Jansen} and others",
+        "title": "Influence of the Blend Composition on the Properties and Separation Performance of Novel Solvent Resistant Polyphenylsulfone/Polyimide Nanofiltration Membranes",
+        "journal": "J. Membr. Sci.",
+        "year": "2013",
+        "doi": "10.1016/j.memsci.2013.07.009"
+      },
+      "corrected_fields": {
+        "author": "Jansen, Johannes C. and Darvishmanesh, Siavash and Tasselli, Franco and Bazzarelli, Fabio and Bernardo, Paola and Tocci, Elena and Friess, Karel and Randova, Alena and Drioli, Enrico and {Van der Bruggen}, Bart",
+        "title": "Influence of the Blend Composition on the Properties and Separation Performance of Novel Solvent Resistant Polyphenylsulfone/Polyimide Nanofiltration Membranes",
+        "journal": "J. Membr. Sci.",
+        "year": "2013",
+        "doi": "10.1016/j.memsci.2013.07.009",
+        "volume": "447",
+        "pages": "107--118"
+      },
+      "changes": {
+        "author": {
+          "original": "{Jansen} and others",
+          "corrected": "Jansen, Johannes C. and Darvishmanesh, Siavash and Tasselli, Franco and Bazzarelli, Fabio and Bernardo, Paola and Tocci, Elena and Friess, Karel and Randova, Alena and Drioli, Enrico and {Van der Bruggen}, Bart"
+        },
+        "volume": {
+          "original": null,
+          "corrected": "447"
+        },
+        "pages": {
+          "original": null,
+          "corrected": "107--118"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016/j.memsci.2013.07.009",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "jansen2013_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0376738813005759",
+          "basis": "Publisher indexed article title, volume447, date15Nov2013 and pp107-118 observed"
+        }
+      ],
+      "status": "needs_author_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [],
+      "crossref_metadata": {
+        "DOI": "10.1016/j.memsci.2013.07.009",
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2018-10-14T10:28:15Z",
+          "timestamp": 1539512895000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              16
+            ]
+          ],
+          "date-time": "2026-10-16T09:29:30Z",
+          "timestamp": 1792142970523,
+          "version": "4.4.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              11
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:18.539492+00:00",
+        "raw_search_file": "jansen2013_crossref.json"
+      }
+    },
+    {
+      "index": 43,
+      "key": "dobrak2011",
+      "original": {
+        "author": "{Dobrak-Van Berlo} and others",
+        "title": "Parameters Determining Transport Mechanisms through Unfilled and Silicalite Filled {PDMS}-Based Membranes and Dense {PI} Membranes in Solvent Resistant Nanofiltration: Comparison with Pervaporation",
+        "journal": "J. Membr. Sci.",
+        "year": "2011",
+        "doi": "10.1016/j.memsci.2011.03.027"
+      },
+      "corrected_fields": {
+        "author": "{Dobrak-Van Berlo}, Agnieszka and Vankelecom, Ivo F.J. and {Van der Bruggen}, Bart",
+        "title": "Parameters Determining Transport Mechanisms through Unfilled and Silicalite Filled {PDMS}-Based Membranes and Dense {PI} Membranes in Solvent Resistant Nanofiltration: Comparison with Pervaporation",
+        "journal": "J. Membr. Sci.",
+        "year": "2011",
+        "doi": "10.1016/j.memsci.2011.03.027",
+        "volume": "374",
+        "number": "1--2",
+        "pages": "138--149"
+      },
+      "changes": {
+        "author": {
+          "original": "{Dobrak-Van Berlo} and others",
+          "corrected": "{Dobrak-Van Berlo}, Agnieszka and Vankelecom, Ivo F.J. and {Van der Bruggen}, Bart"
+        },
+        "volume": {
+          "original": null,
+          "corrected": "374"
+        },
+        "number": {
+          "original": null,
+          "corrected": "1--2"
+        },
+        "pages": {
+          "original": null,
+          "corrected": "138--149"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016/j.memsci.2011.03.027",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "dobrak2011_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0376738811002031",
+          "basis": "Publisher indexed article title,volume374,issues1-2,date15May2011,pp138-149 observed"
+        }
+      ],
+      "status": "needs_author_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [],
+      "crossref_metadata": {
+        "DOI": "10.1016/j.memsci.2011.03.027",
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              3
+            ]
+          ],
+          "date-time": "2018-12-03T08:54:13Z",
+          "timestamp": 1543827253000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              3
+            ]
+          ],
+          "date-time": "2026-10-03T23:21:12Z",
+          "timestamp": 1791069672375,
+          "version": "4.1.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              5
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:18.744791+00:00",
+        "raw_search_file": "dobrak2011_crossref.json"
+      }
+    },
+    {
+      "index": 44,
+      "key": "beshahwored2022",
+      "original": {
+        "author": "Beshahwored, Siyum Shewakena and Huang, Yueh-Han and Abdi, Zelalem Gudeta and Hu, Chien-Chieh and Chung, Tai-Shung",
+        "title": "Polybenzimidazole ({PBI}) Membranes Cross-Linked with Various Cross-Linkers and Impregnated with 4-Sulfocalix[4]arene ({SCA4}) for Organic Solvent Nanofiltration ({OSN})",
+        "journal": "J. Membr. Sci.",
+        "year": "2022",
+        "doi": "10.1016/j.memsci.2022.121039"
+      },
+      "corrected_fields": {
+        "author": "Beshahwored, Siyum Shewakena and Huang, Yueh-Han and Abdi, Zelalem Gudeta and Hu, Chien-Chieh and Chung, Tai-Shung",
+        "title": "Polybenzimidazole ({PBI}) Membranes Cross-Linked with Various Cross-Linkers and Impregnated with 4-Sulfocalix[4]arene ({SCA4}) for Organic Solvent Nanofiltration ({OSN})",
+        "journal": "J. Membr. Sci.",
+        "year": "2022",
+        "doi": "10.1016/j.memsci.2022.121039",
+        "volume": "663",
+        "pages": "121039"
+      },
+      "changes": {
+        "volume": {
+          "original": null,
+          "corrected": "663"
+        },
+        "pages": {
+          "original": null,
+          "corrected": "121039"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016/j.memsci.2022.121039",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "beshahwored2022_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0376738822007840",
+          "basis": "Publisher indexed article title,volume663,date5Dec2022,article121039 observed"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "",
+      "notes": [],
+      "crossref_metadata": {
+        "DOI": "10.1016/j.memsci.2022.121039",
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              7
+            ]
+          ],
+          "date-time": "2025-10-07T08:26:51Z",
+          "timestamp": 1759825611000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              13
+            ]
+          ],
+          "date-time": "2026-10-13T04:05:01Z",
+          "timestamp": 1791864301432,
+          "version": "4.3.4"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:19.972786+00:00",
+        "raw_search_file": "beshahwored2022_crossref.json"
+      }
+    },
+    {
+      "index": "added",
+      "key": "huang2026crossradical",
+      "original": {
+        "doi": "10.1021/acs.est.6c05985"
+      },
+      "corrected_fields": {
+        "author": "Huang, Zhi and Yu, Jiang and Huang, Pengxinyue and Han, Liangwei and Zhao, Xuetao and Zhang, Qian",
+        "title": "Cross-Radical Knowledge Sharing via Graph Neural Networks for Unified Prediction of Aqueous Organic Contaminant Second-Order Radical Reaction Rate Constants",
+        "journal": "Environmental Science & Technology",
+        "year": "2026",
+        "volume": "60",
+        "pages": "28829--28844",
+        "doi": "10.1021/acs.est.6c05985",
+        "number": "40",
+        "url": "https://doi.org/10.1021/acs.est.6c05985"
+      },
+      "changes": {
+        "author": {
+          "original": null,
+          "corrected": "Huang, Zhi and Yu, Jiang and Huang, Pengxinyue and Han, Liangwei and Zhao, Xuetao and Zhang, Qian"
+        },
+        "title": {
+          "original": null,
+          "corrected": "Cross-Radical Knowledge Sharing via Graph Neural Networks for Unified Prediction of Aqueous Organic Contaminant Second-Order Radical Reaction Rate Constants"
+        },
+        "journal": {
+          "original": null,
+          "corrected": "Environmental Science & Technology"
+        },
+        "year": {
+          "original": null,
+          "corrected": "2026"
+        },
+        "volume": {
+          "original": null,
+          "corrected": "60"
+        },
+        "pages": {
+          "original": null,
+          "corrected": "28829--28844"
+        },
+        "number": {
+          "original": null,
+          "corrected": "40"
+        },
+        "url": {
+          "original": null,
+          "corrected": "https://doi.org/10.1021/acs.est.6c05985"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1021/acs.est.6c05985",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "huang2026crossradical_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://pubs.acs.org/esthag/article-split/doi/10.1021/acs.est.6c05985/5436164/Cross-Radical-Knowledge-Sharing-via-Graph-Neural",
+          "basis": "Publisher indexed abstract and metadata; ACS issue60/40 independently verifies pages; direct open403"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "Aqueous radical second-order rate prediction with shared molecular representations and data-rich to data-poor radical transfer. Supports conceptual transfer-learning precedent, scaffold-disjoint validation and uncertainty awareness, not OSN permeance performance or HiFT equivalence.",
+      "notes": [
+        "Final issue60(40)pp28829--28844 is confirmed by ACS issue page. Online23Sep2026; issue13Oct2026."
+      ],
+      "crossref_metadata": {
+        "DOI": "10.1021/acs.est.6c05985",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              13
+            ]
+          ],
+          "date-time": "2026-10-13T16:33:44Z",
+          "timestamp": 1791909224000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              15
+            ]
+          ],
+          "date-time": "2026-10-15T14:00:55Z",
+          "timestamp": 1792072855286,
+          "version": "4.4.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              23
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              13
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              23
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:21.924108+00:00",
+        "raw_search_file": "huang2026crossradical_crossref.json"
+      }
+    },
+    {
+      "index": "added",
+      "key": "huang2025large",
+      "original": {
+        "doi": "10.1016/j.psep.2025.108113"
+      },
+      "corrected_fields": {
+        "author": "Huang, Zhi and Yu, Jiang and He, Wei and Yu, Jie and Deng, Siwei and Jiang, Yinying and Yang, Chun and Zhu, Weiwei and Wu, Yi and Liu, Xiufeng",
+        "title": "Large-scale chemical language models for accurate and interpretable prediction of reactivity and toxicity",
+        "journal": "Process Safety and Environmental Protection",
+        "year": "2025",
+        "volume": "204",
+        "pages": "108113",
+        "doi": "10.1016/j.psep.2025.108113",
+        "url": "https://doi.org/10.1016/j.psep.2025.108113"
+      },
+      "changes": {
+        "author": {
+          "original": null,
+          "corrected": "Huang, Zhi and Yu, Jiang and He, Wei and Yu, Jie and Deng, Siwei and Jiang, Yinying and Yang, Chun and Zhu, Weiwei and Wu, Yi and Liu, Xiufeng"
+        },
+        "title": {
+          "original": null,
+          "corrected": "Large-scale chemical language models for accurate and interpretable prediction of reactivity and toxicity"
+        },
+        "journal": {
+          "original": null,
+          "corrected": "Process Safety and Environmental Protection"
+        },
+        "year": {
+          "original": null,
+          "corrected": "2025"
+        },
+        "volume": {
+          "original": null,
+          "corrected": "204"
+        },
+        "pages": {
+          "original": null,
+          "corrected": "108113"
+        },
+        "url": {
+          "original": null,
+          "corrected": "https://doi.org/10.1016/j.psep.2025.108113"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016/j.psep.2025.108113",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "huang2025large_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0957582025013801",
+          "basis": "Publisher indexed article abstract, complete author list, volume204,December2025,article108113; direct open403"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "Compound-GPT learns SMILES representations and fine-tunes for hydroxyl-radical rate constants and Ames mutagenicity. Supports chemistry-specific representation learning and pretraining/fine-tuning, not OSN or membrane generalization.",
+      "notes": [],
+      "crossref_metadata": {
+        "DOI": "10.1016/j.psep.2025.108113",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T01:09:21Z",
+          "timestamp": 1777597761000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              21
+            ]
+          ],
+          "date-time": "2026-10-21T02:22:11Z",
+          "timestamp": 1792549331530,
+          "version": "4.5.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:20.803031+00:00",
+        "raw_search_file": "huang2025large_crossref.json"
+      }
+    },
+    {
+      "index": "added",
+      "key": "huang2026radical",
+      "original": {
+        "doi": "10.1016/j.jhazmat.2025.140631"
+      },
+      "corrected_fields": {
+        "author": "Huang, Zhi and Yu, Jiang and He, Wei and Huang, Pengxinyue and Deng, Siwei and Jiang, Hongbin and Yu, Jie and Yang, Chun and Han, Cheng and Jiang, Yinying and Zhu, Weiwei and Liu, Yucheng",
+        "title": "{Radical-Net}: A chemistry-enhanced {Transformer} for elementary radical reactions in pollutant chemistry",
+        "journal": "Journal of Hazardous Materials",
+        "year": "2026",
+        "volume": "501",
+        "pages": "140631",
+        "doi": "10.1016/j.jhazmat.2025.140631",
+        "url": "https://doi.org/10.1016/j.jhazmat.2025.140631"
+      },
+      "changes": {
+        "author": {
+          "original": null,
+          "corrected": "Huang, Zhi and Yu, Jiang and He, Wei and Huang, Pengxinyue and Deng, Siwei and Jiang, Hongbin and Yu, Jie and Yang, Chun and Han, Cheng and Jiang, Yinying and Zhu, Weiwei and Liu, Yucheng"
+        },
+        "title": {
+          "original": null,
+          "corrected": "{Radical-Net}: A chemistry-enhanced {Transformer} for elementary radical reactions in pollutant chemistry"
+        },
+        "journal": {
+          "original": null,
+          "corrected": "Journal of Hazardous Materials"
+        },
+        "year": {
+          "original": null,
+          "corrected": "2026"
+        },
+        "volume": {
+          "original": null,
+          "corrected": "501"
+        },
+        "pages": {
+          "original": null,
+          "corrected": "140631"
+        },
+        "url": {
+          "original": null,
+          "corrected": "https://doi.org/10.1016/j.jhazmat.2025.140631"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016/j.jhazmat.2025.140631",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "huang2026radical_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0304389425035514",
+          "basis": "Publisher indexed abstract and complete12author list; final volume501 date1Jan2026; PubMed41337967 corroborates; direct open403"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "T5-based elementary radical reaction prediction; chemistry-aware tokenization and atom/charge validity scoring. Supports coupling learned representations with chemical constraints, not permeance regression or OSN transfer validation.",
+      "notes": [
+        "Use final-volume2026, not online2025. Expand user et al to complete12authors."
+      ],
+      "crossref_metadata": {
+        "DOI": "10.1016/j.jhazmat.2025.140631",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              6
+            ]
+          ],
+          "date-time": "2026-08-06T16:32:02Z",
+          "timestamp": 1786033922000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              22
+            ]
+          ],
+          "date-time": "2026-10-22T23:44:51Z",
+          "timestamp": 1792712691376,
+          "version": "4.5.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:21.079812+00:00",
+        "raw_search_file": "huang2026radical_crossref.json"
+      }
+    },
+    {
+      "index": "added",
+      "key": "huang2024ai",
+      "original": {
+        "doi": "10.1016/j.jhazmat.2023.133355"
+      },
+      "corrected_fields": {
+        "author": "Huang, Zhi and Yu, Jiang and He, Wei and Yu, Jie and Deng, Siwei and Yang, Chun and Zhu, Weiwei and Shao, Xiao",
+        "title": "{AI}-enhanced chemical paradigm: From molecular graphs to accurate prediction and mechanism",
+        "journal": "Journal of Hazardous Materials",
+        "year": "2024",
+        "volume": "465",
+        "pages": "133355",
+        "doi": "10.1016/j.jhazmat.2023.133355",
+        "url": "https://doi.org/10.1016/j.jhazmat.2023.133355"
+      },
+      "changes": {
+        "author": {
+          "original": null,
+          "corrected": "Huang, Zhi and Yu, Jiang and He, Wei and Yu, Jie and Deng, Siwei and Yang, Chun and Zhu, Weiwei and Shao, Xiao"
+        },
+        "title": {
+          "original": null,
+          "corrected": "{AI}-enhanced chemical paradigm: From molecular graphs to accurate prediction and mechanism"
+        },
+        "journal": {
+          "original": null,
+          "corrected": "Journal of Hazardous Materials"
+        },
+        "year": {
+          "original": null,
+          "corrected": "2024"
+        },
+        "volume": {
+          "original": null,
+          "corrected": "465"
+        },
+        "pages": {
+          "original": null,
+          "corrected": "133355"
+        },
+        "url": {
+          "original": null,
+          "corrected": "https://doi.org/10.1016/j.jhazmat.2023.133355"
+        }
+      },
+      "sources": [
+        {
+          "kind": "Crossref",
+          "url": "https://api.crossref.org/works/10.1016/j.jhazmat.2023.133355",
+          "basis": "Registered metadata, fetched current run",
+          "cache_file": "huang2024ai_crossref.json"
+        },
+        {
+          "kind": "primary_publisher",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0304389423026390",
+          "basis": "Publisher indexed abstract, volume465,date5March2024,article133355; PubMed38198864 corroborates authors; direct open403"
+        }
+      ],
+      "status": "verified_with_metadata_completion",
+      "verification_level": "Primary bibliographic record plus Crossref where available; field coverage and access limits stated in sources",
+      "semantic_notes": "GNN for aqueous hydroxyl-radical reaction rate constants with atom-level graph representation and gradient-based site interpretation. Supports molecular representation and interpretation in environmental chemistry, not OSN-specific validation.",
+      "notes": [
+        "Use final-volume2024, not DOI/online2023."
+      ],
+      "crossref_metadata": {
+        "DOI": "10.1016/j.jhazmat.2023.133355",
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              3
+            ]
+          ],
+          "date-time": "2025-02-03T23:26:08Z",
+          "timestamp": 1738625168000
+        },
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              19
+            ]
+          ],
+          "date-time": "2026-10-19T19:45:16Z",
+          "timestamp": 1792439116737,
+          "version": "4.5.0"
+        },
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        }
+      },
+      "cache": {
+        "retrieved_utc": "2026-10-23T06:16:21.085978+00:00",
+        "raw_search_file": "huang2024ai_crossref.json"
+      }
+    }
+  ]
+}

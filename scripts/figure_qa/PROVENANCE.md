@@ -1,0 +1,1 @@
+These three figure-audit helpers were copied from the pre-existing nature-figure skill scripts on 2026-10-23. Their existing source notices are preserved. They are bundled so rendering does not depend on a personal installation path. They check layout geometry, minimum text size and possible collisions; they do not certify scientific validity.

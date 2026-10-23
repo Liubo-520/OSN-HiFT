@@ -1,0 +1,28 @@
+{
+  "protocol": "canonical IDs in all production stages; raw-group control uses fresh refits",
+  "pure_solvent_permeance": {
+    "papers_raw": 122,
+    "papers_distinct": 121,
+    "duplicated_papers": 1,
+    "records_affected": 16,
+    "rows_retained": 1934
+  },
+  "solution_permeance": {
+    "papers_raw": 194,
+    "papers_distinct": 192,
+    "duplicated_papers": 2,
+    "records_affected": 19,
+    "rows_retained": 3190
+  },
+  "rejection": {
+    "papers_raw": 243,
+    "papers_distinct": 240,
+    "duplicated_papers": 3,
+    "records_affected": 51,
+    "rows_retained": 6216
+  },
+  "unseen_paper_lightgbm_r2": {
+    "raw": 0.23540840019992404,
+    "merged": 0.24709468651042
+  }
+}

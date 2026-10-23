@@ -1,0 +1,6 @@
+protocol,grouped_choice,row_choice,inner_grouped_mae,inner_row_mae
+Unseen paper,"{""num_leaves"": 7, ""min_child_samples"": 5, ""n_estimators"": 300}","{""num_leaves"": 31, ""min_child_samples"": 5, ""n_estimators"": 900}",0.6275423733070394,0.2255211984995142
+Unseen paper,"{""num_leaves"": 7, ""min_child_samples"": 5, ""n_estimators"": 300}","{""num_leaves"": 31, ""min_child_samples"": 5, ""n_estimators"": 900}",0.5877391178058381,0.24680973526223055
+Unseen paper,"{""num_leaves"": 7, ""min_child_samples"": 5, ""n_estimators"": 300}","{""num_leaves"": 31, ""min_child_samples"": 5, ""n_estimators"": 900}",0.623421358996374,0.23480134029729224
+Unseen paper,"{""num_leaves"": 7, ""min_child_samples"": 20, ""n_estimators"": 300}","{""num_leaves"": 31, ""min_child_samples"": 5, ""n_estimators"": 900}",0.5708932783482731,0.23964127809900262
+Unseen paper,"{""num_leaves"": 7, ""min_child_samples"": 5, ""n_estimators"": 300}","{""num_leaves"": 31, ""min_child_samples"": 5, ""n_estimators"": 900}",0.5365814158843489,0.2044414476455634

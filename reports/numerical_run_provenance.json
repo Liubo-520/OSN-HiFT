@@ -1,0 +1,87 @@
+{
+  "inputs": {
+    "analysis\\10_curate.py": "3fe2140ef630381c34bff3208c44c976d129a7e1ebb74af5372182e4fd3f62e2",
+    "analysis\\11_benchmark.py": "c16f5242641098de30636b5c4fb35911bcda14ec4d6a2289ed9a214d86c58621",
+    "analysis\\12_variance_ceiling.py": "2a8600cb83fa811b5b77cee3ccaa51e4f4c2352098da5d12c335cd167b00af80",
+    "analysis\\13_fewshot.py": "c60bee2ba56751a39b9c39767c1e545de698fbc04b9ac9a35d442d5805e36dfe",
+    "analysis\\14_conformal.py": "94c50c5eed2f25fae570860d97a70075cc0dc4b08a5cc0693833e287ef5d0775",
+    "analysis\\15_fingerprints_anchors.py": "3e6f07b790eb70a74668930242c3ff47ddd327f6f125a3b0f5e88cf214f8030e",
+    "analysis\\16_si_analyses.py": "e1e22422358b2b97fe67d1f796bfc4bbde1b785ad9d2e4e663988a2eb6046a63",
+    "analysis\\17_independent_validation.py": "252621647eed5f45dd0e2a02db918d8036bea6439a671aac0de88721d3cd8f59",
+    "analysis\\18_reference_duplicates.py": "e881529879f35cffb3fe630da5e5da6a6233792310fcd50338c2b60e14a5a050",
+    "analysis\\fewshot_lib.py": "9305a1f0bf5a16e739338ddda12fc2db61a138978724db9e8614f2eaa444a919",
+    "analysis\\fewshot_summary.py": "71c0ff567ecbface670d156dba6d8aff7281e0dfcfbef885d56c40dd6ed5349b",
+    "analysis\\hift.py": "bc24f156913abe1e81b50cee4c7af8c33ae1fb24aa07b96d2aa9998bee42fb3d",
+    "analysis\\osn_core.py": "fc894a797e33e958aada4f3436bd0a114a7411e3449a65852d1810224aece4a5",
+    "analysis\\reference_identity.py": "bd2033ba03c8fba9e116c8d7fc48eb8b220ea4aa58317b26409a9fae39704bfe",
+    "analysis\\transfer_eval.py": "e581c139fd2b6d21311f8b20f8e13b08f57c3ec05623f9ad50a79619e071afc1",
+    "data\\raw\\external\\OMD_SRNF_2026-10-23.csv": "43087ff656e37d7e86bf3c868c46ec0986f0f82c37920d1d81bc45ecfa2e892a",
+    "data\\raw\\OMD_SRNF_2025-04-08.csv": "9d0d465191c19662aaa054508010f40375f8e1b1fd108cd98c71e08ed7212439",
+    "data\\reference\\solvent_descriptors_verified.csv": "33df9484502b3edbb0585751b13b9b507139b1a8fe0b2e311c89c3193d3f57d7",
+    "data\\reference\\solvent_edge_values.csv": "841c4a16d05a171b66c8c4f82230eb70db3a1fbc131230057eb28a86dc93901b"
+  },
+  "python": "Python 3.10.14; package versions in requirements.txt",
+  "steps": [
+    {
+      "step": "10_curate.py",
+      "returncode": 0,
+      "seconds": 1.82,
+      "log": "reports\\run_logs\\10_curate.log"
+    },
+    {
+      "step": "11_benchmark.py",
+      "returncode": 0,
+      "seconds": 238.84,
+      "log": "reports\\run_logs\\11_benchmark.log"
+    },
+    {
+      "step": "12_variance_ceiling.py",
+      "returncode": 0,
+      "seconds": 131.34,
+      "log": "reports\\run_logs\\12_variance_ceiling.log"
+    },
+    {
+      "step": "13_fewshot.py",
+      "returncode": 0,
+      "seconds": 596.08,
+      "log": "reports\\run_logs\\13_fewshot.log"
+    },
+    {
+      "step": "14_conformal.py",
+      "returncode": 0,
+      "seconds": 93.55,
+      "log": "reports\\run_logs\\14_conformal.log"
+    },
+    {
+      "step": "15_fingerprints_anchors.py",
+      "returncode": 0,
+      "seconds": 145.14,
+      "log": "reports\\run_logs\\15_fingerprints_anchors.log"
+    },
+    {
+      "step": "16_si_analyses.py all",
+      "returncode": 0,
+      "seconds": 642.27,
+      "log": "reports\\run_logs\\16_si_analyses.log"
+    },
+    {
+      "step": "17_independent_validation.py all",
+      "returncode": 0,
+      "seconds": 1680.91,
+      "log": "reports\\run_logs\\17_independent_validation.log"
+    },
+    {
+      "step": "18_reference_duplicates.py",
+      "returncode": 0,
+      "seconds": 8.18,
+      "log": "reports\\run_logs\\18_reference_duplicates.log"
+    }
+  ],
+  "dependency_restart": {
+    "from_step": "17_independent_validation.py",
+    "reason": "Inner base learner and cross-fitted residuals now refitted only within each inner-training split",
+    "preserved_run": "archive\\before_nested_isolation_repair_20261023_212220",
+    "unchanged_predecessors": "10 through 16; hashes rechecked"
+  },
+  "note": "Frozen numerical stages; manuscript and author metadata are not part of this repository."
+}

@@ -1,0 +1,13 @@
+{
+  "checked_date": "2026-10-23",
+  "omd_url": "https://openmembranedatabase.org/about-the-open-membrane-database/",
+  "omd_status": 200,
+  "license_links": [
+    "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+    "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  ],
+  "bam_readme": "https://github.com/BAMresearch/onf-database/blob/main/README.md",
+  "bam_declared_license": "CC BY 4.0",
+  "bam_license_file_present": false,
+  "note": "BAM README declares CC BY 4.0; upstream OMD site links CC BY-NC 4.0. Preserve both notices; OMD-derived materials are shared for noncommercial research with upstream attribution."
+}

@@ -1,0 +1,6 @@
+protocol,grouped_choice,row_choice,inner_grouped_mae,inner_row_mae
+Random 5-fold,"{""num_leaves"": 7, ""min_child_samples"": 20, ""n_estimators"": 300}","{""num_leaves"": 31, ""min_child_samples"": 5, ""n_estimators"": 900}",0.578712248276646,0.2563181229399148
+Random 5-fold,"{""num_leaves"": 7, ""min_child_samples"": 5, ""n_estimators"": 300}","{""num_leaves"": 31, ""min_child_samples"": 5, ""n_estimators"": 900}",0.6135737545364043,0.26000303182099255
+Random 5-fold,"{""num_leaves"": 7, ""min_child_samples"": 20, ""n_estimators"": 300}","{""num_leaves"": 31, ""min_child_samples"": 5, ""n_estimators"": 900}",0.5617624144645307,0.2704055043308497
+Random 5-fold,"{""num_leaves"": 7, ""min_child_samples"": 20, ""n_estimators"": 300}","{""num_leaves"": 31, ""min_child_samples"": 5, ""n_estimators"": 900}",0.5704262744350542,0.25940950318577666
+Random 5-fold,"{""num_leaves"": 31, ""min_child_samples"": 20, ""n_estimators"": 300}","{""num_leaves"": 31, ""min_child_samples"": 5, ""n_estimators"": 900}",0.5727524245193699,0.25090192113383875

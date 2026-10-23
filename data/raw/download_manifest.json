@@ -1,0 +1,23 @@
+{
+  "task_date": "2026-10-03",
+  "checked_at_utc": "2026-10-03T09:22:12.541167+00:00",
+  "files": [
+    {
+      "project": "03_有机溶剂纳滤",
+      "file": "OMD_SRNF_2025-04-08.csv",
+      "url": "https://raw.githubusercontent.com/BAMresearch/onf-database/main/OMD_SRNF_2025-04-08.csv",
+      "source": "https://github.com/BAMresearch/onf-database",
+      "license": "CC-BY-4.0",
+      "download_url": "https://raw.githubusercontent.com/BAMresearch/onf-database/main/OMD_SRNF_2025-04-08.csv",
+      "content_type": "text/plain; charset=utf-8",
+      "md5_actual": "8736c349b1de875f84ac38f77e0aae6b",
+      "sha256": "9d0d465191c19662aaa054508010f40375f8e1b1fd108cd98c71e08ed7212439",
+      "bytes": 7231377,
+      "status": "DOWNLOADED",
+      "integrity": "LOCAL_SHA256",
+      "attempt_errors": []
+    }
+  ],
+  "failures": [],
+  "status": "COMPLETE"
+}

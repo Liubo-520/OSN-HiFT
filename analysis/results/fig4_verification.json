@@ -1,0 +1,82 @@
+[
+ {
+  "test": "Primary benchmark",
+  "zero_shot": [
+   0.6766470999237943,
+   0.4949671472262625,
+   0.8257993816286062
+  ],
+  "hift": [
+   0.38403110868007173,
+   0.30733116347778616,
+   0.4618745990054595
+  ],
+  "best_baseline": "Pairwise transfer GBM",
+  "best_baseline_mae": 0.38836083871850163,
+  "reduction": 0.4324499303649979
+ },
+ {
+  "test": "Nested configuration selection",
+  "zero_shot": [
+   0.6766470999237943,
+   0.4949671472262625,
+   0.8257993816286062
+  ],
+  "hift": [
+   0.42046368331330736,
+   0.3178181921409819,
+   0.500634177326518
+  ],
+  "best_baseline": "Pairwise transfer GBM",
+  "best_baseline_mae": 0.38836083871850163,
+  "reduction": 0.3786071301263819
+ },
+ {
+  "test": "Membranes unused for selection",
+  "zero_shot": [
+   0.7643084830200758,
+   0.5512914472976108,
+   0.9737325501590308
+  ],
+  "hift": [
+   0.4335825035241956,
+   0.2588298606504412,
+   0.6832155672523709
+  ],
+  "best_baseline": "Viscosity scaling",
+  "best_baseline_mae": 0.3829068588498225,
+  "reduction": 0.432712689762457
+ },
+ {
+  "test": "Papers added after the snapshot",
+  "zero_shot": [
+   0.6500766920094174,
+   0.49715787206271855,
+   0.9890329141617653
+  ],
+  "hift": [
+   0.3624059288800093,
+   0.3114815306331697,
+   0.7111130479157519
+  ],
+  "best_baseline": "Pairwise transfer GBM",
+  "best_baseline_mae": 0.3439339141068494,
+  "reduction": 0.4425181931076537
+ },
+ {
+  "test": "Solution permeance",
+  "zero_shot": [
+   0.49082071988280357,
+   0.39220381408382854,
+   0.6142045170048442
+  ],
+  "hift": [
+   0.42921206643130483,
+   0.3005566477758736,
+   0.5963655602072716
+  ],
+  "best_baseline": "Bayesian level shift",
+  "best_baseline_mae": 0.40737291967402633,
+  "reduction": 0.12552170467907187
+ }
+]

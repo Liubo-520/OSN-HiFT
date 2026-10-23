@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "task": "pure_solvent_permeance",
+      "passed": true,
+      "parity_rows": 64,
+      "maximum_prediction_error": 2.220446049250313e-16,
+      "maximum_sd_error": 0.0,
+      "files": {
+        "metadata.json": "1bb680bfcf3568b4e7c15ac54f96f53adecb75884bc360f424b4708407c8bffb",
+        "pairwise.txt": "b93edf88d4d7efc15d37d4cd0f0177dfbec66e37b5fe8cff0647d2026e753e1e",
+        "within_membrane.txt": "2895ace66d096b3922763df952b70920c7ac82c637aab1e6e635862a241387c2",
+        "zero_shot.txt": "ea5f4a25043d50112ddfc5fa2abeb099071bb719df513deeb7cd2f520b940d6f"
+      }
+    },
+    {
+      "task": "solution_permeance",
+      "passed": true,
+      "parity_rows": 89,
+      "maximum_prediction_error": 9.71445146547012e-17,
+      "maximum_sd_error": 0.0,
+      "files": {
+        "metadata.json": "2417e5e3b2d37b13f996121b43399434821b4b7d64305a4dc4861b593bbf0dae",
+        "pairwise.txt": "c346f401f561863d5dbf3cd46ea331fd82b1669869ff6ef5963779e6ea292a9e",
+        "within_membrane.txt": "fae245ed67876001b3a9ccf5b58184892eaf660dad6e2a9ed7cf339006296845",
+        "zero_shot.txt": "23756a06717fc480a7979e76ff947db21891465f0204d779d0acc8da589b5e17"
+      }
+    }
+  ]
+}

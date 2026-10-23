@@ -1,0 +1,12 @@
+{
+ "entity": "10.1016/j.memsci.2013.07.009 || PhM5050 (30%)",
+ "anchor": "Pentane",
+ "mae_k0": 0.6785494977348195,
+ "mae_k1": 0.39215434632562346,
+ "n_solvents": 9,
+ "material": "Glassy ISA",
+ "median_gain_all": 0.24455829309025112,
+ "gain_example": 0.24455829309025112,
+ "n_candidates": 17,
+ "n_membranes": 47
+}

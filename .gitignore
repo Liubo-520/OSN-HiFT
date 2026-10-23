@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+analysis/results/cache/
+analysis/figures/
+archive/
+reports/run_logs/
+predictions.csv

@@ -1,0 +1,596 @@
+[
+  {
+    "key": "marchetti2014",
+    "field": "number",
+    "before": null,
+    "after": "21"
+  },
+  {
+    "key": "vandezande2008",
+    "field": "number",
+    "before": null,
+    "after": "2"
+  },
+  {
+    "key": "sholl2016",
+    "field": "number",
+    "before": null,
+    "after": "7600"
+  },
+  {
+    "key": "lively2017",
+    "field": "number",
+    "before": null,
+    "after": "3"
+  },
+  {
+    "key": "szekely2014",
+    "field": "number",
+    "before": null,
+    "after": "10"
+  },
+  {
+    "key": "ignacz2025",
+    "field": "number",
+    "before": null,
+    "after": "3"
+  },
+  {
+    "key": "wijmans1995",
+    "field": "number",
+    "before": null,
+    "after": "1-2"
+  },
+  {
+    "key": "bhanushali2001",
+    "field": "number",
+    "before": null,
+    "after": "1"
+  },
+  {
+    "key": "bhanushali2001",
+    "field": "doi",
+    "before": null,
+    "after": "10.1016/s0376-7388(01)00356-8"
+  },
+  {
+    "key": "bhanushali2001",
+    "field": "author",
+    "before": "Bhanushali, Dharmesh and Kloos, Steve and Kurth, Christopher and Bhattacharyya, Dibakar",
+    "after": "Bhanushali, D. and Kloos, S. and Kurth, C. and Bhattacharyya, D."
+  },
+  {
+    "key": "machado1999",
+    "field": "number",
+    "before": null,
+    "after": "1"
+  },
+  {
+    "key": "machado1999",
+    "field": "doi",
+    "before": null,
+    "after": "10.1016/s0376-7388(99)00158-1"
+  },
+  {
+    "key": "darvishmanesh2009",
+    "field": "number",
+    "before": null,
+    "after": "1-2"
+  },
+  {
+    "key": "darvishmanesh2009b",
+    "field": "volume",
+    "before": null,
+    "after": "70"
+  },
+  {
+    "key": "darvishmanesh2009b",
+    "field": "number",
+    "before": null,
+    "after": "1"
+  },
+  {
+    "key": "darvishmanesh2009b",
+    "field": "pages",
+    "before": null,
+    "after": "46--52"
+  },
+  {
+    "key": "andecochea2018",
+    "field": "volume",
+    "before": null,
+    "after": "546"
+  },
+  {
+    "key": "andecochea2018",
+    "field": "pages",
+    "before": null,
+    "after": "120--127"
+  },
+  {
+    "key": "andecochea2018",
+    "field": "author",
+    "before": "{Andecochea Saiz} and others",
+    "after": "{Andecochea Saiz}, Carlos and Darvishmanesh, Siavash and Buekenhoudt, Anita and {Van der Bruggen}, Bart"
+  },
+  {
+    "key": "wang2023",
+    "field": "number",
+    "before": null,
+    "after": "42"
+  },
+  {
+    "key": "vanbuggenhout2025",
+    "field": "author",
+    "before": "{Van Buggenhout}, Simon and Ignacz, Gergo and Caspers, Scout and Dhondt, Robin and Lenaerts, Marie and others",
+    "after": "Van Buggenhout, Simon and Ignacz, Gergo and Caspers, Scout and Dhondt, Robin and Lenaerts, Marie and Lenaerts, Nathalie and Hosseinabadi, Sareh Rezaei and Nulens, Ines and Koeckelberghs, Guy and Ren, Yi and Lively, Ryan P. and Rabiller-Baudry, Murielle and Lim, Ki Min and Ghazali, Nazlee and Coronas, Joaquin and Abel, Milan and Wessling, Matthias and Skiborowski, Mirko and Oxley, Adam and Han, Seok Ju and Livingston, Andrew and Yi, Zhuan and Gao, Congjie and Guan, Kecheng and Gonzales, Ralph Rolly and Matsuyama, Hideto and Bettahalli, Srivatsa NM. and McCutcheon, Jeffrey R. and Radmanesh, Farzaneh and Benes, Nieck E. and Tashvigh, Akbar Asadi and Fang, Qing and Zhang, Kaisong and Chen, Guining and Jin, Wanqin and Zhang, Yatao and Zhang, Chun-Xu and Liu, Mei-Ling and Sun, Shi-Peng and Buekenhoudt, Anita and Zhao, Chen and Bruggen, Bart Van der and Kim, Jeong F. and Condes, Lucas C. and Webb, Matthew T. and Galizia, Michele and Alhazmi, Banan and Upadhyaya, Lakshmeesha and Nunes, Suzana P. and Kim, Dae Woo and Schröter, Henrik and Kragl, Udo and Störtte, Sven and Vorholt, Andreas J. and Culfaz-Emecen, P. Zeynep and Pizzoccaro-Zilamy, Marie-Alix and Winnubst, Louis and Yushkin, Alexey and Volkov, Alexey and Chau, John and Sirkar, Kamalesh K. and Lu, Shao and Szekely, Gyorgy and Vankelecom, Ivo and Verbeke, Rhea"
+  },
+  {
+    "key": "ritt2022",
+    "field": "author",
+    "before": "Ritt, Cody L. and others",
+    "after": "Ritt, Cody L. and Stassin, Timothée and Davenport, Douglas M. and DuChanois, Ryan M. and Nulens, Ines and Yang, Zhe and Ben-Zvi, Adi and Segev-Mark, Naama and Elimelech, Menachem and Tang, Chuyang Y. and Ramon, Guy Z. and Vankelecom, Ivo F.J. and Verbeke, Rhea"
+  },
+  {
+    "key": "glass2026",
+    "field": "volume",
+    "before": null,
+    "after": "759"
+  },
+  {
+    "key": "glass2026",
+    "field": "author",
+    "before": "Gla{\\ss}, Sarah and Merten, Petra and Brinkmann, Torsten and Filiz, Volkan",
+    "after": "Glass, Sarah and Merten, Petra and Brinkmann, Torsten and Filiz, Volkan"
+  },
+  {
+    "key": "sheridan2013",
+    "field": "number",
+    "before": null,
+    "after": "4"
+  },
+  {
+    "key": "wallach2018",
+    "field": "number",
+    "before": null,
+    "after": "5"
+  },
+  {
+    "key": "yang2019",
+    "field": "number",
+    "before": null,
+    "after": "8"
+  },
+  {
+    "key": "meredig2018",
+    "field": "number",
+    "before": null,
+    "after": "5"
+  },
+  {
+    "key": "witman2025",
+    "field": "volume",
+    "before": null,
+    "after": "4"
+  },
+  {
+    "key": "witman2025",
+    "field": "number",
+    "before": null,
+    "after": "3"
+  },
+  {
+    "key": "witman2025",
+    "field": "pages",
+    "before": null,
+    "after": "625--635"
+  },
+  {
+    "key": "kapoor2023",
+    "field": "number",
+    "before": null,
+    "after": "9"
+  },
+  {
+    "key": "vovk2005",
+    "field": "doi",
+    "before": null,
+    "after": "10.1007/b106715"
+  },
+  {
+    "key": "lei2018",
+    "field": "number",
+    "before": null,
+    "after": "523"
+  },
+  {
+    "key": "norinder2014",
+    "field": "number",
+    "before": null,
+    "after": "6"
+  },
+  {
+    "key": "hirschfeld2020",
+    "field": "number",
+    "before": null,
+    "after": "8"
+  },
+  {
+    "key": "altaetran2017",
+    "field": "number",
+    "before": null,
+    "after": "4"
+  },
+  {
+    "key": "laird1982",
+    "field": "number",
+    "before": null,
+    "after": "4"
+  },
+  {
+    "key": "efron1975",
+    "field": "number",
+    "before": null,
+    "after": "350"
+  },
+  {
+    "key": "hajjem2014",
+    "field": "doi",
+    "before": null,
+    "after": "10.1080/00949655.2012.741599"
+  },
+  {
+    "key": "hajjem2014",
+    "field": "number",
+    "before": null,
+    "after": "6"
+  },
+  {
+    "key": "sigrist2022",
+    "field": "number",
+    "before": null,
+    "after": "232"
+  },
+  {
+    "key": "sigrist2022",
+    "field": "url",
+    "before": null,
+    "after": "https://www.jmlr.org/papers/v23/20-322.html"
+  },
+  {
+    "key": "ke2017",
+    "field": "booktitle",
+    "before": "Advances in Neural Information Processing Systems 30",
+    "after": "Advances in Neural Information Processing Systems"
+  },
+  {
+    "key": "ke2017",
+    "field": "volume",
+    "before": null,
+    "after": "30"
+  },
+  {
+    "key": "ke2017",
+    "field": "publisher",
+    "before": null,
+    "after": "Curran Associates, Inc."
+  },
+  {
+    "key": "ke2017",
+    "field": "url",
+    "before": null,
+    "after": "https://papers.nips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html"
+  },
+  {
+    "key": "pedregosa2011",
+    "field": "author",
+    "before": "Pedregosa, Fabian and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and others",
+    "after": "Pedregosa, Fabian and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and Vanderplas, Jake and Passos, Alexandre and Cournapeau, David and Brucher, Matthieu and Perrot, Matthieu and Duchesnay, {\\'E}douard"
+  },
+  {
+    "key": "pedregosa2011",
+    "field": "number",
+    "before": null,
+    "after": "85"
+  },
+  {
+    "key": "pedregosa2011",
+    "field": "url",
+    "before": null,
+    "after": "https://www.jmlr.org/papers/v12/pedregosa11a.html"
+  },
+  {
+    "key": "seabold2010",
+    "field": "doi",
+    "before": null,
+    "after": "10.25080/Majora-92bf1922-011"
+  },
+  {
+    "key": "seabold2010",
+    "field": "url",
+    "before": null,
+    "after": "https://proceedings.scipy.org/articles/Majora-92bf1922-011"
+  },
+  {
+    "key": "hansen2007",
+    "field": "doi",
+    "before": null,
+    "after": "10.1201/9781420006834"
+  },
+  {
+    "key": "crc2016",
+    "field": "editor",
+    "before": "Haynes, William M.",
+    "after": "Haynes, W. M. and Lide, David R. and Bruno, Thomas J."
+  },
+  {
+    "key": "crc2016",
+    "field": "doi",
+    "before": null,
+    "after": "10.1201/9781315380476"
+  },
+  {
+    "key": "rezaei2014",
+    "field": "volume",
+    "before": null,
+    "after": "454"
+  },
+  {
+    "key": "rezaei2014",
+    "field": "pages",
+    "before": null,
+    "after": "496--504"
+  },
+  {
+    "key": "jansen2013",
+    "field": "author",
+    "before": "{Jansen} and others",
+    "after": "Jansen, Johannes C. and Darvishmanesh, Siavash and Tasselli, Franco and Bazzarelli, Fabio and Bernardo, Paola and Tocci, Elena and Friess, Karel and Randova, Alena and Drioli, Enrico and {Van der Bruggen}, Bart"
+  },
+  {
+    "key": "jansen2013",
+    "field": "volume",
+    "before": null,
+    "after": "447"
+  },
+  {
+    "key": "jansen2013",
+    "field": "pages",
+    "before": null,
+    "after": "107--118"
+  },
+  {
+    "key": "dobrak2011",
+    "field": "author",
+    "before": "{Dobrak-Van Berlo} and others",
+    "after": "{Dobrak-Van Berlo}, Agnieszka and Vankelecom, Ivo F.J. and {Van der Bruggen}, Bart"
+  },
+  {
+    "key": "dobrak2011",
+    "field": "volume",
+    "before": null,
+    "after": "374"
+  },
+  {
+    "key": "dobrak2011",
+    "field": "number",
+    "before": null,
+    "after": "1--2"
+  },
+  {
+    "key": "dobrak2011",
+    "field": "pages",
+    "before": null,
+    "after": "138--149"
+  },
+  {
+    "key": "beshahwored2022",
+    "field": "volume",
+    "before": null,
+    "after": "663"
+  },
+  {
+    "key": "beshahwored2022",
+    "field": "pages",
+    "before": null,
+    "after": "121039"
+  },
+  {
+    "key": "huang2026crossradical",
+    "field": "author",
+    "before": null,
+    "after": "Huang, Zhi and Yu, Jiang and Huang, Pengxinyue and Han, Liangwei and Zhao, Xuetao and Zhang, Qian"
+  },
+  {
+    "key": "huang2026crossradical",
+    "field": "title",
+    "before": null,
+    "after": "Cross-Radical Knowledge Sharing via Graph Neural Networks for Unified Prediction of Aqueous Organic Contaminant Second-Order Radical Reaction Rate Constants"
+  },
+  {
+    "key": "huang2026crossradical",
+    "field": "journal",
+    "before": null,
+    "after": "Environmental Science \\& Technology"
+  },
+  {
+    "key": "huang2026crossradical",
+    "field": "year",
+    "before": null,
+    "after": "2026"
+  },
+  {
+    "key": "huang2026crossradical",
+    "field": "volume",
+    "before": null,
+    "after": "60"
+  },
+  {
+    "key": "huang2026crossradical",
+    "field": "pages",
+    "before": null,
+    "after": "28829--28844"
+  },
+  {
+    "key": "huang2026crossradical",
+    "field": "doi",
+    "before": null,
+    "after": "10.1021/acs.est.6c05985"
+  },
+  {
+    "key": "huang2026crossradical",
+    "field": "number",
+    "before": null,
+    "after": "40"
+  },
+  {
+    "key": "huang2026crossradical",
+    "field": "url",
+    "before": null,
+    "after": "https://doi.org/10.1021/acs.est.6c05985"
+  },
+  {
+    "key": "huang2025large",
+    "field": "author",
+    "before": null,
+    "after": "Huang, Zhi and Yu, Jiang and He, Wei and Yu, Jie and Deng, Siwei and Jiang, Yinying and Yang, Chun and Zhu, Weiwei and Wu, Yi and Liu, Xiufeng"
+  },
+  {
+    "key": "huang2025large",
+    "field": "title",
+    "before": null,
+    "after": "Large-scale chemical language models for accurate and interpretable prediction of reactivity and toxicity"
+  },
+  {
+    "key": "huang2025large",
+    "field": "journal",
+    "before": null,
+    "after": "Process Safety and Environmental Protection"
+  },
+  {
+    "key": "huang2025large",
+    "field": "year",
+    "before": null,
+    "after": "2025"
+  },
+  {
+    "key": "huang2025large",
+    "field": "volume",
+    "before": null,
+    "after": "204"
+  },
+  {
+    "key": "huang2025large",
+    "field": "pages",
+    "before": null,
+    "after": "108113"
+  },
+  {
+    "key": "huang2025large",
+    "field": "doi",
+    "before": null,
+    "after": "10.1016/j.psep.2025.108113"
+  },
+  {
+    "key": "huang2025large",
+    "field": "url",
+    "before": null,
+    "after": "https://doi.org/10.1016/j.psep.2025.108113"
+  },
+  {
+    "key": "huang2026radical",
+    "field": "author",
+    "before": null,
+    "after": "Huang, Zhi and Yu, Jiang and He, Wei and Huang, Pengxinyue and Deng, Siwei and Jiang, Hongbin and Yu, Jie and Yang, Chun and Han, Cheng and Jiang, Yinying and Zhu, Weiwei and Liu, Yucheng"
+  },
+  {
+    "key": "huang2026radical",
+    "field": "title",
+    "before": null,
+    "after": "{Radical-Net}: A chemistry-enhanced {Transformer} for elementary radical reactions in pollutant chemistry"
+  },
+  {
+    "key": "huang2026radical",
+    "field": "journal",
+    "before": null,
+    "after": "Journal of Hazardous Materials"
+  },
+  {
+    "key": "huang2026radical",
+    "field": "year",
+    "before": null,
+    "after": "2026"
+  },
+  {
+    "key": "huang2026radical",
+    "field": "volume",
+    "before": null,
+    "after": "501"
+  },
+  {
+    "key": "huang2026radical",
+    "field": "pages",
+    "before": null,
+    "after": "140631"
+  },
+  {
+    "key": "huang2026radical",
+    "field": "doi",
+    "before": null,
+    "after": "10.1016/j.jhazmat.2025.140631"
+  },
+  {
+    "key": "huang2026radical",
+    "field": "url",
+    "before": null,
+    "after": "https://doi.org/10.1016/j.jhazmat.2025.140631"
+  },
+  {
+    "key": "huang2024ai",
+    "field": "author",
+    "before": null,
+    "after": "Huang, Zhi and Yu, Jiang and He, Wei and Yu, Jie and Deng, Siwei and Yang, Chun and Zhu, Weiwei and Shao, Xiao"
+  },
+  {
+    "key": "huang2024ai",
+    "field": "title",
+    "before": null,
+    "after": "{AI}-enhanced chemical paradigm: From molecular graphs to accurate prediction and mechanism"
+  },
+  {
+    "key": "huang2024ai",
+    "field": "journal",
+    "before": null,
+    "after": "Journal of Hazardous Materials"
+  },
+  {
+    "key": "huang2024ai",
+    "field": "year",
+    "before": null,
+    "after": "2024"
+  },
+  {
+    "key": "huang2024ai",
+    "field": "volume",
+    "before": null,
+    "after": "465"
+  },
+  {
+    "key": "huang2024ai",
+    "field": "pages",
+    "before": null,
+    "after": "133355"
+  },
+  {
+    "key": "huang2024ai",
+    "field": "doi",
+    "before": null,
+    "after": "10.1016/j.jhazmat.2023.133355"
+  },
+  {
+    "key": "huang2024ai",
+    "field": "url",
+    "before": null,
+    "after": "https://doi.org/10.1016/j.jhazmat.2023.133355"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "file": "OMD_SRNF_2026-10-23.csv",
+  "sha256": "43087ff656e37d7e86bf3c868c46ec0986f0f82c37920d1d81bc45ecfa2e892a",
+  "bytes": 13863155,
+  "rows": 13424,
+  "raw_reference_strings": 311,
+  "snapshot_label": "2026-10-23",
+  "provenance": "Pre-existing local export from prior project. Acquisition request log was not present in this rerun; label is not treated as independently verified download time.",
+  "rerun_date": "2026-10-23",
+  "use": "Post-snapshot addition test; canonical paper IDs exclude any snapshot paper aliases."
+}

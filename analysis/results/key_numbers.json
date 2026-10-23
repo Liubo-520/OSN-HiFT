@@ -1,0 +1,6974 @@
+{
+ "curation": {
+  "raw_rows": 5638,
+  "raw_papers": 258,
+  "raw_reference_strings": 262,
+  "reference_identity": "canonical DOI/text; raw strings retained; no measurement rows removed",
+  "year_sources_papers": {
+   "recorded": 190,
+   "DOI (curation timestamp)": 43,
+   "decoded epoch-ms": 20,
+   "missing (curation timestamp)": 2,
+   "DOI": 1,
+   "missing": 1,
+   "DOI (recorded year inconsistent)": 1
+  },
+  "year_changed_papers": 46,
+  "pure_solvent_permeance:numeric": {
+   "rows": 2261,
+   "papers": 127,
+   "removed_from_previous": 3377
+  },
+  "pure_solvent_permeance:accepted": {
+   "rows": 2256,
+   "papers": 127,
+   "removed_from_previous": 5
+  },
+  "pure_solvent_permeance:single_solvent": {
+   "rows": 2173,
+   "papers": 126,
+   "removed_from_previous": 83
+  },
+  "pure_solvent_permeance:organic": {
+   "rows": 1959,
+   "papers": 122,
+   "removed_from_previous": 214
+  },
+  "pure_solvent_permeance:descriptor_known": {
+   "rows": 1958,
+   "papers": 122,
+   "removed_from_previous": 1
+  },
+  "pure_solvent_permeance:positive": {
+   "rows": 1934,
+   "papers": 121,
+   "removed_from_previous": 24
+  },
+  "pure_solvent_permeance:membranes": 1413,
+  "pure_solvent_permeance:membranes_by_n_solvents": {
+   "1": 1348,
+   "2": 5,
+   "3": 13,
+   "4": 4,
+   "5": 26,
+   "6": 5,
+   "7": 3,
+   "8": 1,
+   "9": 2,
+   "10": 1,
+   "11": 5
+  },
+  "pure_solvent_permeance:material_counts": {
+   "TFC/TFN": 610,
+   "Commercial polymer": 561,
+   "Glassy ISA": 480,
+   "2D/framework": 153,
+   "Ceramic": 113,
+   "PDMS": 17
+  },
+  "pure_solvent_permeance:solvents": 31,
+  "pure_solvent_permeance:year_missing": 4,
+  "solution_permeance:numeric": {
+   "rows": 3379,
+   "papers": 203,
+   "removed_from_previous": 2259
+  },
+  "solution_permeance:accepted": {
+   "rows": 3358,
+   "papers": 200,
+   "removed_from_previous": 21
+  },
+  "solution_permeance:single_solvent": {
+   "rows": 3316,
+   "papers": 196,
+   "removed_from_previous": 42
+  },
+  "solution_permeance:organic": {
+   "rows": 3209,
+   "papers": 193,
+   "removed_from_previous": 107
+  },
+  "solution_permeance:descriptor_known": {
+   "rows": 3193,
+   "papers": 193,
+   "removed_from_previous": 16
+  },
+  "solution_permeance:positive": {
+   "rows": 3190,
+   "papers": 192,
+   "removed_from_previous": 3
+  },
+  "solution_permeance:membranes": 2396,
+  "solution_permeance:membranes_by_n_solvents": {
+   "1": 2248,
+   "2": 90,
+   "3": 34,
+   "4": 16,
+   "5": 6,
+   "6": 1,
+   "7": 1
+  },
+  "solution_permeance:material_counts": {
+   "Glassy ISA": 1341,
+   "TFC/TFN": 1182,
+   "Commercial polymer": 369,
+   "Ceramic": 126,
+   "PDMS": 114,
+   "2D/framework": 58
+  },
+  "solution_permeance:solvents": 25,
+  "solution_permeance:year_missing": 37,
+  "rejection:long_values": 6483,
+  "rejection:from_slot1": 4435,
+  "rejection:negative": 219,
+  "rejection:above_100": 2,
+  "rejection:modelled_rows": 6216,
+  "rejection:papers": 240,
+  "rejection:solutes": 284
+ },
+ "benchmark": {
+  "Future papers (≥2021) | Global mean": {
+   "R2": -0.038735,
+   "R2_CI": [
+    -0.386809,
+    -6e-05
+   ],
+   "MAE": 0.680273,
+   "MAE_CI": [
+    0.543011,
+    0.840371
+   ],
+   "rho": null,
+   "n_rows": 852,
+   "n_papers": 51
+  },
+  "Future papers (≥2021) | LightGBM": {
+   "R2": -0.014433,
+   "R2_CI": [
+    -0.53686,
+    0.189425
+   ],
+   "MAE": 0.699074,
+   "MAE_CI": [
+    0.57162,
+    0.841456
+   ],
+   "rho": 0.479067,
+   "n_rows": 852,
+   "n_papers": 51
+  },
+  "Future papers (≥2021) | Random forest": {
+   "R2": 0.264129,
+   "R2_CI": [
+    -0.025777,
+    0.373014
+   ],
+   "MAE": 0.599932,
+   "MAE_CI": [
+    0.501011,
+    0.709405
+   ],
+   "rho": 0.605729,
+   "n_rows": 852,
+   "n_papers": 51
+  },
+  "Future papers (≥2021) | Ridge": {
+   "R2": -1.666397,
+   "R2_CI": [
+    -4.766874,
+    -0.483025
+   ],
+   "MAE": 1.047053,
+   "MAE_CI": [
+    0.822841,
+    1.390233
+   ],
+   "rho": 0.287168,
+   "n_rows": 852,
+   "n_papers": 51
+  },
+  "Future papers (≥2021) | Solvent mean": {
+   "R2": -0.156952,
+   "R2_CI": [
+    -0.65399,
+    0.041494
+   ],
+   "MAE": 0.700372,
+   "MAE_CI": [
+    0.554059,
+    0.876616
+   ],
+   "rho": 0.082222,
+   "n_rows": 852,
+   "n_papers": 51
+  },
+  "Random 5-fold | Global mean": {
+   "R2": -0.001401,
+   "R2_CI": [
+    -0.064248,
+    -0.001253
+   ],
+   "MAE": 0.674852,
+   "MAE_CI": [
+    0.604177,
+    0.758441
+   ],
+   "rho": -0.032525,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Random 5-fold | LightGBM": {
+   "R2": 0.81632,
+   "R2_CI": [
+    0.722641,
+    0.874157
+   ],
+   "MAE": 0.242771,
+   "MAE_CI": [
+    0.202449,
+    0.29446
+   ],
+   "rho": 0.887979,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Random 5-fold | Random forest": {
+   "R2": 0.797279,
+   "R2_CI": [
+    0.705804,
+    0.855158
+   ],
+   "MAE": 0.258225,
+   "MAE_CI": [
+    0.213941,
+    0.309
+   ],
+   "rho": 0.881477,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Random 5-fold | Ridge": {
+   "R2": 0.655629,
+   "R2_CI": [
+    0.534324,
+    0.751547
+   ],
+   "MAE": 0.368147,
+   "MAE_CI": [
+    0.321512,
+    0.419181
+   ],
+   "rho": 0.786084,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Random 5-fold | Solvent mean": {
+   "R2": 0.054051,
+   "R2_CI": [
+    -0.028839,
+    0.099028
+   ],
+   "MAE": 0.654846,
+   "MAE_CI": [
+    0.584041,
+    0.739765
+   ],
+   "rho": 0.24147,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen material class | Global mean": {
+   "R2": -0.161091,
+   "R2_CI": [
+    -0.241798,
+    -0.128516
+   ],
+   "MAE": 0.748552,
+   "MAE_CI": [
+    0.668457,
+    0.837277
+   ],
+   "rho": -0.442565,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen material class | LightGBM": {
+   "R2": 0.14298,
+   "R2_CI": [
+    0.005725,
+    0.231296
+   ],
+   "MAE": 0.630903,
+   "MAE_CI": [
+    0.56026,
+    0.712451
+   ],
+   "rho": 0.446258,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen material class | Random forest": {
+   "R2": 0.171072,
+   "R2_CI": [
+    0.034789,
+    0.26755
+   ],
+   "MAE": 0.612725,
+   "MAE_CI": [
+    0.532167,
+    0.704716
+   ],
+   "rho": 0.489923,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen material class | Ridge": {
+   "R2": -1.602789,
+   "R2_CI": [
+    -2.888705,
+    -0.881867
+   ],
+   "MAE": 1.071676,
+   "MAE_CI": [
+    0.889967,
+    1.287878
+   ],
+   "rho": 0.100302,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen material class | Solvent mean": {
+   "R2": -0.259673,
+   "R2_CI": [
+    -0.372131,
+    -0.163212
+   ],
+   "MAE": 0.754638,
+   "MAE_CI": [
+    0.668249,
+    0.84905
+   ],
+   "rho": -0.186859,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen paper | Global mean": {
+   "R2": -0.019364,
+   "R2_CI": [
+    -0.087262,
+    -0.011875
+   ],
+   "MAE": 0.681581,
+   "MAE_CI": [
+    0.60794,
+    0.767823
+   ],
+   "rho": -0.16343,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen paper | LightGBM": {
+   "R2": 0.247095,
+   "R2_CI": [
+    0.029798,
+    0.411556
+   ],
+   "MAE": 0.601764,
+   "MAE_CI": [
+    0.534351,
+    0.670645
+   ],
+   "rho": 0.518642,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen paper | Random forest": {
+   "R2": 0.298918,
+   "R2_CI": [
+    0.124954,
+    0.437389
+   ],
+   "MAE": 0.582191,
+   "MAE_CI": [
+    0.523126,
+    0.644992
+   ],
+   "rho": 0.508042,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen paper | Ridge": {
+   "R2": -1.047146,
+   "R2_CI": [
+    -1.818903,
+    -0.565497
+   ],
+   "MAE": 0.982229,
+   "MAE_CI": [
+    0.879296,
+    1.099654
+   ],
+   "rho": 0.273869,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen paper | Solvent mean": {
+   "R2": -0.035411,
+   "R2_CI": [
+    -0.131323,
+    0.015906
+   ],
+   "MAE": 0.690449,
+   "MAE_CI": [
+    0.611757,
+    0.778233
+   ],
+   "rho": 0.12018,
+   "n_rows": 1934,
+   "n_papers": 121
+  },
+  "Unseen solvent | Global mean": {
+   "R2": -0.018312,
+   "R2_CI": [
+    -0.089603,
+    -0.009439
+   ],
+   "MAE": 0.674916,
+   "MAE_CI": [
+    0.603769,
+    0.750768
+   ],
+   "rho": -0.241643,
+   "n_rows": 1819,
+   "n_papers": 120
+  },
+  "Unseen solvent | LightGBM": {
+   "R2": 0.540761,
+   "R2_CI": [
+    0.3793,
+    0.64916
+   ],
+   "MAE": 0.426908,
+   "MAE_CI": [
+    0.365364,
+    0.495323
+   ],
+   "rho": 0.745837,
+   "n_rows": 1819,
+   "n_papers": 120
+  },
+  "Unseen solvent | Random forest": {
+   "R2": 0.558718,
+   "R2_CI": [
+    0.401232,
+    0.664433
+   ],
+   "MAE": 0.427308,
+   "MAE_CI": [
+    0.364625,
+    0.488288
+   ],
+   "rho": 0.739107,
+   "n_rows": 1819,
+   "n_papers": 120
+  },
+  "Unseen solvent | Ridge": {
+   "R2": 0.105094,
+   "R2_CI": [
+    -0.446949,
+    0.427558
+   ],
+   "MAE": 0.549172,
+   "MAE_CI": [
+    0.464537,
+    0.664514
+   ],
+   "rho": 0.642572,
+   "n_rows": 1819,
+   "n_papers": 120
+  },
+  "Unseen solvent | Solvent mean": {
+   "R2": -0.018312,
+   "R2_CI": [
+    -0.098624,
+    -0.009489
+   ],
+   "MAE": 0.674916,
+   "MAE_CI": [
+    0.603948,
+    0.760916
+   ],
+   "rho": -0.241643,
+   "n_rows": 1819,
+   "n_papers": 120
+  }
+ },
+ "temporal_control": {
+  "Past only (≤2020)": {
+   "R2_mean": -0.266519,
+   "R2_sd": 0.191599
+  },
+  "Same size, mixed years": {
+   "R2_mean": 0.156519,
+   "R2_sd": 0.215531
+  },
+  "paired_dR2": {
+   "mean": 0.423038,
+   "sd": 0.143102,
+   "n_better": 10,
+   "n": 10
+  }
+ },
+ "rejection": {
+  "Random 5-fold | LightGBM": {
+   "R2": 0.701283,
+   "R2_CI": [
+    0.633286,
+    0.753824
+   ],
+   "MAE_pp": 10.1,
+   "n_rows": 6216
+  },
+  "Random 5-fold | Solvent mean": {
+   "R2": 0.041583,
+   "R2_CI": [
+    0.007854,
+    0.067578
+   ],
+   "MAE_pp": 22.3,
+   "n_rows": 6216
+  },
+  "Unseen paper | LightGBM": {
+   "R2": 0.174141,
+   "R2_CI": [
+    0.069066,
+    0.262535
+   ],
+   "MAE_pp": 18.9,
+   "n_rows": 6216
+  },
+  "Unseen paper | Solvent mean": {
+   "R2": -0.024015,
+   "R2_CI": [
+    -0.06504,
+    0.014859
+   ],
+   "MAE_pp": 23.0,
+   "n_rows": 6216
+  }
+ },
+ "variance": {
+  "Pure-solvent permeance | Raw (solvent fixed effects)": {
+   "paper": 0.804413,
+   "paper_CI": [
+    0.691544,
+    0.873142
+   ],
+   "membrane": 0.069843,
+   "residual": 0.125744,
+   "n_cells": 1685,
+   "n_papers": 121
+  },
+  "Solution permeance | Raw (solvent fixed effects)": {
+   "paper": 0.683802,
+   "paper_CI": [
+    0.60055,
+    0.764157
+   ],
+   "membrane": 0.109942,
+   "residual": 0.206256,
+   "n_cells": 2637,
+   "n_papers": 192
+  },
+  "Rejection | Raw (solvent fixed effects)": {
+   "paper": 0.41789,
+   "paper_CI": [
+    0.341308,
+    0.496845
+   ],
+   "membrane": 0.123091,
+   "residual": 0.459019,
+   "n_cells": 4834,
+   "n_papers": 240
+  },
+  "Pure-solvent permeance | Unseen-paper LightGBM residual": {
+   "paper": 0.651175,
+   "paper_CI": [
+    0.513475,
+    0.77649
+   ],
+   "membrane": 0.13916,
+   "residual": 0.209665,
+   "n_cells": 1685,
+   "n_papers": 121
+  },
+  "Rejection | Unseen-paper LightGBM residual": {
+   "paper": 0.336433,
+   "paper_CI": [
+    0.252334,
+    0.419359
+   ],
+   "membrane": 0.126882,
+   "residual": 0.536684,
+   "n_cells": 4834,
+   "n_papers": 240
+  }
+ },
+ "noise": {
+  "Pure-solvent permeance": {
+   "interlab_cells": 19,
+   "interlab_papers": 16,
+   "interlab_sd": 0.46168491263006334,
+   "interlab_sd_lo": 0.2998154494625965,
+   "interlab_sd_hi": 0.5785672244216544,
+   "matched_cells": 14,
+   "matched_interlab_sd": 0.47943500823867824,
+   "within_paper_replicate_groups": 80,
+   "within_paper_sd": 0.06678645110490262,
+   "var_logP": 0.8061987348036489,
+   "sd_logP": 0.8978857025276931,
+   "mae_floor_interlab": 0.3683712637431474,
+   "mae_floor_within": 0.053287878207417275,
+   "r2_ceiling_unseen_paper": 0.735607426124102,
+   "r2_ceiling_unseen_paper_lo": 0.5847921626216599,
+   "r2_ceiling_unseen_paper_hi": 0.8885023011623164
+  },
+  "Solution permeance": {
+   "interlab_cells": 21,
+   "interlab_papers": 32,
+   "interlab_sd": 0.4163143159370197,
+   "interlab_sd_lo": 0.3027844558378404,
+   "interlab_sd_hi": 0.523601925587382,
+   "matched_cells": 6,
+   "matched_interlab_sd": 0.37848047109102206,
+   "within_paper_replicate_groups": 234,
+   "within_paper_sd": 0.2977353615629039,
+   "var_logP": 0.6699166289565623,
+   "sd_logP": 0.8184843486326189,
+   "mae_floor_interlab": 0.3321707651273543,
+   "mae_floor_within": 0.23755844819609992,
+   "r2_ceiling_unseen_paper": 0.7412848074482614,
+   "r2_ceiling_unseen_paper_lo": 0.5907565738354124,
+   "r2_ceiling_unseen_paper_hi": 0.8631494984087615
+  }
+ },
+ "interlab_sensitivity": {
+  "primary": {
+   "sd": 0.461685,
+   "cells": 19,
+   "df": 22,
+   "mae_floor": 0.368371,
+   "r2_ceiling": 0.735607
+  },
+  "merged_refs_no_identical": {
+   "sd": 0.525209,
+   "cells": 14,
+   "df": 17,
+   "mae_floor": 0.419057,
+   "r2_ceiling": 0.657845
+  },
+  "polymeric_only": {
+   "sd": 0.581246,
+   "cells": 9,
+   "df": 12,
+   "mae_floor": 0.463768,
+   "r2_ceiling": 0.580938
+  },
+  "n_identical_pairs": 5,
+  "n_duplicate_reference_records": 0
+ },
+ "fewshot_sp": {
+  "Additive solvent offset | k=1": {
+   "MAE": 0.504086,
+   "CI": [
+    0.425581,
+    0.591754
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Additive solvent offset | k=2": {
+   "MAE": 0.440076,
+   "CI": [
+    0.370481,
+    0.519199
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Additive solvent offset | k=3": {
+   "MAE": 0.415872,
+   "CI": [
+    0.346996,
+    0.495166
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Bayesian level shift | k=0": {
+   "MAE": 0.676539,
+   "CI": [
+    0.492275,
+    0.82443
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Bayesian level shift | k=1": {
+   "MAE": 0.449414,
+   "CI": [
+    0.368186,
+    0.536352
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Bayesian level shift | k=2": {
+   "MAE": 0.399159,
+   "CI": [
+    0.317367,
+    0.493362
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Bayesian level shift | k=3": {
+   "MAE": 0.377062,
+   "CI": [
+    0.289317,
+    0.473368
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "GBM + mean shift | k=1": {
+   "MAE": 0.455725,
+   "CI": [
+    0.342512,
+    0.579394
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "GBM + mean shift | k=2": {
+   "MAE": 0.399988,
+   "CI": [
+    0.299735,
+    0.509308
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "GBM + mean shift | k=3": {
+   "MAE": 0.378181,
+   "CI": [
+    0.281762,
+    0.48263
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT | k=0": {
+   "MAE": 0.654905,
+   "CI": [
+    0.470449,
+    0.811885
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT | k=1": {
+   "MAE": 0.384031,
+   "CI": [
+    0.307331,
+    0.461875
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT | k=2": {
+   "MAE": 0.343087,
+   "CI": [
+    0.274203,
+    0.415542
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT | k=3": {
+   "MAE": 0.32882,
+   "CI": [
+    0.262664,
+    0.398985
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT + zero-shot prior shrinkage | k=1": {
+   "MAE": 0.39618,
+   "CI": [
+    0.313731,
+    0.463331
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT + zero-shot prior shrinkage | k=2": {
+   "MAE": 0.353186,
+   "CI": [
+    0.279988,
+    0.420349
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT + zero-shot prior shrinkage | k=3": {
+   "MAE": 0.336148,
+   "CI": [
+    0.267664,
+    0.400447
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT − auxiliary data | k=0": {
+   "MAE": 0.655225,
+   "CI": [
+    0.466479,
+    0.811952
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT − auxiliary data | k=1": {
+   "MAE": 0.399396,
+   "CI": [
+    0.310695,
+    0.487576
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT − auxiliary data | k=2": {
+   "MAE": 0.362341,
+   "CI": [
+    0.281377,
+    0.439803
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT − auxiliary data | k=3": {
+   "MAE": 0.350119,
+   "CI": [
+    0.272481,
+    0.424208
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT − pairwise learner | k=1": {
+   "MAE": 0.43236,
+   "CI": [
+    0.344273,
+    0.519978
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT − pairwise learner | k=2": {
+   "MAE": 0.376441,
+   "CI": [
+    0.297547,
+    0.455444
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "HiFT − pairwise learner | k=3": {
+   "MAE": 0.3544,
+   "CI": [
+    0.279337,
+    0.429947
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Linear random-coefficient | k=0": {
+   "MAE": 0.669438,
+   "CI": [
+    0.496567,
+    0.812822
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Linear random-coefficient | k=1": {
+   "MAE": 0.47797,
+   "CI": [
+    0.381593,
+    0.55978
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Linear random-coefficient | k=2": {
+   "MAE": 0.427583,
+   "CI": [
+    0.336467,
+    0.529433
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Linear random-coefficient | k=3": {
+   "MAE": 0.398641,
+   "CI": [
+    0.30366,
+    0.511948
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Pairwise transfer GBM | k=1": {
+   "MAE": 0.388361,
+   "CI": [
+    0.307684,
+    0.455291
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Pairwise transfer GBM | k=2": {
+   "MAE": 0.364424,
+   "CI": [
+    0.284733,
+    0.430173
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Pairwise transfer GBM | k=3": {
+   "MAE": 0.356522,
+   "CI": [
+    0.277148,
+    0.420947
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Per-membrane η fit | k=1": {
+   "MAE": 0.460702,
+   "CI": [
+    0.350327,
+    0.557286
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Per-membrane η fit | k=2": {
+   "MAE": 0.716598,
+   "CI": [
+    0.495888,
+    0.917524
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Per-membrane η fit | k=3": {
+   "MAE": 0.573451,
+   "CI": [
+    0.399016,
+    0.732642
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Viscosity scaling | k=1": {
+   "MAE": 0.460702,
+   "CI": [
+    0.350327,
+    0.557286
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Viscosity scaling | k=2": {
+   "MAE": 0.405688,
+   "CI": [
+    0.308905,
+    0.490409
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Viscosity scaling | k=3": {
+   "MAE": 0.380299,
+   "CI": [
+    0.290565,
+    0.462786
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Vm/η scaling | k=1": {
+   "MAE": 0.561862,
+   "CI": [
+    0.431323,
+    0.672356
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Vm/η scaling | k=2": {
+   "MAE": 0.486328,
+   "CI": [
+    0.375854,
+    0.584228
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Vm/η scaling | k=3": {
+   "MAE": 0.454736,
+   "CI": [
+    0.349566,
+    0.547251
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Zero-shot GBM | k=0": {
+   "MAE": 0.676647,
+   "CI": [
+    0.494967,
+    0.825799
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Zero-shot GBM | k=1": {
+   "MAE": 0.676647,
+   "CI": [
+    0.494967,
+    0.825799
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Zero-shot GBM | k=2": {
+   "MAE": 0.676647,
+   "CI": [
+    0.494967,
+    0.825799
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  },
+  "Zero-shot GBM | k=3": {
+   "MAE": 0.676647,
+   "CI": [
+    0.494967,
+    0.825799
+   ],
+   "n_cells": 288,
+   "n_membranes": 47,
+   "n_papers": 21
+  }
+ },
+ "fewshot_sp_paired_vs_HiFT": {
+  "Pairwise transfer GBM | k=1": {
+   "dMAE": 0.00433,
+   "CI": [
+    -0.027397,
+    0.036947
+   ],
+   "frac_HiFT_better": 0.47
+  },
+  "Pairwise transfer GBM | k=2": {
+   "dMAE": 0.021337,
+   "CI": [
+    -0.014688,
+    0.060499
+   ],
+   "frac_HiFT_better": 0.52
+  },
+  "Pairwise transfer GBM | k=3": {
+   "dMAE": 0.027702,
+   "CI": [
+    -0.010144,
+    0.070434
+   ],
+   "frac_HiFT_better": 0.55
+  },
+  "GBM + mean shift | k=1": {
+   "dMAE": 0.071694,
+   "CI": [
+    -0.010335,
+    0.139337
+   ],
+   "frac_HiFT_better": 0.71
+  },
+  "GBM + mean shift | k=2": {
+   "dMAE": 0.056901,
+   "CI": [
+    -0.009804,
+    0.113313
+   ],
+   "frac_HiFT_better": 0.66
+  },
+  "GBM + mean shift | k=3": {
+   "dMAE": 0.04936,
+   "CI": [
+    -0.012871,
+    0.101128
+   ],
+   "frac_HiFT_better": 0.64
+  },
+  "Bayesian level shift | k=1": {
+   "dMAE": 0.065383,
+   "CI": [
+    0.035946,
+    0.091301
+   ],
+   "frac_HiFT_better": 0.63
+  },
+  "Bayesian level shift | k=2": {
+   "dMAE": 0.056072,
+   "CI": [
+    0.014527,
+    0.092805
+   ],
+   "frac_HiFT_better": 0.63
+  },
+  "Bayesian level shift | k=3": {
+   "dMAE": 0.048241,
+   "CI": [
+    0.00018,
+    0.089562
+   ],
+   "frac_HiFT_better": 0.62
+  },
+  "Viscosity scaling | k=1": {
+   "dMAE": 0.076671,
+   "CI": [
+    0.021124,
+    0.136175
+   ],
+   "frac_HiFT_better": 0.67
+  },
+  "Viscosity scaling | k=2": {
+   "dMAE": 0.062601,
+   "CI": [
+    0.011453,
+    0.117898
+   ],
+   "frac_HiFT_better": 0.62
+  },
+  "Viscosity scaling | k=3": {
+   "dMAE": 0.051478,
+   "CI": [
+    0.003675,
+    0.10448
+   ],
+   "frac_HiFT_better": 0.58
+  },
+  "Vm/η scaling | k=1": {
+   "dMAE": 0.177831,
+   "CI": [
+    0.088562,
+    0.27109
+   ],
+   "frac_HiFT_better": 0.77
+  },
+  "Vm/η scaling | k=2": {
+   "dMAE": 0.143241,
+   "CI": [
+    0.0665,
+    0.228481
+   ],
+   "frac_HiFT_better": 0.73
+  },
+  "Vm/η scaling | k=3": {
+   "dMAE": 0.125916,
+   "CI": [
+    0.052838,
+    0.205902
+   ],
+   "frac_HiFT_better": 0.67
+  },
+  "Additive solvent offset | k=1": {
+   "dMAE": 0.120055,
+   "CI": [
+    0.09384,
+    0.144583
+   ],
+   "frac_HiFT_better": 0.84
+  },
+  "Additive solvent offset | k=2": {
+   "dMAE": 0.096989,
+   "CI": [
+    0.073718,
+    0.119405
+   ],
+   "frac_HiFT_better": 0.75
+  },
+  "Additive solvent offset | k=3": {
+   "dMAE": 0.087052,
+   "CI": [
+    0.067366,
+    0.105832
+   ],
+   "frac_HiFT_better": 0.7
+  },
+  "Zero-shot GBM | k=1": {
+   "dMAE": 0.292616,
+   "CI": [
+    0.124028,
+    0.459458
+   ],
+   "frac_HiFT_better": 0.69
+  },
+  "Zero-shot GBM | k=2": {
+   "dMAE": 0.33356,
+   "CI": [
+    0.163951,
+    0.500626
+   ],
+   "frac_HiFT_better": 0.73
+  },
+  "Zero-shot GBM | k=3": {
+   "dMAE": 0.347827,
+   "CI": [
+    0.175485,
+    0.514618
+   ],
+   "frac_HiFT_better": 0.74
+  },
+  "HiFT − pairwise learner | k=1": {
+   "dMAE": 0.048329,
+   "CI": [
+    0.033172,
+    0.062237
+   ],
+   "frac_HiFT_better": 0.76
+  },
+  "HiFT − pairwise learner | k=2": {
+   "dMAE": 0.033354,
+   "CI": [
+    0.019346,
+    0.044103
+   ],
+   "frac_HiFT_better": 0.69
+  },
+  "HiFT − pairwise learner | k=3": {
+   "dMAE": 0.025579,
+   "CI": [
+    0.012369,
+    0.035953
+   ],
+   "frac_HiFT_better": 0.62
+  },
+  "HiFT − auxiliary data | k=1": {
+   "dMAE": 0.015365,
+   "CI": [
+    -0.013609,
+    0.035795
+   ],
+   "frac_HiFT_better": 0.53
+  },
+  "HiFT − auxiliary data | k=2": {
+   "dMAE": 0.019254,
+   "CI": [
+    -0.010786,
+    0.041566
+   ],
+   "frac_HiFT_better": 0.53
+  },
+  "HiFT − auxiliary data | k=3": {
+   "dMAE": 0.021298,
+   "CI": [
+    -0.010043,
+    0.04495
+   ],
+   "frac_HiFT_better": 0.52
+  },
+  "HiFT + zero-shot prior shrinkage | k=1": {
+   "dMAE": 0.012149,
+   "CI": [
+    -0.018613,
+    0.043263
+   ],
+   "frac_HiFT_better": 0.46
+  },
+  "HiFT + zero-shot prior shrinkage | k=2": {
+   "dMAE": 0.010098,
+   "CI": [
+    -0.006448,
+    0.028329
+   ],
+   "frac_HiFT_better": 0.48
+  },
+  "HiFT + zero-shot prior shrinkage | k=3": {
+   "dMAE": 0.007328,
+   "CI": [
+    -0.004096,
+    0.020138
+   ],
+   "frac_HiFT_better": 0.5
+  },
+  "Linear random-coefficient | k=1": {
+   "dMAE": 0.093939,
+   "CI": [
+    0.045595,
+    0.128852
+   ],
+   "frac_HiFT_better": 0.64
+  },
+  "Linear random-coefficient | k=2": {
+   "dMAE": 0.084496,
+   "CI": [
+    0.030557,
+    0.127146
+   ],
+   "frac_HiFT_better": 0.64
+  },
+  "Linear random-coefficient | k=3": {
+   "dMAE": 0.06982,
+   "CI": [
+    0.008828,
+    0.123365
+   ],
+   "frac_HiFT_better": 0.61
+  }
+ },
+ "fewshot_sp_coverage": {
+  "k=0 | level=0.5": {
+   "coverage": 0.523148,
+   "CI": [
+    0.371065,
+    0.700859
+   ],
+   "half_width_log": 0.598327,
+   "fold": 4.0
+  },
+  "k=0 | level=0.6": {
+   "coverage": 0.614583,
+   "CI": [
+    0.475997,
+    0.768956
+   ],
+   "half_width_log": 0.746586,
+   "fold": 5.6
+  },
+  "k=0 | level=0.7": {
+   "coverage": 0.736111,
+   "CI": [
+    0.619168,
+    0.853431
+   ],
+   "half_width_log": 0.9194,
+   "fold": 8.3
+  },
+  "k=0 | level=0.8": {
+   "coverage": 0.832176,
+   "CI": [
+    0.734966,
+    0.917357
+   ],
+   "half_width_log": 1.13684,
+   "fold": 13.7
+  },
+  "k=0 | level=0.9": {
+   "coverage": 0.902778,
+   "CI": [
+    0.821952,
+    0.965474
+   ],
+   "half_width_log": 1.459118,
+   "fold": 28.8
+  },
+  "k=0 | level=0.95": {
+   "coverage": 0.962963,
+   "CI": [
+    0.928881,
+    0.98953
+   ],
+   "half_width_log": 1.738647,
+   "fold": 54.8
+  },
+  "k=1 | level=0.5": {
+   "coverage": 0.661124,
+   "CI": [
+    0.576358,
+    0.767859
+   ],
+   "half_width_log": 0.418611,
+   "fold": 2.6
+  },
+  "k=1 | level=0.6": {
+   "coverage": 0.73753,
+   "CI": [
+    0.653223,
+    0.840095
+   ],
+   "half_width_log": 0.522338,
+   "fold": 3.3
+  },
+  "k=1 | level=0.7": {
+   "coverage": 0.799683,
+   "CI": [
+    0.719966,
+    0.896615
+   ],
+   "half_width_log": 0.643245,
+   "fold": 4.4
+  },
+  "k=1 | level=0.8": {
+   "coverage": 0.858472,
+   "CI": [
+    0.793725,
+    0.938098
+   ],
+   "half_width_log": 0.795373,
+   "fold": 6.2
+  },
+  "k=1 | level=0.9": {
+   "coverage": 0.917854,
+   "CI": [
+    0.868396,
+    0.97413
+   ],
+   "half_width_log": 1.020851,
+   "fold": 10.5
+  },
+  "k=1 | level=0.95": {
+   "coverage": 0.952296,
+   "CI": [
+    0.911387,
+    0.993528
+   ],
+   "half_width_log": 1.216419,
+   "fold": 16.5
+  },
+  "k=2 | level=0.5": {
+   "coverage": 0.6379,
+   "CI": [
+    0.544769,
+    0.741542
+   ],
+   "half_width_log": 0.362528,
+   "fold": 2.3
+  },
+  "k=2 | level=0.6": {
+   "coverage": 0.720789,
+   "CI": [
+    0.633258,
+    0.818669
+   ],
+   "half_width_log": 0.452358,
+   "fold": 2.8
+  },
+  "k=2 | level=0.7": {
+   "coverage": 0.788405,
+   "CI": [
+    0.709212,
+    0.8755
+   ],
+   "half_width_log": 0.557066,
+   "fold": 3.6
+  },
+  "k=2 | level=0.8": {
+   "coverage": 0.851127,
+   "CI": [
+    0.790515,
+    0.922054
+   ],
+   "half_width_log": 0.688814,
+   "fold": 4.9
+  },
+  "k=2 | level=0.9": {
+   "coverage": 0.918446,
+   "CI": [
+    0.87733,
+    0.96695
+   ],
+   "half_width_log": 0.884083,
+   "fold": 7.7
+  },
+  "k=2 | level=0.95": {
+   "coverage": 0.951364,
+   "CI": [
+    0.919254,
+    0.985254
+   ],
+   "half_width_log": 1.053449,
+   "fold": 11.3
+  },
+  "k=3 | level=0.5": {
+   "coverage": 0.629857,
+   "CI": [
+    0.532456,
+    0.744179
+   ],
+   "half_width_log": 0.341794,
+   "fold": 2.2
+  },
+  "k=3 | level=0.6": {
+   "coverage": 0.707396,
+   "CI": [
+    0.61506,
+    0.816378
+   ],
+   "half_width_log": 0.426487,
+   "fold": 2.7
+  },
+  "k=3 | level=0.7": {
+   "coverage": 0.775392,
+   "CI": [
+    0.693539,
+    0.873729
+   ],
+   "half_width_log": 0.525207,
+   "fold": 3.4
+  },
+  "k=3 | level=0.8": {
+   "coverage": 0.845603,
+   "CI": [
+    0.783034,
+    0.919512
+   ],
+   "half_width_log": 0.64942,
+   "fold": 4.5
+  },
+  "k=3 | level=0.9": {
+   "coverage": 0.90985,
+   "CI": [
+    0.865923,
+    0.963723
+   ],
+   "half_width_log": 0.833521,
+   "fold": 6.8
+  },
+  "k=3 | level=0.95": {
+   "coverage": 0.94683,
+   "CI": [
+    0.915666,
+    0.983078
+   ],
+   "half_width_log": 0.993202,
+   "fold": 9.8
+  }
+ },
+ "fewshot_pm": {
+  "Additive solvent offset | k=1": {
+   "MAE": 0.501517,
+   "CI": [
+    0.360601,
+    0.689672
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Additive solvent offset | k=2": {
+   "MAE": 0.445402,
+   "CI": [
+    0.315475,
+    0.62264
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Additive solvent offset | k=3": {
+   "MAE": 0.349929,
+   "CI": [
+    0.271379,
+    0.436517
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "Bayesian level shift | k=0": {
+   "MAE": 0.49373,
+   "CI": [
+    0.396406,
+    0.612276
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Bayesian level shift | k=1": {
+   "MAE": 0.407373,
+   "CI": [
+    0.311325,
+    0.508232
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Bayesian level shift | k=2": {
+   "MAE": 0.378073,
+   "CI": [
+    0.280112,
+    0.478438
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Bayesian level shift | k=3": {
+   "MAE": 0.341466,
+   "CI": [
+    0.256196,
+    0.421392
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "GBM + mean shift | k=1": {
+   "MAE": 0.437509,
+   "CI": [
+    0.319157,
+    0.556492
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "GBM + mean shift | k=2": {
+   "MAE": 0.38228,
+   "CI": [
+    0.278467,
+    0.490777
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "GBM + mean shift | k=3": {
+   "MAE": 0.344451,
+   "CI": [
+    0.258522,
+    0.426826
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "HiFT | k=0": {
+   "MAE": 0.509506,
+   "CI": [
+    0.393813,
+    0.64861
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "HiFT | k=1": {
+   "MAE": 0.429212,
+   "CI": [
+    0.300557,
+    0.596366
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "HiFT | k=2": {
+   "MAE": 0.395214,
+   "CI": [
+    0.27496,
+    0.556183
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "HiFT | k=3": {
+   "MAE": 0.310543,
+   "CI": [
+    0.241868,
+    0.385478
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "HiFT + zero-shot prior shrinkage | k=1": {
+   "MAE": 0.429368,
+   "CI": [
+    0.312115,
+    0.580882
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "HiFT + zero-shot prior shrinkage | k=2": {
+   "MAE": 0.403985,
+   "CI": [
+    0.28862,
+    0.558547
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "HiFT + zero-shot prior shrinkage | k=3": {
+   "MAE": 0.315639,
+   "CI": [
+    0.250571,
+    0.387655
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "HiFT − auxiliary data | k=0": {
+   "MAE": 0.51097,
+   "CI": [
+    0.395287,
+    0.645279
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "HiFT − auxiliary data | k=1": {
+   "MAE": 0.437981,
+   "CI": [
+    0.306707,
+    0.606024
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "HiFT − auxiliary data | k=2": {
+   "MAE": 0.406215,
+   "CI": [
+    0.282325,
+    0.566828
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "HiFT − auxiliary data | k=3": {
+   "MAE": 0.315248,
+   "CI": [
+    0.240619,
+    0.392919
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "HiFT − pairwise learner | k=1": {
+   "MAE": 0.484107,
+   "CI": [
+    0.344685,
+    0.663987
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "HiFT − pairwise learner | k=2": {
+   "MAE": 0.425995,
+   "CI": [
+    0.298906,
+    0.592323
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "HiFT − pairwise learner | k=3": {
+   "MAE": 0.340061,
+   "CI": [
+    0.275305,
+    0.409313
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "Linear random-coefficient | k=0": {
+   "MAE": 0.503498,
+   "CI": [
+    0.40394,
+    0.618849
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Linear random-coefficient | k=1": {
+   "MAE": 0.433572,
+   "CI": [
+    0.340148,
+    0.537423
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Linear random-coefficient | k=2": {
+   "MAE": 0.411115,
+   "CI": [
+    0.310554,
+    0.531787
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Linear random-coefficient | k=3": {
+   "MAE": 0.331307,
+   "CI": [
+    0.257081,
+    0.409717
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "Pairwise transfer GBM | k=1": {
+   "MAE": 0.433982,
+   "CI": [
+    0.313903,
+    0.585402
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Pairwise transfer GBM | k=2": {
+   "MAE": 0.415267,
+   "CI": [
+    0.295291,
+    0.568136
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Pairwise transfer GBM | k=3": {
+   "MAE": 0.331196,
+   "CI": [
+    0.256713,
+    0.409393
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "Per-membrane η fit | k=1": {
+   "MAE": 0.49176,
+   "CI": [
+    0.333799,
+    0.681667
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Per-membrane η fit | k=2": {
+   "MAE": 0.867097,
+   "CI": [
+    0.489748,
+    1.386492
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Per-membrane η fit | k=3": {
+   "MAE": 0.406857,
+   "CI": [
+    0.307168,
+    0.535524
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "Viscosity scaling | k=1": {
+   "MAE": 0.49176,
+   "CI": [
+    0.333799,
+    0.681667
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Viscosity scaling | k=2": {
+   "MAE": 0.444554,
+   "CI": [
+    0.29473,
+    0.629836
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Viscosity scaling | k=3": {
+   "MAE": 0.358132,
+   "CI": [
+    0.252838,
+    0.469911
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "Vm/η scaling | k=1": {
+   "MAE": 0.556902,
+   "CI": [
+    0.404125,
+    0.742485
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Vm/η scaling | k=2": {
+   "MAE": 0.502644,
+   "CI": [
+    0.359041,
+    0.680763
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Vm/η scaling | k=3": {
+   "MAE": 0.407735,
+   "CI": [
+    0.299056,
+    0.529152
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  },
+  "Zero-shot GBM | k=0": {
+   "MAE": 0.490821,
+   "CI": [
+    0.392204,
+    0.614205
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Zero-shot GBM | k=1": {
+   "MAE": 0.490821,
+   "CI": [
+    0.392204,
+    0.614205
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Zero-shot GBM | k=2": {
+   "MAE": 0.490821,
+   "CI": [
+    0.392204,
+    0.614205
+   ],
+   "n_cells": 209,
+   "n_membranes": 58,
+   "n_papers": 26
+  },
+  "Zero-shot GBM | k=3": {
+   "MAE": 0.452062,
+   "CI": [
+    0.344106,
+    0.576273
+   ],
+   "n_cells": 107,
+   "n_membranes": 24,
+   "n_papers": 15
+  }
+ },
+ "fewshot_pm_paired_vs_HiFT": {
+  "Pairwise transfer GBM | k=1": {
+   "dMAE": 0.00477,
+   "CI": [
+    -0.030229,
+    0.052637
+   ],
+   "frac_HiFT_better": 0.45
+  },
+  "Pairwise transfer GBM | k=2": {
+   "dMAE": 0.020053,
+   "CI": [
+    -0.013026,
+    0.064358
+   ],
+   "frac_HiFT_better": 0.49
+  },
+  "Pairwise transfer GBM | k=3": {
+   "dMAE": 0.020653,
+   "CI": [
+    -0.007381,
+    0.053583
+   ],
+   "frac_HiFT_better": 0.53
+  },
+  "GBM + mean shift | k=1": {
+   "dMAE": 0.008297,
+   "CI": [
+    -0.068507,
+    0.073812
+   ],
+   "frac_HiFT_better": 0.57
+  },
+  "GBM + mean shift | k=2": {
+   "dMAE": -0.012934,
+   "CI": [
+    -0.090756,
+    0.049098
+   ],
+   "frac_HiFT_better": 0.53
+  },
+  "GBM + mean shift | k=3": {
+   "dMAE": 0.033908,
+   "CI": [
+    -0.010779,
+    0.064386
+   ],
+   "frac_HiFT_better": 0.59
+  },
+  "Bayesian level shift | k=1": {
+   "dMAE": -0.021839,
+   "CI": [
+    -0.105515,
+    0.047048
+   ],
+   "frac_HiFT_better": 0.48
+  },
+  "Bayesian level shift | k=2": {
+   "dMAE": -0.01714,
+   "CI": [
+    -0.096113,
+    0.045616
+   ],
+   "frac_HiFT_better": 0.51
+  },
+  "Bayesian level shift | k=3": {
+   "dMAE": 0.030923,
+   "CI": [
+    -0.012502,
+    0.060311
+   ],
+   "frac_HiFT_better": 0.59
+  },
+  "Viscosity scaling | k=1": {
+   "dMAE": 0.062548,
+   "CI": [
+    0.005465,
+    0.122999
+   ],
+   "frac_HiFT_better": 0.64
+  },
+  "Viscosity scaling | k=2": {
+   "dMAE": 0.04934,
+   "CI": [
+    -0.005761,
+    0.108204
+   ],
+   "frac_HiFT_better": 0.63
+  },
+  "Viscosity scaling | k=3": {
+   "dMAE": 0.047589,
+   "CI": [
+    -0.00888,
+    0.106741
+   ],
+   "frac_HiFT_better": 0.64
+  },
+  "Vm/η scaling | k=1": {
+   "dMAE": 0.12769,
+   "CI": [
+    0.063177,
+    0.20418
+   ],
+   "frac_HiFT_better": 0.7
+  },
+  "Vm/η scaling | k=2": {
+   "dMAE": 0.10743,
+   "CI": [
+    0.047116,
+    0.177405
+   ],
+   "frac_HiFT_better": 0.66
+  },
+  "Vm/η scaling | k=3": {
+   "dMAE": 0.097192,
+   "CI": [
+    0.03335,
+    0.170438
+   ],
+   "frac_HiFT_better": 0.66
+  },
+  "Additive solvent offset | k=1": {
+   "dMAE": 0.072305,
+   "CI": [
+    0.041108,
+    0.104064
+   ],
+   "frac_HiFT_better": 0.69
+  },
+  "Additive solvent offset | k=2": {
+   "dMAE": 0.050188,
+   "CI": [
+    0.020337,
+    0.080461
+   ],
+   "frac_HiFT_better": 0.64
+  },
+  "Additive solvent offset | k=3": {
+   "dMAE": 0.039386,
+   "CI": [
+    0.012711,
+    0.067558
+   ],
+   "frac_HiFT_better": 0.64
+  },
+  "Zero-shot GBM | k=1": {
+   "dMAE": 0.061609,
+   "CI": [
+    -0.084659,
+    0.207003
+   ],
+   "frac_HiFT_better": 0.56
+  },
+  "Zero-shot GBM | k=2": {
+   "dMAE": 0.095607,
+   "CI": [
+    -0.046038,
+    0.238299
+   ],
+   "frac_HiFT_better": 0.62
+  },
+  "Zero-shot GBM | k=3": {
+   "dMAE": 0.141519,
+   "CI": [
+    0.053232,
+    0.23958
+   ],
+   "frac_HiFT_better": 0.66
+  },
+  "HiFT − pairwise learner | k=1": {
+   "dMAE": 0.054895,
+   "CI": [
+    0.028507,
+    0.075868
+   ],
+   "frac_HiFT_better": 0.72
+  },
+  "HiFT − pairwise learner | k=2": {
+   "dMAE": 0.030782,
+   "CI": [
+    0.007969,
+    0.048555
+   ],
+   "frac_HiFT_better": 0.65
+  },
+  "HiFT − pairwise learner | k=3": {
+   "dMAE": 0.029518,
+   "CI": [
+    0.013799,
+    0.043114
+   ],
+   "frac_HiFT_better": 0.61
+  },
+  "HiFT − auxiliary data | k=1": {
+   "dMAE": 0.008768,
+   "CI": [
+    -0.012423,
+    0.03345
+   ],
+   "frac_HiFT_better": 0.52
+  },
+  "HiFT − auxiliary data | k=2": {
+   "dMAE": 0.011002,
+   "CI": [
+    -0.010581,
+    0.035664
+   ],
+   "frac_HiFT_better": 0.52
+  },
+  "HiFT − auxiliary data | k=3": {
+   "dMAE": 0.004705,
+   "CI": [
+    -0.02566,
+    0.031037
+   ],
+   "frac_HiFT_better": 0.51
+  },
+  "HiFT + zero-shot prior shrinkage | k=1": {
+   "dMAE": 0.000156,
+   "CI": [
+    -0.030667,
+    0.038569
+   ],
+   "frac_HiFT_better": 0.42
+  },
+  "HiFT + zero-shot prior shrinkage | k=2": {
+   "dMAE": 0.008772,
+   "CI": [
+    -0.008911,
+    0.031991
+   ],
+   "frac_HiFT_better": 0.48
+  },
+  "HiFT + zero-shot prior shrinkage | k=3": {
+   "dMAE": 0.005096,
+   "CI": [
+    -0.004565,
+    0.014548
+   ],
+   "frac_HiFT_better": 0.53
+  },
+  "Linear random-coefficient | k=1": {
+   "dMAE": 0.00436,
+   "CI": [
+    -0.067531,
+    0.063048
+   ],
+   "frac_HiFT_better": 0.54
+  },
+  "Linear random-coefficient | k=2": {
+   "dMAE": 0.015901,
+   "CI": [
+    -0.03269,
+    0.058909
+   ],
+   "frac_HiFT_better": 0.57
+  },
+  "Linear random-coefficient | k=3": {
+   "dMAE": 0.020764,
+   "CI": [
+    -0.018412,
+    0.061117
+   ],
+   "frac_HiFT_better": 0.6
+  }
+ },
+ "fewshot_pm_coverage": {
+  "k=0 | level=0.5": {
+   "coverage": 0.706539,
+   "CI": [
+    0.581213,
+    0.814474
+   ],
+   "half_width_log": 0.585946,
+   "fold": 3.9
+  },
+  "k=0 | level=0.6": {
+   "coverage": 0.76555,
+   "CI": [
+    0.64236,
+    0.870193
+   ],
+   "half_width_log": 0.731138,
+   "fold": 5.4
+  },
+  "k=0 | level=0.7": {
+   "coverage": 0.837321,
+   "CI": [
+    0.729167,
+    0.932007
+   ],
+   "half_width_log": 0.900376,
+   "fold": 8.0
+  },
+  "k=0 | level=0.8": {
+   "coverage": 0.883573,
+   "CI": [
+    0.79101,
+    0.960548
+   ],
+   "half_width_log": 1.113316,
+   "fold": 13.0
+  },
+  "k=0 | level=0.9": {
+   "coverage": 0.936204,
+   "CI": [
+    0.878784,
+    0.982686
+   ],
+   "half_width_log": 1.428926,
+   "fold": 26.8
+  },
+  "k=0 | level=0.95": {
+   "coverage": 0.971292,
+   "CI": [
+    0.931663,
+    0.996633
+   ],
+   "half_width_log": 1.70267,
+   "fold": 50.4
+  },
+  "k=1 | level=0.5": {
+   "coverage": 0.697279,
+   "CI": [
+    0.58792,
+    0.798134
+   ],
+   "half_width_log": 0.481272,
+   "fold": 3.0
+  },
+  "k=1 | level=0.6": {
+   "coverage": 0.767007,
+   "CI": [
+    0.658324,
+    0.861555
+   ],
+   "half_width_log": 0.600527,
+   "fold": 4.0
+  },
+  "k=1 | level=0.7": {
+   "coverage": 0.822562,
+   "CI": [
+    0.72332,
+    0.908393
+   ],
+   "half_width_log": 0.739532,
+   "fold": 5.5
+  },
+  "k=1 | level=0.8": {
+   "coverage": 0.870181,
+   "CI": [
+    0.779626,
+    0.945412
+   ],
+   "half_width_log": 0.914433,
+   "fold": 8.2
+  },
+  "k=1 | level=0.9": {
+   "coverage": 0.925737,
+   "CI": [
+    0.845356,
+    0.981342
+   ],
+   "half_width_log": 1.173662,
+   "fold": 14.9
+  },
+  "k=1 | level=0.95": {
+   "coverage": 0.95068,
+   "CI": [
+    0.878624,
+    0.993552
+   ],
+   "half_width_log": 1.398504,
+   "fold": 25.0
+  },
+  "k=2 | level=0.5": {
+   "coverage": 0.655629,
+   "CI": [
+    0.523208,
+    0.779079
+   ],
+   "half_width_log": 0.416794,
+   "fold": 2.6
+  },
+  "k=2 | level=0.6": {
+   "coverage": 0.743929,
+   "CI": [
+    0.6128,
+    0.862996
+   ],
+   "half_width_log": 0.520071,
+   "fold": 3.3
+  },
+  "k=2 | level=0.7": {
+   "coverage": 0.818985,
+   "CI": [
+    0.70773,
+    0.917625
+   ],
+   "half_width_log": 0.640454,
+   "fold": 4.4
+  },
+  "k=2 | level=0.8": {
+   "coverage": 0.87362,
+   "CI": [
+    0.789141,
+    0.947768
+   ],
+   "half_width_log": 0.791922,
+   "fold": 6.2
+  },
+  "k=2 | level=0.9": {
+   "coverage": 0.93543,
+   "CI": [
+    0.879571,
+    0.979556
+   ],
+   "half_width_log": 1.016421,
+   "fold": 10.4
+  },
+  "k=2 | level=0.95": {
+   "coverage": 0.966887,
+   "CI": [
+    0.926619,
+    0.993744
+   ],
+   "half_width_log": 1.21114,
+   "fold": 16.3
+  },
+  "k=3 | level=0.5": {
+   "coverage": 0.606157,
+   "CI": [
+    0.439675,
+    0.796524
+   ],
+   "half_width_log": 0.370489,
+   "fold": 2.3
+  },
+  "k=3 | level=0.6": {
+   "coverage": 0.695329,
+   "CI": [
+    0.507801,
+    0.884151
+   ],
+   "half_width_log": 0.462293,
+   "fold": 2.9
+  },
+  "k=3 | level=0.7": {
+   "coverage": 0.781316,
+   "CI": [
+    0.633769,
+    0.936052
+   ],
+   "half_width_log": 0.569301,
+   "fold": 3.7
+  },
+  "k=3 | level=0.8": {
+   "coverage": 0.869427,
+   "CI": [
+    0.772944,
+    0.979167
+   ],
+   "half_width_log": 0.703942,
+   "fold": 5.1
+  },
+  "k=3 | level=0.9": {
+   "coverage": 0.936306,
+   "CI": [
+    0.888889,
+    0.991834
+   ],
+   "half_width_log": 0.903499,
+   "fold": 8.0
+  },
+  "k=3 | level=0.95": {
+   "coverage": 0.973461,
+   "CI": [
+    0.936723,
+    1.0
+   ],
+   "half_width_log": 1.076586,
+   "fold": 11.9
+  }
+ },
+ "hift_params_sp": {
+  "sigma": 0.421868,
+  "tau": 0.76401,
+  "tau_all": 0.646691,
+  "n_train_multi": 52.0,
+  "n_aux_multi": 144.4
+ },
+ "conformal": {
+  "Future papers (≥2021) | Paper-held-out calibration | 0.5": {
+   "coverage": 0.447183,
+   "half_width_log": 0.48475,
+   "fold": 3.1
+  },
+  "Future papers (≥2021) | Paper-held-out calibration | 0.6": {
+   "coverage": 0.557903,
+   "half_width_log": 0.622243,
+   "fold": 4.2
+  },
+  "Future papers (≥2021) | Paper-held-out calibration | 0.7": {
+   "coverage": 0.656103,
+   "half_width_log": 0.822408,
+   "fold": 6.6
+  },
+  "Future papers (≥2021) | Paper-held-out calibration | 0.8": {
+   "coverage": 0.751565,
+   "half_width_log": 0.997969,
+   "fold": 10.0
+  },
+  "Future papers (≥2021) | Paper-held-out calibration | 0.9": {
+   "coverage": 0.854851,
+   "half_width_log": 1.306061,
+   "fold": 20.2
+  },
+  "Future papers (≥2021) | Paper-held-out calibration | 0.95": {
+   "coverage": 0.921362,
+   "half_width_log": 1.689115,
+   "fold": 48.9
+  },
+  "Future papers (≥2021) | Random-row calibration | 0.5": {
+   "coverage": 0.150235,
+   "half_width_log": 0.134593,
+   "fold": 1.4
+  },
+  "Future papers (≥2021) | Random-row calibration | 0.6": {
+   "coverage": 0.210094,
+   "half_width_log": 0.194313,
+   "fold": 1.6
+  },
+  "Future papers (≥2021) | Random-row calibration | 0.7": {
+   "coverage": 0.318466,
+   "half_width_log": 0.30109,
+   "fold": 2.0
+  },
+  "Future papers (≥2021) | Random-row calibration | 0.8": {
+   "coverage": 0.437402,
+   "half_width_log": 0.450818,
+   "fold": 2.8
+  },
+  "Future papers (≥2021) | Random-row calibration | 0.9": {
+   "coverage": 0.647105,
+   "half_width_log": 0.764274,
+   "fold": 5.8
+  },
+  "Future papers (≥2021) | Random-row calibration | 0.95": {
+   "coverage": 0.83529,
+   "half_width_log": 1.150854,
+   "fold": 14.2
+  },
+  "Random rows | Paper-held-out calibration | 0.5": {
+   "coverage": 0.787318,
+   "half_width_log": 0.521076,
+   "fold": 3.3
+  },
+  "Random rows | Paper-held-out calibration | 0.6": {
+   "coverage": 0.84092,
+   "half_width_log": 0.661328,
+   "fold": 4.6
+  },
+  "Random rows | Paper-held-out calibration | 0.7": {
+   "coverage": 0.889693,
+   "half_width_log": 0.809606,
+   "fold": 6.5
+  },
+  "Random rows | Paper-held-out calibration | 0.8": {
+   "coverage": 0.932609,
+   "half_width_log": 1.041434,
+   "fold": 11.0
+  },
+  "Random rows | Paper-held-out calibration | 0.9": {
+   "coverage": 0.967939,
+   "half_width_log": 1.363866,
+   "fold": 23.1
+  },
+  "Random rows | Paper-held-out calibration | 0.95": {
+   "coverage": 0.98552,
+   "half_width_log": 1.638505,
+   "fold": 43.5
+  },
+  "Random rows | Random-row calibration | 0.5": {
+   "coverage": 0.508966,
+   "half_width_log": 0.143036,
+   "fold": 1.4
+  },
+  "Random rows | Random-row calibration | 0.6": {
+   "coverage": 0.603241,
+   "half_width_log": 0.205407,
+   "fold": 1.6
+  },
+  "Random rows | Random-row calibration | 0.7": {
+   "coverage": 0.698041,
+   "half_width_log": 0.301891,
+   "fold": 2.0
+  },
+  "Random rows | Random-row calibration | 0.8": {
+   "coverage": 0.800069,
+   "half_width_log": 0.430604,
+   "fold": 2.7
+  },
+  "Random rows | Random-row calibration | 0.9": {
+   "coverage": 0.89158,
+   "half_width_log": 0.638625,
+   "fold": 4.4
+  },
+  "Random rows | Random-row calibration | 0.95": {
+   "coverage": 0.949327,
+   "half_width_log": 0.890557,
+   "fold": 7.8
+  },
+  "Unseen papers | Paper-held-out calibration | 0.5": {
+   "coverage": 0.508728,
+   "half_width_log": 0.538502,
+   "fold": 3.5
+  },
+  "Unseen papers | Paper-held-out calibration | 0.6": {
+   "coverage": 0.604992,
+   "half_width_log": 0.674544,
+   "fold": 4.7
+  },
+  "Unseen papers | Paper-held-out calibration | 0.7": {
+   "coverage": 0.701593,
+   "half_width_log": 0.819187,
+   "fold": 6.6
+  },
+  "Unseen papers | Paper-held-out calibration | 0.8": {
+   "coverage": 0.812904,
+   "half_width_log": 1.059144,
+   "fold": 11.5
+  },
+  "Unseen papers | Paper-held-out calibration | 0.9": {
+   "coverage": 0.908141,
+   "half_width_log": 1.386922,
+   "fold": 24.4
+  },
+  "Unseen papers | Paper-held-out calibration | 0.95": {
+   "coverage": 0.95105,
+   "half_width_log": 1.635385,
+   "fold": 43.2
+  },
+  "Unseen papers | Random-row calibration | 0.5": {
+   "coverage": 0.147149,
+   "half_width_log": 0.123529,
+   "fold": 1.3
+  },
+  "Unseen papers | Random-row calibration | 0.6": {
+   "coverage": 0.194288,
+   "half_width_log": 0.178648,
+   "fold": 1.5
+  },
+  "Unseen papers | Random-row calibration | 0.7": {
+   "coverage": 0.309943,
+   "half_width_log": 0.2756,
+   "fold": 1.9
+  },
+  "Unseen papers | Random-row calibration | 0.8": {
+   "coverage": 0.443724,
+   "half_width_log": 0.410669,
+   "fold": 2.6
+  },
+  "Unseen papers | Random-row calibration | 0.9": {
+   "coverage": 0.589486,
+   "half_width_log": 0.62611,
+   "fold": 4.2
+  },
+  "Unseen papers | Random-row calibration | 0.95": {
+   "coverage": 0.74971,
+   "half_width_log": 0.873829,
+   "fold": 7.5
+  }
+ },
+ "fingerprints": {
+  "population": {
+   "beta": {
+    "intercept": 0.5204,
+    "log_eta": -0.5834,
+    "dP": -0.0073,
+    "dH": 0.0054,
+    "log_Vm": -0.848
+   },
+   "sd_between": {
+    "intercept": 0.7691,
+    "log_eta": 0.1604,
+    "dP": 0.0957,
+    "dH": 0.0451,
+    "log_Vm": 0.0479
+   },
+   "s_resid": 0.31688679562305333,
+   "center": {
+    "log_eta": -0.051,
+    "dP": 6.4935,
+    "dH": 8.8097,
+    "log_Vm": 1.9496
+   }
+  },
+  "n": 60,
+  "class_means": {
+   "2D/framework": {
+    "n": 1,
+    "visc": -0.213776,
+    "dP_per10": -0.63713,
+    "dH_per10": 0.051956,
+    "logVm": -0.809655
+   },
+   "Ceramic": {
+    "n": 9,
+    "visc": -0.522848,
+    "dP_per10": -0.153199,
+    "dH_per10": 0.029853,
+    "logVm": -0.84162
+   },
+   "Commercial polymer": {
+    "n": 4,
+    "visc": -0.661058,
+    "dP_per10": 0.249779,
+    "dH_per10": -0.20895,
+    "logVm": -0.855777
+   },
+   "Glassy ISA": {
+    "n": 24,
+    "visc": -0.710171,
+    "dP_per10": 0.387521,
+    "dH_per10": -0.113366,
+    "logVm": -0.863713
+   },
+   "PDMS": {
+    "n": 3,
+    "visc": -0.799716,
+    "dP_per10": 0.071367,
+    "dH_per10": -0.367193,
+    "logVm": -0.859544
+   },
+   "TFC/TFN": {
+    "n": 19,
+    "visc": -0.630187,
+    "dP_per10": 0.447978,
+    "dH_per10": -0.09803,
+    "logVm": -0.859668
+   }
+  }
+ },
+ "solvent_effects": {
+  "r_between_within": 0.511961,
+  "r_within_logeta": -0.60404,
+  "r_between_logeta": -0.203823,
+  "table": {
+   "Hexane": {
+    "short": "Hexane",
+    "between": 0.029,
+    "within": -0.121,
+    "n_multi_membranes": 41
+   },
+   "Methanol": {
+    "short": "MeOH",
+    "between": 0.306,
+    "within": 0.135,
+    "n_multi_membranes": 39
+   },
+   "Ethanol": {
+    "short": "EtOH",
+    "between": -0.005,
+    "within": -0.197,
+    "n_multi_membranes": 37
+   },
+   "Acetone": {
+    "short": "Acetone",
+    "between": 0.243,
+    "within": 0.345,
+    "n_multi_membranes": 34
+   },
+   "Isopropanol (IPA)": {
+    "short": "IPA",
+    "between": -0.141,
+    "within": -0.525,
+    "n_multi_membranes": 34
+   },
+   "Toluene": {
+    "short": "Toluene",
+    "between": -0.171,
+    "within": -0.301,
+    "n_multi_membranes": 30
+   },
+   "Tetrahydrofuran (THF)": {
+    "short": "THF",
+    "between": 0.111,
+    "within": -0.11,
+    "n_multi_membranes": 20
+   },
+   "Ethyl acetate": {
+    "short": "EtOAc",
+    "between": -0.331,
+    "within": 0.28,
+    "n_multi_membranes": 15
+   },
+   "Methyl ethyl ketone (MEK)": {
+    "short": "MEK",
+    "between": -0.248,
+    "within": 0.25,
+    "n_multi_membranes": 15
+   },
+   "Acetonitrile": {
+    "short": "MeCN",
+    "between": 0.48,
+    "within": 0.597,
+    "n_multi_membranes": 14
+   },
+   "Heptane": {
+    "short": "Heptane",
+    "between": -0.273,
+    "within": -0.353,
+    "n_multi_membranes": 13
+   }
+  }
+ },
+ "anchor_design_single": [
+  {
+   "anchor1": "Tetrahydrofuran (THF)",
+   "reduction": 0.573
+  },
+  {
+   "anchor1": "Ethyl acetate",
+   "reduction": 0.565
+  },
+  {
+   "anchor1": "Methyl ethyl ketone (MEK)",
+   "reduction": 0.547
+  },
+  {
+   "anchor1": "Toluene",
+   "reduction": 0.545
+  },
+  {
+   "anchor1": "Isopropanol (IPA)",
+   "reduction": 0.525
+  },
+  {
+   "anchor1": "Acetone",
+   "reduction": 0.52
+  },
+  {
+   "anchor1": "Hexane",
+   "reduction": 0.507
+  },
+  {
+   "anchor1": "Ethanol",
+   "reduction": 0.503
+  },
+  {
+   "anchor1": "Dimethylformamide (DMF)",
+   "reduction": 0.452
+  },
+  {
+   "anchor1": "Methanol",
+   "reduction": 0.395
+  },
+  {
+   "anchor1": "Acetonitrile",
+   "reduction": 0.253
+  }
+ ],
+ "anchor_design_pairs_top5": [
+  {
+   "anchor1": "Toluene",
+   "anchor2": "Acetonitrile",
+   "reduction": 0.671
+  },
+  {
+   "anchor1": "Methanol",
+   "anchor2": "Toluene",
+   "reduction": 0.671
+  },
+  {
+   "anchor1": "Methanol",
+   "anchor2": "Hexane",
+   "reduction": 0.67
+  },
+  {
+   "anchor1": "Acetonitrile",
+   "anchor2": "Hexane",
+   "reduction": 0.664
+  },
+  {
+   "anchor1": "Toluene",
+   "anchor2": "Dimethylformamide (DMF)",
+   "reduction": 0.664
+  }
+ ],
+ "anchor_empirical": [
+  {
+   "anchor": "Acetone",
+   "n_membranes": 34,
+   "centered_mae": -0.003,
+   "lo": -0.035,
+   "hi": 0.033,
+   "reduction": 0.52
+  },
+  {
+   "anchor": "Acetonitrile",
+   "n_membranes": 14,
+   "centered_mae": 0.071,
+   "lo": 0.019,
+   "hi": 0.125,
+   "reduction": 0.253
+  },
+  {
+   "anchor": "Dimethylformamide (DMF)",
+   "n_membranes": 5,
+   "centered_mae": 0.017,
+   "lo": -0.044,
+   "hi": 0.1,
+   "reduction": 0.452
+  },
+  {
+   "anchor": "Ethanol",
+   "n_membranes": 37,
+   "centered_mae": -0.026,
+   "lo": -0.056,
+   "hi": 0.005,
+   "reduction": 0.503
+  },
+  {
+   "anchor": "Ethyl acetate",
+   "n_membranes": 15,
+   "centered_mae": -0.018,
+   "lo": -0.066,
+   "hi": 0.041,
+   "reduction": 0.565
+  },
+  {
+   "anchor": "Hexane",
+   "n_membranes": 40,
+   "centered_mae": 0.054,
+   "lo": 0.008,
+   "hi": 0.099,
+   "reduction": 0.507
+  },
+  {
+   "anchor": "Isopropanol (IPA)",
+   "n_membranes": 34,
+   "centered_mae": -0.017,
+   "lo": -0.043,
+   "hi": 0.008,
+   "reduction": 0.525
+  },
+  {
+   "anchor": "Methanol",
+   "n_membranes": 39,
+   "centered_mae": -0.003,
+   "lo": -0.036,
+   "hi": 0.033,
+   "reduction": 0.395
+  },
+  {
+   "anchor": "Methyl ethyl ketone (MEK)",
+   "n_membranes": 15,
+   "centered_mae": -0.029,
+   "lo": -0.095,
+   "hi": 0.076,
+   "reduction": 0.547
+  },
+  {
+   "anchor": "Tetrahydrofuran (THF)",
+   "n_membranes": 20,
+   "centered_mae": 0.027,
+   "lo": 0.001,
+   "hi": 0.051,
+   "reduction": 0.573
+  },
+  {
+   "anchor": "Toluene",
+   "n_membranes": 30,
+   "centered_mae": -0.043,
+   "lo": -0.061,
+   "hi": -0.025,
+   "reduction": 0.545
+  }
+ ],
+ "anchor_spearman": 0.445455,
+ "independent": {
+  "frozen": "w=0.50|shrink=none|aux=1",
+  "inventory": {
+   "snapshot_papers": 258,
+   "live_papers": 307,
+   "new_papers": 49,
+   "new_paper_list": [
+    "10.1002/aic.14142",
+    "10.1002/app.48359",
+    "10.1002/cssc.201100355",
+    "10.1002/cssc.201802747",
+    "10.1002/jctb.3848",
+    "10.1002/jctb.6109",
+    "10.1007/s11746-011-1779-y",
+    "10.1016/j.advmem.2023.100061",
+    "10.1016/j.biortech.2019.122509",
+    "10.1016/j.cep.2013.03.015",
+    "10.1016/j.cherd.2010.07.002",
+    "10.1016/j.cherd.2011.04.014",
+    "10.1016/j.cherd.2017.03.015",
+    "10.1016/j.cherd.2019.06.013",
+    "10.1016/j.fbp.2012.09.004",
+    "10.1016/j.jfoodeng.2010.07.020",
+    "10.1016/j.memsci.2006.12.053",
+    "10.1016/j.memsci.2009.11.012",
+    "10.1016/j.memsci.2010.02.032",
+    "10.1016/j.memsci.2010.05.002",
+    "10.1016/j.memsci.2011.07.007",
+    "10.1016/j.memsci.2012.08.037",
+    "10.1016/j.memsci.2012.11.031",
+    "10.1016/j.memsci.2014.10.030",
+    "10.1016/j.memsci.2016.10.015",
+    "10.1016/j.memsci.2016.12.038",
+    "10.1016/j.memsci.2017.01.021",
+    "10.1016/j.memsci.2019.117202",
+    "10.1016/j.memsci.2021.119929",
+    "10.1016/j.memsci.2023.121519",
+    "10.1016/j.seppur.2015.12.040",
+    "10.1016/j.seppur.2017.03.001",
+    "10.1016/j.seppur.2019.115686",
+    "10.1016/j.seppur.2020.117046",
+    "10.1016/s0011-9164(02)00556-8",
+    "10.1021/acs.oprd.7b00210",
+    "10.1021/acs.oprd.8b00273",
+    "10.1021/acssuschemeng.5b00734",
+    "10.1021/jp0608933",
+    "10.1021/op1001403",
+    "10.1021/op9002906",
+    "10.1039/b602184k",
+    "10.1039/c2gc36407g",
+    "10.1039/c7ra11827a",
+    "10.1039/d0gc00498g",
+    "10.1063/1.4757480",
+    "10.1080/00986445.2014.990632",
+    "10.3303/cet1647058",
+    "10.3389/fchem.2020.00375"
+   ],
+   "pure_solvent_permeance": {
+    "snapshot_rows": 1934,
+    "live_rows": 2217,
+    "new_rows": 283,
+    "new_domain_papers": 11,
+    "new_membranes": 38,
+    "multi_ge2": 11,
+    "multi_ge3": 8,
+    "multi_ge4": 4,
+    "n_solvents": {
+     "1": 27,
+     "2": 3,
+     "3": 4,
+     "4": 4
+    },
+    "materials": {
+     "Commercial polymer": 283
+    },
+    "year_min": 2009.0,
+    "year_max": 2019.0
+   },
+   "solution_permeance": {
+    "snapshot_rows": 3190,
+    "live_rows": 7328,
+    "new_rows": 4138,
+    "new_domain_papers": 36,
+    "new_membranes": 88,
+    "multi_ge2": 33,
+    "multi_ge3": 14,
+    "multi_ge4": 7,
+    "n_solvents": {
+     "1": 55,
+     "2": 19,
+     "3": 7,
+     "4": 1,
+     "5": 2,
+     "8": 3,
+     "9": 1
+    },
+    "materials": {
+     "Commercial polymer": 3549,
+     "Glassy ISA": 589
+    },
+    "year_min": 2002.0,
+    "year_max": 2025.0
+   }
+  },
+  "untouched": {
+   "pure_solvent_permeance": {
+    "n_membranes": 18,
+    "n_papers": 8,
+    "n_from_primary_papers": 3,
+    "n_exclusive_papers": 5,
+    "n_solvents": {
+     "2": 5,
+     "3": 13
+    },
+    "metrics": {
+     "Zero-shot GBM": {
+      "k=0": {
+       "MAE": 0.764,
+       "CI": [
+        0.551,
+        0.974
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=1": {
+       "MAE": 0.764,
+       "CI": [
+        0.551,
+        0.974
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=2": {
+       "MAE": 0.752,
+       "CI": [
+        0.483,
+        0.984
+       ],
+       "n_cells": 39,
+       "n_membranes": 13,
+       "n_papers": 6
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Viscosity scaling": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.383,
+       "CI": [
+        0.195,
+        0.743
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=2": {
+       "MAE": 0.198,
+       "CI": [
+        0.167,
+        0.274
+       ],
+       "n_cells": 39,
+       "n_membranes": 13,
+       "n_papers": 6
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Vm/η scaling": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.547,
+       "CI": [
+        0.322,
+        0.866
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=2": {
+       "MAE": 0.36,
+       "CI": [
+        0.262,
+        0.464
+       ],
+       "n_cells": 39,
+       "n_membranes": 13,
+       "n_papers": 6
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Additive solvent offset": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.462,
+       "CI": [
+        0.211,
+        0.772
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=2": {
+       "MAE": 0.268,
+       "CI": [
+        0.16,
+        0.362
+       ],
+       "n_cells": 39,
+       "n_membranes": 13,
+       "n_papers": 6
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "GBM + mean shift": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.548,
+       "CI": [
+        0.316,
+        0.899
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=2": {
+       "MAE": 0.347,
+       "CI": [
+        0.288,
+        0.418
+       ],
+       "n_cells": 39,
+       "n_membranes": 13,
+       "n_papers": 6
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Pairwise transfer GBM": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.436,
+       "CI": [
+        0.318,
+        0.61
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=2": {
+       "MAE": 0.356,
+       "CI": [
+        0.298,
+        0.459
+       ],
+       "n_cells": 39,
+       "n_membranes": 13,
+       "n_papers": 6
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Bayesian level shift": {
+      "k=0": {
+       "MAE": 0.759,
+       "CI": [
+        0.548,
+        0.967
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=1": {
+       "MAE": 0.527,
+       "CI": [
+        0.375,
+        0.776
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=2": {
+       "MAE": 0.344,
+       "CI": [
+        0.297,
+        0.403
+       ],
+       "n_cells": 39,
+       "n_membranes": 13,
+       "n_papers": 6
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Linear random-coefficient": {
+      "k=0": {
+       "MAE": 0.791,
+       "CI": [
+        0.562,
+        1.019
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=1": {
+       "MAE": 0.499,
+       "CI": [
+        0.317,
+        0.744
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=2": {
+       "MAE": 0.327,
+       "CI": [
+        0.266,
+        0.395
+       ],
+       "n_cells": 39,
+       "n_membranes": 13,
+       "n_papers": 6
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "HiFT": {
+      "k=0": {
+       "MAE": 0.751,
+       "CI": [
+        0.534,
+        0.968
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=1": {
+       "MAE": 0.434,
+       "CI": [
+        0.259,
+        0.683
+       ],
+       "n_cells": 49,
+       "n_membranes": 18,
+       "n_papers": 8
+      },
+      "k=2": {
+       "MAE": 0.303,
+       "CI": [
+        0.241,
+        0.376
+       ],
+       "n_cells": 39,
+       "n_membranes": 13,
+       "n_papers": 6
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     }
+    },
+    "gain_k1": 43.2
+   },
+   "solution_permeance": {
+    "n_membranes": 90,
+    "n_papers": 21,
+    "n_from_primary_papers": 8,
+    "n_exclusive_papers": 13,
+    "n_solvents": {
+     "2": 90
+    },
+    "metrics": {
+     "Zero-shot GBM": {
+      "k=0": {
+       "MAE": 0.672,
+       "CI": [
+        0.558,
+        0.778
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=1": {
+       "MAE": 0.672,
+       "CI": [
+        0.558,
+        0.778
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Viscosity scaling": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.486,
+       "CI": [
+        0.348,
+        0.614
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Vm/η scaling": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.55,
+       "CI": [
+        0.425,
+        0.673
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Additive solvent offset": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.466,
+       "CI": [
+        0.346,
+        0.592
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "GBM + mean shift": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.477,
+       "CI": [
+        0.364,
+        0.586
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Pairwise transfer GBM": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.433,
+       "CI": [
+        0.349,
+        0.512
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Bayesian level shift": {
+      "k=0": {
+       "MAE": 0.67,
+       "CI": [
+        0.557,
+        0.775
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=1": {
+       "MAE": 0.467,
+       "CI": [
+        0.386,
+        0.544
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "Linear random-coefficient": {
+      "k=0": {
+       "MAE": 0.685,
+       "CI": [
+        0.569,
+        0.794
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=1": {
+       "MAE": 0.491,
+       "CI": [
+        0.398,
+        0.573
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     },
+     "HiFT": {
+      "k=0": {
+       "MAE": 0.678,
+       "CI": [
+        0.567,
+        0.784
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=1": {
+       "MAE": 0.414,
+       "CI": [
+        0.31,
+        0.528
+       ],
+       "n_cells": 180,
+       "n_membranes": 90,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=3": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      }
+     }
+    },
+    "gain_k1": 38.4
+   }
+  },
+  "nested": {
+   "pure_solvent_permeance": {
+    "n_folds": 15,
+    "n_selected_frozen": 1,
+    "frac_selected_frozen": 0.067,
+    "selected_counts": {
+     "w=0.25|shrink=tau_all|aux=1": 4,
+     "w=0.25|shrink=tau_multi|aux=1": 3,
+     "w=0.50|shrink=tau_all|aux=0": 2,
+     "w=0.25|shrink=tau_all|aux=0": 1,
+     "w=0.50|shrink=none|aux=0": 1,
+     "w=0.50|shrink=none|aux=1": 1,
+     "w=0.50|shrink=tau_multi|aux=1": 1,
+     "w=0.50|shrink=tau_all|aux=1": 1,
+     "w=0.50|shrink=tau_multi|aux=0": 1
+    },
+    "fold_table": [
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 0,
+      "fold": 0,
+      "selected": "w=0.25|shrink=tau_all|aux=0",
+      "selected_inner_mae": 0.3340279639274725,
+      "frozen_inner_mae": 0.3539290306308442,
+      "oracle": "w=0.50|shrink=none|aux=1",
+      "frozen_outer_mae": 0.3659823208934588,
+      "selected_outer_mae": 0.41114560197714406,
+      "oracle_outer_mae": 0.3659823208934588,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 0,
+      "fold": 1,
+      "selected": "w=0.25|shrink=tau_all|aux=1",
+      "selected_inner_mae": 0.4139025196767621,
+      "frozen_inner_mae": 0.4326139095412669,
+      "oracle": "w=0.50|shrink=none|aux=1",
+      "frozen_outer_mae": 0.3768445304036496,
+      "selected_outer_mae": 0.4505390216526819,
+      "oracle_outer_mae": 0.3768445304036496,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 0,
+      "fold": 2,
+      "selected": "w=0.50|shrink=none|aux=0",
+      "selected_inner_mae": 0.35095826217016696,
+      "frozen_inner_mae": 0.35822457486728027,
+      "oracle": "w=0.00|shrink=tau_multi|aux=1",
+      "frozen_outer_mae": 0.40671116251850364,
+      "selected_outer_mae": 0.41849630328637694,
+      "oracle_outer_mae": 0.3672780030247969,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 0,
+      "fold": 3,
+      "selected": "w=0.50|shrink=none|aux=1",
+      "selected_inner_mae": 0.38463879614866064,
+      "frozen_inner_mae": 0.38463879614866064,
+      "oracle": "w=0.00|shrink=none|aux=0",
+      "frozen_outer_mae": 0.39849665023415487,
+      "selected_outer_mae": 0.39849665023415487,
+      "oracle_outer_mae": 0.37752842698565964,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 0,
+      "fold": 4,
+      "selected": "w=0.50|shrink=tau_multi|aux=1",
+      "selected_inner_mae": 0.379632201909172,
+      "frozen_inner_mae": 0.3894619040734608,
+      "oracle": "w=1.00|shrink=tau_all|aux=1",
+      "frozen_outer_mae": 0.31549995125512637,
+      "selected_outer_mae": 0.2980638190829264,
+      "oracle_outer_mae": 0.2859052515658356,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 1,
+      "fold": 0,
+      "selected": "w=0.25|shrink=tau_all|aux=1",
+      "selected_inner_mae": 0.3834967907721041,
+      "frozen_inner_mae": 0.39001851685466987,
+      "oracle": "w=0.00|shrink=tau_multi|aux=1",
+      "frozen_outer_mae": 0.41287719048395555,
+      "selected_outer_mae": 0.3881874936865961,
+      "oracle_outer_mae": 0.3764670046566647,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 1,
+      "fold": 1,
+      "selected": "w=0.50|shrink=tau_all|aux=0",
+      "selected_inner_mae": 0.3663225909990248,
+      "frozen_inner_mae": 0.3858170954916253,
+      "oracle": "w=0.00|shrink=none|aux=1",
+      "frozen_outer_mae": 0.4167986600845148,
+      "selected_outer_mae": 0.4096909911995391,
+      "oracle_outer_mae": 0.3831305234099478,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 1,
+      "fold": 2,
+      "selected": "w=0.25|shrink=tau_multi|aux=1",
+      "selected_inner_mae": 0.35782931179273403,
+      "frozen_inner_mae": 0.36608324265489506,
+      "oracle": "w=0.00|shrink=tau_all|aux=1",
+      "frozen_outer_mae": 0.3517997377695514,
+      "selected_outer_mae": 0.3123751306342324,
+      "oracle_outer_mae": 0.296083471244565,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 1,
+      "fold": 3,
+      "selected": "w=0.25|shrink=tau_all|aux=1",
+      "selected_inner_mae": 0.36877131641791605,
+      "frozen_inner_mae": 0.3807351843148168,
+      "oracle": "w=0.25|shrink=none|aux=0",
+      "frozen_outer_mae": 0.4685776626028217,
+      "selected_outer_mae": 0.5022321520974313,
+      "oracle_outer_mae": 0.42909591520161505,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 1,
+      "fold": 4,
+      "selected": "w=0.25|shrink=tau_multi|aux=1",
+      "selected_inner_mae": 0.40588294514150935,
+      "frozen_inner_mae": 0.42374927489279873,
+      "oracle": "w=0.50|shrink=none|aux=1",
+      "frozen_outer_mae": 0.3255172940466785,
+      "selected_outer_mae": 0.415211568902967,
+      "oracle_outer_mae": 0.3255172940466785,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 2,
+      "fold": 0,
+      "selected": "w=0.50|shrink=tau_all|aux=0",
+      "selected_inner_mae": 0.3108170169297073,
+      "frozen_inner_mae": 0.3255012912152771,
+      "oracle": "w=0.00|shrink=tau_multi|aux=1",
+      "frozen_outer_mae": 0.42773738340093953,
+      "selected_outer_mae": 0.4492786047776662,
+      "oracle_outer_mae": 0.40251072116013303,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 2,
+      "fold": 1,
+      "selected": "w=0.25|shrink=tau_multi|aux=1",
+      "selected_inner_mae": 0.32710023643538855,
+      "frozen_inner_mae": 0.34464576193843616,
+      "oracle": "w=0.75|shrink=none|aux=1",
+      "frozen_outer_mae": 0.3693984067625144,
+      "selected_outer_mae": 0.5173215165607928,
+      "oracle_outer_mae": 0.35586539295696273,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 2,
+      "fold": 2,
+      "selected": "w=0.25|shrink=tau_all|aux=1",
+      "selected_inner_mae": 0.36726412077315135,
+      "frozen_inner_mae": 0.37295222644965526,
+      "oracle": "w=0.25|shrink=tau_multi|aux=0",
+      "frozen_outer_mae": 0.09543227430657833,
+      "selected_outer_mae": 0.09217816120244975,
+      "oracle_outer_mae": 0.053490455810612555,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 2,
+      "fold": 3,
+      "selected": "w=0.50|shrink=tau_all|aux=1",
+      "selected_inner_mae": 0.3862987885796488,
+      "frozen_inner_mae": 0.38940134039083824,
+      "oracle": "w=0.25|shrink=none|aux=0",
+      "frozen_outer_mae": 0.3000772864336936,
+      "selected_outer_mae": 0.3075396034521528,
+      "oracle_outer_mae": 0.22426186603503967,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "pure_solvent_permeance",
+      "seed": 2,
+      "fold": 4,
+      "selected": "w=0.50|shrink=tau_multi|aux=0",
+      "selected_inner_mae": 0.3673457269640177,
+      "frozen_inner_mae": 0.37804747365599,
+      "oracle": "w=0.00|shrink=tau_multi|aux=1",
+      "frozen_outer_mae": 0.4421593985325987,
+      "selected_outer_mae": 0.42126549792277757,
+      "oracle_outer_mae": 0.409695782079674,
+      "n_inner_configs": 30
+     }
+    ],
+    "metrics": {
+     "Frozen HiFT": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.384,
+       "CI": [
+        0.307,
+        0.462
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.343,
+       "CI": [
+        0.274,
+        0.416
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.329,
+       "CI": [
+        0.263,
+        0.399
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "Nested-selected HiFT": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.42,
+       "CI": [
+        0.318,
+        0.501
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.377,
+       "CI": [
+        0.286,
+        0.452
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.361,
+       "CI": [
+        0.277,
+        0.433
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "Oracle (test-tuned)": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.359,
+       "CI": [
+        0.286,
+        0.425
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.327,
+       "CI": [
+        0.26,
+        0.394
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.316,
+       "CI": [
+        0.251,
+        0.383
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "Zero-shot GBM": {
+      "k=0": {
+       "MAE": 0.677,
+       "CI": [
+        0.495,
+        0.826
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=1": {
+       "MAE": 0.677,
+       "CI": [
+        0.495,
+        0.826
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.677,
+       "CI": [
+        0.495,
+        0.826
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.677,
+       "CI": [
+        0.495,
+        0.826
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "Viscosity scaling": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.461,
+       "CI": [
+        0.35,
+        0.557
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.406,
+       "CI": [
+        0.309,
+        0.49
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.38,
+       "CI": [
+        0.291,
+        0.463
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "Vm/η scaling": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.562,
+       "CI": [
+        0.431,
+        0.672
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.486,
+       "CI": [
+        0.376,
+        0.584
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.455,
+       "CI": [
+        0.35,
+        0.547
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "Additive solvent offset": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.504,
+       "CI": [
+        0.426,
+        0.592
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.44,
+       "CI": [
+        0.37,
+        0.519
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.416,
+       "CI": [
+        0.347,
+        0.495
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "GBM + mean shift": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.456,
+       "CI": [
+        0.343,
+        0.579
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.4,
+       "CI": [
+        0.3,
+        0.509
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.378,
+       "CI": [
+        0.282,
+        0.483
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "Pairwise transfer GBM": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.388,
+       "CI": [
+        0.308,
+        0.455
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.364,
+       "CI": [
+        0.285,
+        0.43
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.357,
+       "CI": [
+        0.277,
+        0.421
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "Bayesian level shift": {
+      "k=0": {
+       "MAE": 0.677,
+       "CI": [
+        0.492,
+        0.824
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=1": {
+       "MAE": 0.449,
+       "CI": [
+        0.368,
+        0.536
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.399,
+       "CI": [
+        0.317,
+        0.493
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.377,
+       "CI": [
+        0.289,
+        0.473
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "Linear random-coefficient": {
+      "k=0": {
+       "MAE": 0.669,
+       "CI": [
+        0.497,
+        0.813
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=1": {
+       "MAE": 0.478,
+       "CI": [
+        0.382,
+        0.56
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.428,
+       "CI": [
+        0.336,
+        0.529
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.399,
+       "CI": [
+        0.304,
+        0.512
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     },
+     "HiFT": {
+      "k=0": {
+       "MAE": 0.655,
+       "CI": [
+        0.47,
+        0.812
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=1": {
+       "MAE": 0.384,
+       "CI": [
+        0.307,
+        0.462
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=2": {
+       "MAE": 0.343,
+       "CI": [
+        0.274,
+        0.416
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      },
+      "k=3": {
+       "MAE": 0.329,
+       "CI": [
+        0.263,
+        0.399
+       ],
+       "n_cells": 288,
+       "n_membranes": 47,
+       "n_papers": 21
+      }
+     }
+    },
+    "optimism_k1": {
+     "frozen_minus_nested": -0.036,
+     "oracle_minus_nested": -0.061,
+     "frozen": 0.384,
+     "nested": 0.42,
+     "oracle": 0.359
+    }
+   },
+   "solution_permeance": {
+    "n_folds": 15,
+    "n_selected_frozen": 2,
+    "frac_selected_frozen": 0.133,
+    "selected_counts": {
+     "w=0.25|shrink=none|aux=1": 4,
+     "w=0.50|shrink=tau_multi|aux=1": 3,
+     "w=0.50|shrink=tau_all|aux=1": 2,
+     "w=0.50|shrink=none|aux=1": 2,
+     "w=0.50|shrink=tau_all|aux=0": 1,
+     "w=0.50|shrink=tau_multi|aux=0": 1,
+     "w=0.50|shrink=none|aux=0": 1,
+     "w=0.25|shrink=tau_all|aux=1": 1
+    },
+    "fold_table": [
+     {
+      "tag": "solution_permeance",
+      "seed": 0,
+      "fold": 0,
+      "selected": "w=0.50|shrink=tau_all|aux=1",
+      "selected_inner_mae": 0.45825249894955383,
+      "frozen_inner_mae": 0.46123234292165033,
+      "oracle": "w=0.25|shrink=tau_all|aux=0",
+      "frozen_outer_mae": 0.3485625301788269,
+      "selected_outer_mae": 0.3136587745016086,
+      "oracle_outer_mae": 0.30362110400162884,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 0,
+      "fold": 1,
+      "selected": "w=0.50|shrink=tau_all|aux=0",
+      "selected_inner_mae": 0.38161922816723237,
+      "frozen_inner_mae": 0.38962070628857753,
+      "oracle": "w=0.00|shrink=tau_multi|aux=1",
+      "frozen_outer_mae": 0.5434970321561453,
+      "selected_outer_mae": 0.5001998028892538,
+      "oracle_outer_mae": 0.4985927335488226,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 0,
+      "fold": 2,
+      "selected": "w=0.50|shrink=none|aux=1",
+      "selected_inner_mae": 0.4141542394695253,
+      "frozen_inner_mae": 0.4141542394695253,
+      "oracle": "w=0.75|shrink=none|aux=1",
+      "frozen_outer_mae": 0.45267036972507885,
+      "selected_outer_mae": 0.45267036972507885,
+      "oracle_outer_mae": 0.4170019054474965,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 0,
+      "fold": 3,
+      "selected": "w=0.25|shrink=none|aux=1",
+      "selected_inner_mae": 0.4446811520346203,
+      "frozen_inner_mae": 0.45489158776091765,
+      "oracle": "w=0.50|shrink=none|aux=1",
+      "frozen_outer_mae": 0.15326384449053612,
+      "selected_outer_mae": 0.16145109718176295,
+      "oracle_outer_mae": 0.15326384449053612,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 0,
+      "fold": 4,
+      "selected": "w=0.25|shrink=none|aux=1",
+      "selected_inner_mae": 0.35179654737924243,
+      "frozen_inner_mae": 0.35271876116281975,
+      "oracle": "w=0.50|shrink=none|aux=1",
+      "frozen_outer_mae": 0.5128610236333738,
+      "selected_outer_mae": 0.5315414777668787,
+      "oracle_outer_mae": 0.5128610236333738,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 1,
+      "fold": 0,
+      "selected": "w=0.50|shrink=tau_multi|aux=1",
+      "selected_inner_mae": 0.45134785879559064,
+      "frozen_inner_mae": 0.45786062501239594,
+      "oracle": "w=0.25|shrink=none|aux=1",
+      "frozen_outer_mae": 0.29303819671437525,
+      "selected_outer_mae": 0.30892150016702785,
+      "oracle_outer_mae": 0.2937399249375045,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 1,
+      "fold": 1,
+      "selected": "w=0.50|shrink=tau_all|aux=1",
+      "selected_inner_mae": 0.504330907631726,
+      "frozen_inner_mae": 0.5110436348766817,
+      "oracle": "w=0.75|shrink=tau_multi|aux=1",
+      "frozen_outer_mae": 0.37852834139671765,
+      "selected_outer_mae": 0.37046879218134365,
+      "oracle_outer_mae": 0.36206008585290245,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 1,
+      "fold": 2,
+      "selected": "w=0.25|shrink=none|aux=1",
+      "selected_inner_mae": 0.40190747088884343,
+      "frozen_inner_mae": 0.40677193006489326,
+      "oracle": "w=0.00|shrink=none|aux=1",
+      "frozen_outer_mae": 0.4473488006067788,
+      "selected_outer_mae": 0.4096990754628197,
+      "oracle_outer_mae": 0.4031562007673558,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 1,
+      "fold": 3,
+      "selected": "w=0.50|shrink=tau_multi|aux=0",
+      "selected_inner_mae": 0.4621834913900407,
+      "frozen_inner_mae": 0.4724410989793311,
+      "oracle": "w=0.25|shrink=none|aux=1",
+      "frozen_outer_mae": 0.3442157315651408,
+      "selected_outer_mae": 0.43022321671682223,
+      "oracle_outer_mae": 0.34466770888540293,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 1,
+      "fold": 4,
+      "selected": "w=0.50|shrink=none|aux=0",
+      "selected_inner_mae": 0.35117458856864037,
+      "frozen_inner_mae": 0.37322195983903605,
+      "oracle": "w=0.00|shrink=tau_all|aux=0",
+      "frozen_outer_mae": 0.7900636942973063,
+      "selected_outer_mae": 0.7621932348315983,
+      "oracle_outer_mae": 0.6426854367269104,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 2,
+      "fold": 0,
+      "selected": "w=0.25|shrink=tau_all|aux=1",
+      "selected_inner_mae": 0.4666140807852141,
+      "frozen_inner_mae": 0.47190308576097423,
+      "oracle": "w=0.25|shrink=none|aux=0",
+      "frozen_outer_mae": 0.3521021216194663,
+      "selected_outer_mae": 0.3659275162630603,
+      "oracle_outer_mae": 0.33762834805808134,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 2,
+      "fold": 1,
+      "selected": "w=0.50|shrink=tau_multi|aux=1",
+      "selected_inner_mae": 0.4143087459054741,
+      "frozen_inner_mae": 0.4180890839786402,
+      "oracle": "w=0.00|shrink=tau_multi|aux=1",
+      "frozen_outer_mae": 0.5822786332707505,
+      "selected_outer_mae": 0.5531135967078329,
+      "oracle_outer_mae": 0.5154328583949754,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 2,
+      "fold": 2,
+      "selected": "w=0.50|shrink=none|aux=1",
+      "selected_inner_mae": 0.3385552168284733,
+      "frozen_inner_mae": 0.3385552168284733,
+      "oracle": "w=0.00|shrink=tau_all|aux=1",
+      "frozen_outer_mae": 0.756426472040935,
+      "selected_outer_mae": 0.756426472040935,
+      "oracle_outer_mae": 0.6377770371741284,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 2,
+      "fold": 3,
+      "selected": "w=0.25|shrink=none|aux=1",
+      "selected_inner_mae": 0.41488294908617607,
+      "frozen_inner_mae": 0.4241577140326142,
+      "oracle": "w=0.50|shrink=none|aux=1",
+      "frozen_outer_mae": 0.3434894585777277,
+      "selected_outer_mae": 0.345377119216354,
+      "oracle_outer_mae": 0.3434894585777277,
+      "n_inner_configs": 30
+     },
+     {
+      "tag": "solution_permeance",
+      "seed": 2,
+      "fold": 4,
+      "selected": "w=0.50|shrink=tau_multi|aux=1",
+      "selected_inner_mae": 0.4415540530077682,
+      "frozen_inner_mae": 0.44963992750215515,
+      "oracle": "w=0.50|shrink=none|aux=0",
+      "frozen_outer_mae": 0.14412860063737448,
+      "selected_outer_mae": 0.3704371227064815,
+      "oracle_outer_mae": 0.12489634670095191,
+      "n_inner_configs": 30
+     }
+    ],
+    "metrics": {
+     "Frozen HiFT": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.429,
+       "CI": [
+        0.301,
+        0.596
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.395,
+       "CI": [
+        0.275,
+        0.556
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.311,
+       "CI": [
+        0.242,
+        0.385
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "Nested-selected HiFT": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.431,
+       "CI": [
+        0.312,
+        0.588
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.404,
+       "CI": [
+        0.289,
+        0.558
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.319,
+       "CI": [
+        0.25,
+        0.389
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "Oracle (test-tuned)": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.394,
+       "CI": [
+        0.282,
+        0.535
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.377,
+       "CI": [
+        0.265,
+        0.524
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.303,
+       "CI": [
+        0.239,
+        0.37
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "Zero-shot GBM": {
+      "k=0": {
+       "MAE": 0.491,
+       "CI": [
+        0.392,
+        0.614
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=1": {
+       "MAE": 0.491,
+       "CI": [
+        0.392,
+        0.614
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.491,
+       "CI": [
+        0.392,
+        0.614
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.452,
+       "CI": [
+        0.344,
+        0.576
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "Viscosity scaling": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.492,
+       "CI": [
+        0.334,
+        0.682
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.445,
+       "CI": [
+        0.295,
+        0.63
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.358,
+       "CI": [
+        0.253,
+        0.47
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "Vm/η scaling": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.557,
+       "CI": [
+        0.404,
+        0.742
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.503,
+       "CI": [
+        0.359,
+        0.681
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.408,
+       "CI": [
+        0.299,
+        0.529
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "Additive solvent offset": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.502,
+       "CI": [
+        0.361,
+        0.69
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.445,
+       "CI": [
+        0.315,
+        0.623
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.35,
+       "CI": [
+        0.271,
+        0.437
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "GBM + mean shift": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.438,
+       "CI": [
+        0.319,
+        0.556
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.382,
+       "CI": [
+        0.278,
+        0.491
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.344,
+       "CI": [
+        0.259,
+        0.427
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "Pairwise transfer GBM": {
+      "k=0": {
+       "MAE": null,
+       "CI": [
+        null,
+        null
+       ],
+       "n_cells": 0,
+       "n_membranes": 0,
+       "n_papers": 0
+      },
+      "k=1": {
+       "MAE": 0.434,
+       "CI": [
+        0.314,
+        0.585
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.415,
+       "CI": [
+        0.295,
+        0.568
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.331,
+       "CI": [
+        0.257,
+        0.409
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "Bayesian level shift": {
+      "k=0": {
+       "MAE": 0.494,
+       "CI": [
+        0.396,
+        0.612
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=1": {
+       "MAE": 0.407,
+       "CI": [
+        0.311,
+        0.508
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.378,
+       "CI": [
+        0.28,
+        0.478
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.341,
+       "CI": [
+        0.256,
+        0.421
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "Linear random-coefficient": {
+      "k=0": {
+       "MAE": 0.503,
+       "CI": [
+        0.404,
+        0.619
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=1": {
+       "MAE": 0.434,
+       "CI": [
+        0.34,
+        0.537
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.411,
+       "CI": [
+        0.311,
+        0.532
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.331,
+       "CI": [
+        0.257,
+        0.41
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     },
+     "HiFT": {
+      "k=0": {
+       "MAE": 0.51,
+       "CI": [
+        0.394,
+        0.649
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=1": {
+       "MAE": 0.429,
+       "CI": [
+        0.301,
+        0.596
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=2": {
+       "MAE": 0.395,
+       "CI": [
+        0.275,
+        0.556
+       ],
+       "n_cells": 209,
+       "n_membranes": 58,
+       "n_papers": 26
+      },
+      "k=3": {
+       "MAE": 0.311,
+       "CI": [
+        0.242,
+        0.385
+       ],
+       "n_cells": 107,
+       "n_membranes": 24,
+       "n_papers": 15
+      }
+     }
+    },
+    "optimism_k1": {
+     "frozen_minus_nested": -0.002,
+     "oracle_minus_nested": -0.037,
+     "frozen": 0.429,
+     "nested": 0.431,
+     "oracle": 0.394
+    }
+   }
+  },
+  "external": {
+   "pure_solvent_permeance": {
+    "multi_ge2": {
+     "metrics": {
+      "Zero-shot GBM": {
+       "k=0": {
+        "MAE": 0.65,
+        "CI": [
+         0.497,
+         0.989
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=1": {
+        "MAE": 0.65,
+        "CI": [
+         0.497,
+         0.989
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=2": {
+        "MAE": 0.683,
+        "CI": [
+         0.569,
+         1.101
+        ],
+        "n_cells": 28,
+        "n_membranes": 8,
+        "n_papers": 2
+       },
+       "k=3": {
+        "MAE": 0.565,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Viscosity scaling": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.417,
+        "CI": [
+         0.322,
+         0.708
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=2": {
+        "MAE": 0.32,
+        "CI": [
+         0.27,
+         0.506
+        ],
+        "n_cells": 28,
+        "n_membranes": 8,
+        "n_papers": 2
+       },
+       "k=3": {
+        "MAE": 0.24,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Vm/η scaling": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.513,
+        "CI": [
+         0.402,
+         0.879
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=2": {
+        "MAE": 0.397,
+        "CI": [
+         0.337,
+         0.616
+        ],
+        "n_cells": 28,
+        "n_membranes": 8,
+        "n_papers": 2
+       },
+       "k=3": {
+        "MAE": 0.334,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Additive solvent offset": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.468,
+        "CI": [
+         0.351,
+         0.82
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=2": {
+        "MAE": 0.37,
+        "CI": [
+         0.365,
+         0.372
+        ],
+        "n_cells": 28,
+        "n_membranes": 8,
+        "n_papers": 2
+       },
+       "k=3": {
+        "MAE": 0.327,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "GBM + mean shift": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.493,
+        "CI": [
+         0.346,
+         0.984
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=2": {
+        "MAE": 0.322,
+        "CI": [
+         0.209,
+         0.353
+        ],
+        "n_cells": 28,
+        "n_membranes": 8,
+        "n_papers": 2
+       },
+       "k=3": {
+        "MAE": 0.27,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Pairwise transfer GBM": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.344,
+        "CI": [
+         0.273,
+         0.696
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=2": {
+        "MAE": 0.292,
+        "CI": [
+         0.277,
+         0.346
+        ],
+        "n_cells": 28,
+        "n_membranes": 8,
+        "n_papers": 2
+       },
+       "k=3": {
+        "MAE": 0.227,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Bayesian level shift": {
+       "k=0": {
+        "MAE": 0.641,
+        "CI": [
+         0.493,
+         0.979
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=1": {
+        "MAE": 0.459,
+        "CI": [
+         0.383,
+         0.815
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=2": {
+        "MAE": 0.33,
+        "CI": [
+         0.233,
+         0.356
+        ],
+        "n_cells": 28,
+        "n_membranes": 8,
+        "n_papers": 2
+       },
+       "k=3": {
+        "MAE": 0.27,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Linear random-coefficient": {
+       "k=0": {
+        "MAE": 0.635,
+        "CI": [
+         0.491,
+         0.946
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=1": {
+        "MAE": 0.428,
+        "CI": [
+         0.328,
+         0.765
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=2": {
+        "MAE": 0.315,
+        "CI": [
+         0.284,
+         0.323
+        ],
+        "n_cells": 28,
+        "n_membranes": 8,
+        "n_papers": 2
+       },
+       "k=3": {
+        "MAE": 0.259,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "HiFT": {
+       "k=0": {
+        "MAE": 0.621,
+        "CI": [
+         0.394,
+         0.964
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=1": {
+        "MAE": 0.362,
+        "CI": [
+         0.311,
+         0.711
+        ],
+        "n_cells": 34,
+        "n_membranes": 11,
+        "n_papers": 4
+       },
+       "k=2": {
+        "MAE": 0.283,
+        "CI": [
+         0.274,
+         0.315
+        ],
+        "n_cells": 28,
+        "n_membranes": 8,
+        "n_papers": 2
+       },
+       "k=3": {
+        "MAE": 0.214,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      }
+     },
+     "gain_k1": 44.3
+    },
+    "primary_threshold": {
+     "metrics": {
+      "Zero-shot GBM": {
+       "k=0": {
+        "MAE": 0.565,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=1": {
+        "MAE": 0.565,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=2": {
+        "MAE": 0.565,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=3": {
+        "MAE": 0.565,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Viscosity scaling": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.288,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=2": {
+        "MAE": 0.258,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=3": {
+        "MAE": 0.24,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Vm/η scaling": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.416,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=2": {
+        "MAE": 0.37,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=3": {
+        "MAE": 0.334,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Additive solvent offset": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.423,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=2": {
+        "MAE": 0.343,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=3": {
+        "MAE": 0.327,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "GBM + mean shift": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.339,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=2": {
+        "MAE": 0.28,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=3": {
+        "MAE": 0.27,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Pairwise transfer GBM": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.253,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=2": {
+        "MAE": 0.234,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=3": {
+        "MAE": 0.227,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Bayesian level shift": {
+       "k=0": {
+        "MAE": 0.554,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=1": {
+        "MAE": 0.324,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=2": {
+        "MAE": 0.288,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=3": {
+        "MAE": 0.27,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "Linear random-coefficient": {
+       "k=0": {
+        "MAE": 0.552,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=1": {
+        "MAE": 0.316,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=2": {
+        "MAE": 0.278,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=3": {
+        "MAE": 0.259,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      },
+      "HiFT": {
+       "k=0": {
+        "MAE": 0.565,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=1": {
+        "MAE": 0.26,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=2": {
+        "MAE": 0.23,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       },
+       "k=3": {
+        "MAE": 0.214,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 16,
+        "n_membranes": 4,
+        "n_papers": 1
+       }
+      }
+     },
+     "gain_k1": 54.0
+    }
+   },
+   "solution_permeance": {
+    "multi_ge2": {
+     "metrics": {
+      "Zero-shot GBM": {
+       "k=0": {
+        "MAE": 0.542,
+        "CI": [
+         0.413,
+         0.696
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=1": {
+        "MAE": 0.542,
+        "CI": [
+         0.413,
+         0.696
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=2": {
+        "MAE": 0.542,
+        "CI": [
+         0.361,
+         0.829
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.473,
+        "CI": [
+         0.348,
+         0.56
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Viscosity scaling": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.492,
+        "CI": [
+         0.414,
+         0.599
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=2": {
+        "MAE": 0.435,
+        "CI": [
+         0.363,
+         0.562
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.413,
+        "CI": [
+         0.363,
+         0.592
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Vm/η scaling": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.529,
+        "CI": [
+         0.442,
+         0.655
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=2": {
+        "MAE": 0.459,
+        "CI": [
+         0.367,
+         0.631
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.409,
+        "CI": [
+         0.32,
+         0.644
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Additive solvent offset": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.578,
+        "CI": [
+         0.462,
+         0.692
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=2": {
+        "MAE": 0.512,
+        "CI": [
+         0.404,
+         0.571
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.516,
+        "CI": [
+         0.448,
+         0.611
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "GBM + mean shift": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.583,
+        "CI": [
+         0.422,
+         0.745
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=2": {
+        "MAE": 0.484,
+        "CI": [
+         0.351,
+         0.561
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.517,
+        "CI": [
+         0.393,
+         0.614
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Pairwise transfer GBM": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.511,
+        "CI": [
+         0.405,
+         0.611
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=2": {
+        "MAE": 0.482,
+        "CI": [
+         0.384,
+         0.563
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.479,
+        "CI": [
+         0.373,
+         0.592
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Bayesian level shift": {
+       "k=0": {
+        "MAE": 0.548,
+        "CI": [
+         0.414,
+         0.704
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=1": {
+        "MAE": 0.505,
+        "CI": [
+         0.387,
+         0.627
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=2": {
+        "MAE": 0.464,
+        "CI": [
+         0.345,
+         0.538
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.498,
+        "CI": [
+         0.373,
+         0.59
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Linear random-coefficient": {
+       "k=0": {
+        "MAE": 0.534,
+        "CI": [
+         0.407,
+         0.692
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=1": {
+        "MAE": 0.495,
+        "CI": [
+         0.377,
+         0.627
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=2": {
+        "MAE": 0.436,
+        "CI": [
+         0.326,
+         0.503
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.431,
+        "CI": [
+         0.353,
+         0.492
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "HiFT": {
+       "k=0": {
+        "MAE": 0.545,
+        "CI": [
+         0.418,
+         0.701
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=1": {
+        "MAE": 0.528,
+        "CI": [
+         0.408,
+         0.633
+        ],
+        "n_cells": 106,
+        "n_membranes": 33,
+        "n_papers": 16
+       },
+       "k=2": {
+        "MAE": 0.476,
+        "CI": [
+         0.362,
+         0.544
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.488,
+        "CI": [
+         0.386,
+         0.562
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      }
+     },
+     "gain_k1": 2.6
+    },
+    "primary_threshold": {
+     "metrics": {
+      "Zero-shot GBM": {
+       "k=0": {
+        "MAE": 0.542,
+        "CI": [
+         0.361,
+         0.829
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=1": {
+        "MAE": 0.542,
+        "CI": [
+         0.361,
+         0.829
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=2": {
+        "MAE": 0.542,
+        "CI": [
+         0.361,
+         0.829
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.473,
+        "CI": [
+         0.348,
+         0.56
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Viscosity scaling": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.505,
+        "CI": [
+         0.416,
+         0.658
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=2": {
+        "MAE": 0.435,
+        "CI": [
+         0.363,
+         0.562
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.413,
+        "CI": [
+         0.363,
+         0.592
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Vm/η scaling": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.543,
+        "CI": [
+         0.438,
+         0.733
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=2": {
+        "MAE": 0.459,
+        "CI": [
+         0.367,
+         0.631
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.409,
+        "CI": [
+         0.32,
+         0.644
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Additive solvent offset": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.607,
+        "CI": [
+         0.476,
+         0.689
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=2": {
+        "MAE": 0.512,
+        "CI": [
+         0.404,
+         0.571
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.516,
+        "CI": [
+         0.448,
+         0.611
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "GBM + mean shift": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.575,
+        "CI": [
+         0.418,
+         0.666
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=2": {
+        "MAE": 0.484,
+        "CI": [
+         0.351,
+         0.561
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.517,
+        "CI": [
+         0.393,
+         0.614
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Pairwise transfer GBM": {
+       "k=0": {
+        "MAE": null,
+        "CI": [
+         null,
+         null
+        ],
+        "n_cells": 0,
+        "n_membranes": 0,
+        "n_papers": 0
+       },
+       "k=1": {
+        "MAE": 0.531,
+        "CI": [
+         0.425,
+         0.622
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=2": {
+        "MAE": 0.482,
+        "CI": [
+         0.384,
+         0.563
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.479,
+        "CI": [
+         0.373,
+         0.592
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Bayesian level shift": {
+       "k=0": {
+        "MAE": 0.546,
+        "CI": [
+         0.359,
+         0.814
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=1": {
+        "MAE": 0.493,
+        "CI": [
+         0.369,
+         0.572
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=2": {
+        "MAE": 0.464,
+        "CI": [
+         0.345,
+         0.538
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.498,
+        "CI": [
+         0.373,
+         0.59
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "Linear random-coefficient": {
+       "k=0": {
+        "MAE": 0.538,
+        "CI": [
+         0.359,
+         0.812
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=1": {
+        "MAE": 0.479,
+        "CI": [
+         0.365,
+         0.572
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=2": {
+        "MAE": 0.436,
+        "CI": [
+         0.326,
+         0.503
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.431,
+        "CI": [
+         0.353,
+         0.492
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      },
+      "HiFT": {
+       "k=0": {
+        "MAE": 0.559,
+        "CI": [
+         0.392,
+         0.855
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=1": {
+        "MAE": 0.551,
+        "CI": [
+         0.431,
+         0.633
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=2": {
+        "MAE": 0.476,
+        "CI": [
+         0.362,
+         0.544
+        ],
+        "n_cells": 68,
+        "n_membranes": 14,
+        "n_papers": 8
+       },
+       "k=3": {
+        "MAE": 0.488,
+        "CI": [
+         0.386,
+         0.562
+        ],
+        "n_cells": 47,
+        "n_membranes": 7,
+        "n_papers": 4
+       }
+      }
+     },
+     "gain_k1": -1.7
+    }
+   }
+  }
+ },
+ "reference_duplicates": {
+  "protocol": "canonical IDs in all production stages; raw-group control uses fresh refits",
+  "pure_solvent_permeance": {
+   "papers_raw": 122,
+   "papers_distinct": 121,
+   "duplicated_papers": 1,
+   "records_affected": 16,
+   "rows_retained": 1934
+  },
+  "solution_permeance": {
+   "papers_raw": 194,
+   "papers_distinct": 192,
+   "duplicated_papers": 2,
+   "records_affected": 19,
+   "rows_retained": 3190
+  },
+  "rejection": {
+   "papers_raw": 243,
+   "papers_distinct": 240,
+   "duplicated_papers": 3,
+   "records_affected": 51,
+   "rows_retained": 6216
+  },
+  "unseen_paper_lightgbm_r2": {
+   "raw": 0.23540840019992404,
+   "merged": 0.24709468651042
+  }
+ },
+ "fig4_example": {
+  "entity": "10.1016/j.memsci.2013.07.009 || PhM5050 (30%)",
+  "anchor": "Pentane",
+  "mae_k0": 0.6785494977348195,
+  "mae_k1": 0.39215434632562346,
+  "n_solvents": 9,
+  "material": "Glassy ISA",
+  "median_gain_all": 0.24455829309025112,
+  "gain_example": 0.24455829309025112,
+  "n_candidates": 17,
+  "n_membranes": 47
+ },
+ "tio2_series": {
+  "TiO2-1nm-C1": {
+   "Hexane": 0.98,
+   "THF": 1.0,
+   "Toluene": 0.9
+  },
+  "TiO2-1nm-C12": {
+   "Hexane": 1.62,
+   "THF": 1.52,
+   "Toluene": 1.4
+  },
+  "TiO2-1nm-C5": {
+   "Hexane": 1.79,
+   "THF": 1.64,
+   "Toluene": 1.54
+  },
+  "TiO2-1nm-C8": {
+   "Hexane": 2.16,
+   "THF": 1.77,
+   "Toluene": 1.81
+  },
+  "TiO2-unmodified-1nm": {
+   "Hexane": 0.18,
+   "THF": 0.82,
+   "Toluene": 0.68
+  }
+ }
+}

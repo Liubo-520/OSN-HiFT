@@ -1,0 +1,38 @@
+{
+  "Pure-solvent permeance": {
+    "interlab_cells": 19,
+    "interlab_papers": 16,
+    "interlab_sd": 0.46168491263006334,
+    "interlab_sd_lo": 0.2998154494625965,
+    "interlab_sd_hi": 0.5785672244216544,
+    "matched_cells": 14,
+    "matched_interlab_sd": 0.47943500823867824,
+    "within_paper_replicate_groups": 80,
+    "within_paper_sd": 0.06678645110490262,
+    "var_logP": 0.8061987348036489,
+    "sd_logP": 0.8978857025276931,
+    "mae_floor_interlab": 0.3683712637431474,
+    "mae_floor_within": 0.053287878207417275,
+    "r2_ceiling_unseen_paper": 0.735607426124102,
+    "r2_ceiling_unseen_paper_lo": 0.5847921626216599,
+    "r2_ceiling_unseen_paper_hi": 0.8885023011623164
+  },
+  "Solution permeance": {
+    "interlab_cells": 21,
+    "interlab_papers": 32,
+    "interlab_sd": 0.4163143159370197,
+    "interlab_sd_lo": 0.3027844558378404,
+    "interlab_sd_hi": 0.523601925587382,
+    "matched_cells": 6,
+    "matched_interlab_sd": 0.37848047109102206,
+    "within_paper_replicate_groups": 234,
+    "within_paper_sd": 0.2977353615629039,
+    "var_logP": 0.6699166289565623,
+    "sd_logP": 0.8184843486326189,
+    "mae_floor_interlab": 0.3321707651273543,
+    "mae_floor_within": 0.23755844819609992,
+    "r2_ceiling_unseen_paper": 0.7412848074482614,
+    "r2_ceiling_unseen_paper_lo": 0.5907565738354124,
+    "r2_ceiling_unseen_paper_hi": 0.8631494984087615
+  }
+}

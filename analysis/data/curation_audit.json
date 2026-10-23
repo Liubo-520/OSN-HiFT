@@ -1,0 +1,127 @@
+{
+  "raw_rows": 5638,
+  "raw_papers": 258,
+  "raw_reference_strings": 262,
+  "reference_identity": "canonical DOI/text; raw strings retained; no measurement rows removed",
+  "year_sources_papers": {
+    "recorded": 190,
+    "DOI (curation timestamp)": 43,
+    "decoded epoch-ms": 20,
+    "missing (curation timestamp)": 2,
+    "DOI": 1,
+    "missing": 1,
+    "DOI (recorded year inconsistent)": 1
+  },
+  "year_changed_papers": 46,
+  "pure_solvent_permeance:numeric": {
+    "rows": 2261,
+    "papers": 127,
+    "removed_from_previous": 3377
+  },
+  "pure_solvent_permeance:accepted": {
+    "rows": 2256,
+    "papers": 127,
+    "removed_from_previous": 5
+  },
+  "pure_solvent_permeance:single_solvent": {
+    "rows": 2173,
+    "papers": 126,
+    "removed_from_previous": 83
+  },
+  "pure_solvent_permeance:organic": {
+    "rows": 1959,
+    "papers": 122,
+    "removed_from_previous": 214
+  },
+  "pure_solvent_permeance:descriptor_known": {
+    "rows": 1958,
+    "papers": 122,
+    "removed_from_previous": 1
+  },
+  "pure_solvent_permeance:positive": {
+    "rows": 1934,
+    "papers": 121,
+    "removed_from_previous": 24
+  },
+  "pure_solvent_permeance:membranes": 1413,
+  "pure_solvent_permeance:membranes_by_n_solvents": {
+    "1": 1348,
+    "2": 5,
+    "3": 13,
+    "4": 4,
+    "5": 26,
+    "6": 5,
+    "7": 3,
+    "8": 1,
+    "9": 2,
+    "10": 1,
+    "11": 5
+  },
+  "pure_solvent_permeance:material_counts": {
+    "TFC/TFN": 610,
+    "Commercial polymer": 561,
+    "Glassy ISA": 480,
+    "2D/framework": 153,
+    "Ceramic": 113,
+    "PDMS": 17
+  },
+  "pure_solvent_permeance:solvents": 31,
+  "pure_solvent_permeance:year_missing": 4,
+  "solution_permeance:numeric": {
+    "rows": 3379,
+    "papers": 203,
+    "removed_from_previous": 2259
+  },
+  "solution_permeance:accepted": {
+    "rows": 3358,
+    "papers": 200,
+    "removed_from_previous": 21
+  },
+  "solution_permeance:single_solvent": {
+    "rows": 3316,
+    "papers": 196,
+    "removed_from_previous": 42
+  },
+  "solution_permeance:organic": {
+    "rows": 3209,
+    "papers": 193,
+    "removed_from_previous": 107
+  },
+  "solution_permeance:descriptor_known": {
+    "rows": 3193,
+    "papers": 193,
+    "removed_from_previous": 16
+  },
+  "solution_permeance:positive": {
+    "rows": 3190,
+    "papers": 192,
+    "removed_from_previous": 3
+  },
+  "solution_permeance:membranes": 2396,
+  "solution_permeance:membranes_by_n_solvents": {
+    "1": 2248,
+    "2": 90,
+    "3": 34,
+    "4": 16,
+    "5": 6,
+    "6": 1,
+    "7": 1
+  },
+  "solution_permeance:material_counts": {
+    "Glassy ISA": 1341,
+    "TFC/TFN": 1182,
+    "Commercial polymer": 369,
+    "Ceramic": 126,
+    "PDMS": 114,
+    "2D/framework": 58
+  },
+  "solution_permeance:solvents": 25,
+  "solution_permeance:year_missing": 37,
+  "rejection:long_values": 6483,
+  "rejection:from_slot1": 4435,
+  "rejection:negative": 219,
+  "rejection:above_100": 2,
+  "rejection:modelled_rows": 6216,
+  "rejection:papers": 240,
+  "rejection:solutes": 284
+}

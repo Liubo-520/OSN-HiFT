@@ -1,0 +1,1066 @@
+{
+  "checked_date": "2026-10-23",
+  "checked_utc": "2026-10-23T06:31:18.419901+00:00",
+  "core_sha256_at_audit": "cebd158782ad31ab2f5c4d0a8431dd4f2d70e7f4b1c38ce22533a3d45c3913d7",
+  "book_sha256": "e15ae33931efce4cbd545e48562697701de8cf634d330690b2875b7d34f768e9",
+  "workbook_sha256": "adcf5006ccb261c376f4d925cc42695c1d7cab217dca72aaf40da1a08c886f47",
+  "source_version_policy": "Hansen2007SecondEditionTableA.1takesprecedenceoverofficial2013introductoryworkbookwherevaluesdisagree",
+  "solvents_checked": 39,
+  "field_checks": 117,
+  "primary_domain_solvents": 31,
+  "primary_domain_field_checks": 93,
+  "changed_fields": [
+    {
+      "solvent": "1,4-dioxane",
+      "field": "dD",
+      "old": 17.5,
+      "adopted": 19.0,
+      "unit": "MPa^0.5",
+      "changed": true,
+      "primary_domain31": true,
+      "source_book": "Hansen2007SecondEdition",
+      "source_table": "A.1",
+      "source_number": 306,
+      "printed_page": 407,
+      "pdf_page": 432,
+      "official_workbook_value": 17.5,
+      "official_workbook_sheet": "HSP Sphere",
+      "official_workbook_cell": "B37",
+      "book_workbook_conflict": true,
+      "note": "Adopt handbook19.0/1.8/7.4; current core and official2013workbook17.5/1.8/9.0. Book values visually checked on PDF432 and repeated in book chapter tables.",
+      "primary_source_url": "https://doi.org/10.1201/9781420006834",
+      "download_url": "https://literature.wolkersdorfer.info/literature/Hansen%20solubility%20parameters%20A%20users%20handbook.pdf",
+      "official_workbook_url": "https://www.hansen-solubility.com/contents/HSP_Calculations.xlsx",
+      "source_row_text": "306    1,4-Dioxane                                                [1,4]Dioxane             19.0        1.8       7.4      85.7"
+    },
+    {
+      "solvent": "1,4-dioxane",
+      "field": "dH",
+      "old": 9.0,
+      "adopted": 7.4,
+      "unit": "MPa^0.5",
+      "changed": true,
+      "primary_domain31": true,
+      "source_book": "Hansen2007SecondEdition",
+      "source_table": "A.1",
+      "source_number": 306,
+      "printed_page": 407,
+      "pdf_page": 432,
+      "official_workbook_value": 9,
+      "official_workbook_sheet": "HSP Sphere",
+      "official_workbook_cell": "D37",
+      "book_workbook_conflict": true,
+      "note": "Adopt handbook19.0/1.8/7.4; current core and official2013workbook17.5/1.8/9.0. Book values visually checked on PDF432 and repeated in book chapter tables.",
+      "primary_source_url": "https://doi.org/10.1201/9781420006834",
+      "download_url": "https://literature.wolkersdorfer.info/literature/Hansen%20solubility%20parameters%20A%20users%20handbook.pdf",
+      "official_workbook_url": "https://www.hansen-solubility.com/contents/HSP_Calculations.xlsx",
+      "source_row_text": "306    1,4-Dioxane                                                [1,4]Dioxane             19.0        1.8       7.4      85.7"
+    }
+  ],
+  "workbook_conflicts": [
+    {
+      "solvent": "Methanol",
+      "field": "dD",
+      "old": 15.1,
+      "adopted": 15.1,
+      "unit": "MPa^0.5",
+      "changed": false,
+      "primary_domain31": true,
+      "source_book": "Hansen2007SecondEdition",
+      "source_table": "A.1",
+      "source_number": 456,
+      "printed_page": 435,
+      "pdf_page": 460,
+      "official_workbook_value": 14.7,
+      "official_workbook_sheet": "HSP Sphere",
+      "official_workbook_cell": "B62",
+      "book_workbook_conflict": true,
+      "note": "Retain handbook dD15.1; official2013workbook lists14.7. Source-version disagreement recorded, not silently resolved in favor of website.",
+      "primary_source_url": "https://doi.org/10.1201/9781420006834",
+      "download_url": "https://literature.wolkersdorfer.info/literature/Hansen%20solubility%20parameters%20A%20users%20handbook.pdf",
+      "official_workbook_url": "https://www.hansen-solubility.com/contents/HSP_Calculations.xlsx",
+      "source_row_text": "456    Methanol                                    Methanol                 15.1       12.3       22.3     40.7"
+    },
+    {
+      "solvent": "Cyclohexanone",
+      "field": "dP",
+      "old": 6.3,
+      "adopted": 6.3,
+      "unit": "MPa^0.5",
+      "changed": false,
+      "primary_domain31": true,
+      "source_book": "Hansen2007SecondEdition",
+      "source_table": "A.1",
+      "source_number": 183,
+      "printed_page": 382,
+      "pdf_page": 407,
+      "official_workbook_value": 8.4,
+      "official_workbook_sheet": "HSP Sphere",
+      "official_workbook_cell": "C30",
+      "book_workbook_conflict": true,
+      "note": "Retain handbook dP6.3; official2013workbook lists8.4.",
+      "primary_source_url": "https://doi.org/10.1201/9781420006834",
+      "download_url": "https://literature.wolkersdorfer.info/literature/Hansen%20solubility%20parameters%20A%20users%20handbook.pdf",
+      "official_workbook_url": "https://www.hansen-solubility.com/contents/HSP_Calculations.xlsx",
+      "source_row_text": "183    Cyclohexanone                            Cyclohexanone             17.8        6.3        5.1    104.0"
+    },
+    {
+      "solvent": "1,4-dioxane",
+      "field": "dD",
+      "old": 17.5,
+      "adopted": 19.0,
+      "unit": "MPa^0.5",
+      "changed": true,
+      "primary_domain31": true,
+      "source_book": "Hansen2007SecondEdition",
+      "source_table": "A.1",
+      "source_number": 306,
+      "printed_page": 407,
+      "pdf_page": 432,
+      "official_workbook_value": 17.5,
+      "official_workbook_sheet": "HSP Sphere",
+      "official_workbook_cell": "B37",
+      "book_workbook_conflict": true,
+      "note": "Adopt handbook19.0/1.8/7.4; current core and official2013workbook17.5/1.8/9.0. Book values visually checked on PDF432 and repeated in book chapter tables.",
+      "primary_source_url": "https://doi.org/10.1201/9781420006834",
+      "download_url": "https://literature.wolkersdorfer.info/literature/Hansen%20solubility%20parameters%20A%20users%20handbook.pdf",
+      "official_workbook_url": "https://www.hansen-solubility.com/contents/HSP_Calculations.xlsx",
+      "source_row_text": "306    1,4-Dioxane                                                [1,4]Dioxane             19.0        1.8       7.4      85.7"
+    },
+    {
+      "solvent": "1,4-dioxane",
+      "field": "dH",
+      "old": 9.0,
+      "adopted": 7.4,
+      "unit": "MPa^0.5",
+      "changed": true,
+      "primary_domain31": true,
+      "source_book": "Hansen2007SecondEdition",
+      "source_table": "A.1",
+      "source_number": 306,
+      "printed_page": 407,
+      "pdf_page": 432,
+      "official_workbook_value": 9,
+      "official_workbook_sheet": "HSP Sphere",
+      "official_workbook_cell": "D37",
+      "book_workbook_conflict": true,
+      "note": "Adopt handbook19.0/1.8/7.4; current core and official2013workbook17.5/1.8/9.0. Book values visually checked on PDF432 and repeated in book chapter tables.",
+      "primary_source_url": "https://doi.org/10.1201/9781420006834",
+      "download_url": "https://literature.wolkersdorfer.info/literature/Hansen%20solubility%20parameters%20A%20users%20handbook.pdf",
+      "official_workbook_url": "https://www.hansen-solubility.com/contents/HSP_Calculations.xlsx",
+      "source_row_text": "306    1,4-Dioxane                                                [1,4]Dioxane             19.0        1.8       7.4      85.7"
+    },
+    {
+      "solvent": "Dichloromethane (DCM)",
+      "field": "dD",
+      "old": 18.2,
+      "adopted": 18.2,
+      "unit": "MPa^0.5",
+      "changed": false,
+      "primary_domain31": true,
+      "source_book": "Hansen2007SecondEdition",
+      "source_table": "A.1",
+      "source_number": 524,
+      "printed_page": 447,
+      "pdf_page": 472,
+      "official_workbook_value": 17,
+      "official_workbook_sheet": "HSP Sphere",
+      "official_workbook_cell": "B74",
+      "book_workbook_conflict": true,
+      "note": "Retain handbook18.2/6.3/6.1; workbook Methylene Chloride17.0/7.3/7.1. Methylene dichloride=dichloromethane alias.",
+      "primary_source_url": "https://doi.org/10.1201/9781420006834",
+      "download_url": "https://literature.wolkersdorfer.info/literature/Hansen%20solubility%20parameters%20A%20users%20handbook.pdf",
+      "official_workbook_url": "https://www.hansen-solubility.com/contents/HSP_Calculations.xlsx",
+      "source_row_text": "524    Methylene Dichloride                      Dichloro-methane       18.2        6.3        6.1     63.9"
+    },
+    {
+      "solvent": "Dichloromethane (DCM)",
+      "field": "dP",
+      "old": 6.3,
+      "adopted": 6.3,
+      "unit": "MPa^0.5",
+      "changed": false,
+      "primary_domain31": true,
+      "source_book": "Hansen2007SecondEdition",
+      "source_table": "A.1",
+      "source_number": 524,
+      "printed_page": 447,
+      "pdf_page": 472,
+      "official_workbook_value": 7.3,
+      "official_workbook_sheet": "HSP Sphere",
+      "official_workbook_cell": "C74",
+      "book_workbook_conflict": true,
+      "note": "Retain handbook18.2/6.3/6.1; workbook Methylene Chloride17.0/7.3/7.1. Methylene dichloride=dichloromethane alias.",
+      "primary_source_url": "https://doi.org/10.1201/9781420006834",
+      "download_url": "https://literature.wolkersdorfer.info/literature/Hansen%20solubility%20parameters%20A%20users%20handbook.pdf",
+      "official_workbook_url": "https://www.hansen-solubility.com/contents/HSP_Calculations.xlsx",
+      "source_row_text": "524    Methylene Dichloride                      Dichloro-methane       18.2        6.3        6.1     63.9"
+    },
+    {
+      "solvent": "Dichloromethane (DCM)",
+      "field": "dH",
+      "old": 6.1,
+      "adopted": 6.1,
+      "unit": "MPa^0.5",
+      "changed": false,
+      "primary_domain31": true,
+      "source_book": "Hansen2007SecondEdition",
+      "source_table": "A.1",
+      "source_number": 524,
+      "printed_page": 447,
+      "pdf_page": 472,
+      "official_workbook_value": 7.1,
+      "official_workbook_sheet": "HSP Sphere",
+      "official_workbook_cell": "D74",
+      "book_workbook_conflict": true,
+      "note": "Retain handbook18.2/6.3/6.1; workbook Methylene Chloride17.0/7.3/7.1. Methylene dichloride=dichloromethane alias.",
+      "primary_source_url": "https://doi.org/10.1201/9781420006834",
+      "download_url": "https://literature.wolkersdorfer.info/literature/Hansen%20solubility%20parameters%20A%20users%20handbook.pdf",
+      "official_workbook_url": "https://www.hansen-solubility.com/contents/HSP_Calculations.xlsx",
+      "source_row_text": "524    Methylene Dichloride                      Dichloro-methane       18.2        6.3        6.1     63.9"
+    },
+    {
+      "solvent": "Diethyl ether",
+      "field": "dH",
+      "old": 5.1,
+      "adopted": 5.1,
+      "unit": "MPa^0.5",
+      "changed": false,
+      "primary_domain31": false,
+      "source_book": "Hansen2007SecondEdition",
+      "source_table": "A.1",
+      "source_number": 255,
+      "printed_page": 397,
+      "pdf_page": 422,
+      "official_workbook_value": 4.6,
+      "official_workbook_sheet": "HSP Sphere",
+      "official_workbook_cell": "D33",
+      "book_workbook_conflict": true,
+      "note": "Retain handbook dH5.1; official2013workbook lists4.6.",
+      "primary_source_url": "https://doi.org/10.1201/9781420006834",
+      "download_url": "https://literature.wolkersdorfer.info/literature/Hansen%20solubility%20parameters%20A%20users%20handbook.pdf",
+      "official_workbook_url": "https://www.hansen-solubility.com/contents/HSP_Calculations.xlsx",
+      "source_row_text": "255    Diethyl Ether                               Ethoxy-ethane           14.5        2.9        5.1    104.8"
+    }
+  ],
+  "solvent_records": [
+    {
+      "solvent": "Methanol",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 456,
+        "names": "Methanol                                    Methanol",
+        "dD": 15.1,
+        "dP": 12.3,
+        "dH": 22.3,
+        "Vm": 40.7,
+        "pdf_page": 460,
+        "printed_page": 435,
+        "source_line": "456    Methanol                                    Methanol                 15.1       12.3       22.3     40.7"
+      },
+      "workbook": {
+        "row": 62,
+        "dD": 14.7,
+        "dP": 12.3,
+        "dH": 22.3
+      },
+      "notes": "Retain handbook dD15.1; official2013workbook lists14.7. Source-version disagreement recorded, not silently resolved in favor of website."
+    },
+    {
+      "solvent": "Ethanol",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 325,
+        "names": "Ethanol                                         Ethanol",
+        "dD": 15.8,
+        "dP": 8.8,
+        "dH": 19.4,
+        "Vm": 58.5,
+        "pdf_page": 436,
+        "printed_page": 411,
+        "source_line": "325    Ethanol                                         Ethanol                   15.8        8.8       19.4     58.5"
+      },
+      "workbook": {
+        "row": 42,
+        "dD": 15.8,
+        "dP": 8.8,
+        "dH": 19.4
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Propanol",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 569,
+        "names": "1-Propanol                                Propan-1-ol",
+        "dD": 16.0,
+        "dP": 6.8,
+        "dH": 17.4,
+        "Vm": 75.2,
+        "pdf_page": 482,
+        "printed_page": 457,
+        "source_line": "569    1-Propanol                                Propan-1-ol               16.0        6.8       17.4    75.2"
+      },
+      "workbook": {
+        "row": 80,
+        "dD": 16,
+        "dP": 6.8,
+        "dH": 17.4
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Isopropanol (IPA)",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 570,
+        "names": "2-Propanol                                Propan-2-ol",
+        "dD": 15.8,
+        "dP": 6.1,
+        "dH": 16.4,
+        "Vm": 76.8,
+        "pdf_page": 482,
+        "printed_page": 457,
+        "source_line": "570    2-Propanol                                Propan-2-ol               15.8        6.1       16.4    76.8"
+      },
+      "workbook": {
+        "row": 79,
+        "dD": 15.8,
+        "dP": 6.1,
+        "dH": 16.4
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Butanol",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 92,
+        "names": "1-Butanol                                      Butan-1-ol",
+        "dD": 16.0,
+        "dP": 5.7,
+        "dH": 15.8,
+        "Vm": 91.5,
+        "pdf_page": 388,
+        "printed_page": 363,
+        "source_line": "92     1-Butanol                                      Butan-1-ol               16.0        5.7       15.8     91.5"
+      },
+      "workbook": {
+        "row": 16,
+        "dD": 16,
+        "dP": 5.7,
+        "dH": 15.8
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "2-Butanol",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 92,
+        "names": "2-Butanol                                 Butan-2-ol",
+        "dD": 15.8,
+        "dP": 5.7,
+        "dH": 14.5,
+        "Vm": 92.0,
+        "pdf_page": 389,
+        "printed_page": 364,
+        "source_line": "92     2-Butanol                                 Butan-2-ol             15.8        5.7       14.5     92.0"
+      },
+      "workbook": {
+        "row": 17,
+        "dD": 15.8,
+        "dP": 5.7,
+        "dH": 14.5
+      },
+      "notes": "TableA.1 printsNo92 for both1-Butanol and2-Butanol; selected by explicit solvent name, not row number alone."
+    },
+    {
+      "solvent": "Isobutanol",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 431,
+        "names": "Isobutyl Alcohol                           2-Methyl-propan-1-ol",
+        "dD": 15.1,
+        "dP": 5.7,
+        "dH": 15.9,
+        "Vm": 92.8,
+        "pdf_page": 455,
+        "printed_page": 430,
+        "source_line": "431    Isobutyl Alcohol                           2-Methyl-propan-1-ol       15.1       5.7        15.9     92.8"
+      },
+      "workbook": {
+        "row": 54,
+        "dD": 15.1,
+        "dP": 5.7,
+        "dH": 15.9
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "1-Pentanol",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 552,
+        "names": "1-Pentanol*                                       Pentan-1-ol",
+        "dD": 15.9,
+        "dP": 5.9,
+        "dH": 13.9,
+        "Vm": 108.6,
+        "pdf_page": 478,
+        "printed_page": 453,
+        "source_line": "552    1-Pentanol*                                       Pentan-1-ol             15.9       5.9        13.9    108.6"
+      },
+      "workbook": {
+        "row": 12,
+        "dD": 15.9,
+        "dP": 5.9,
+        "dH": 13.9
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "1-Hexanol",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 930,
+        "names": "1-Hexanol                                      Hexan-1-ol",
+        "dD": 15.9,
+        "dP": 5.8,
+        "dH": 12.5,
+        "Vm": 124.9,
+        "pdf_page": 452,
+        "printed_page": 427,
+        "source_line": "930    1-Hexanol                                      Hexan-1-ol                15.9        5.8       12.5    124.9"
+      },
+      "workbook": null,
+      "notes": ""
+    },
+    {
+      "solvent": "Acetone",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 7,
+        "names": "Acetone                                  Propan-2-one",
+        "dD": 15.5,
+        "dP": 10.4,
+        "dH": 7.0,
+        "Vm": 74.0,
+        "pdf_page": 372,
+        "printed_page": 347,
+        "source_line": "7      Acetone                                  Propan-2-one          15.5       10.4        7.0     74.0"
+      },
+      "workbook": {
+        "row": 9,
+        "dD": 15.5,
+        "dP": 10.4,
+        "dH": 7
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Methyl ethyl ketone (MEK)",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 481,
+        "names": "Methyl Ethyl Ketone                       Butan-2-one",
+        "dD": 16.0,
+        "dP": 9.0,
+        "dH": 5.1,
+        "Vm": 90.1,
+        "pdf_page": 464,
+        "printed_page": 439,
+        "source_line": "481    Methyl Ethyl Ketone                       Butan-2-one             16.0         9.0        5.1     90.1"
+      },
+      "workbook": {
+        "row": 67,
+        "dD": 16,
+        "dP": 9,
+        "dH": 5.1
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Cyclohexanone",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 183,
+        "names": "Cyclohexanone                            Cyclohexanone",
+        "dD": 17.8,
+        "dP": 6.3,
+        "dH": 5.1,
+        "Vm": 104.0,
+        "pdf_page": 407,
+        "printed_page": 382,
+        "source_line": "183    Cyclohexanone                            Cyclohexanone             17.8        6.3        5.1    104.0"
+      },
+      "workbook": {
+        "row": 30,
+        "dD": 17.8,
+        "dP": 8.4,
+        "dH": 5.1
+      },
+      "notes": "Retain handbook dP6.3; official2013workbook lists8.4."
+    },
+    {
+      "solvent": "Ethyl acetate",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 328,
+        "names": "Ethyl Acetate                                   Acetic acid ethyl ester",
+        "dD": 15.8,
+        "dP": 5.3,
+        "dH": 7.2,
+        "Vm": 98.5,
+        "pdf_page": 436,
+        "printed_page": 411,
+        "source_line": "328    Ethyl Acetate                                   Acetic acid ethyl ester   15.8        5.3        7.2     98.5"
+      },
+      "workbook": {
+        "row": 43,
+        "dD": 15.8,
+        "dP": 5.3,
+        "dH": 7.2
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Methyl acetate",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 464,
+        "names": "Methyl Acetate                            Acetic acid methyl ester",
+        "dD": 15.5,
+        "dP": 7.2,
+        "dH": 7.6,
+        "Vm": 79.7,
+        "pdf_page": 462,
+        "printed_page": 437,
+        "source_line": "464    Methyl Acetate                            Acetic acid methyl ester 15.5        7.2        7.6     79.7"
+      },
+      "workbook": {
+        "row": 63,
+        "dD": 15.5,
+        "dP": 7.2,
+        "dH": 7.6
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Isopropyl acetate",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 440,
+        "names": "Isopropyl Acetate                         Acetic acid isopropyl",
+        "dD": 14.9,
+        "dP": 4.5,
+        "dH": 8.2,
+        "Vm": 117.1,
+        "pdf_page": 457,
+        "printed_page": 432,
+        "source_line": "440    Isopropyl Acetate                         Acetic acid isopropyl   14.9       4.5         8.2    117.1"
+      },
+      "workbook": {
+        "row": 58,
+        "dD": 14.9,
+        "dP": 4.5,
+        "dH": 8.2
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Butyl acetate",
+      "in_primary_domain": false,
+      "book": {
+        "source_number": 102,
+        "names": "n-Butyl Acetate                           Acetic acid butyl ester",
+        "dD": 15.8,
+        "dP": 3.7,
+        "dH": 6.3,
+        "Vm": 132.5,
+        "pdf_page": 390,
+        "printed_page": 365,
+        "source_line": "102    n-Butyl Acetate                           Acetic acid butyl ester    15.8       3.7         6.3    132.5"
+      },
+      "workbook": {
+        "row": 18,
+        "dD": 15.8,
+        "dP": 3.7,
+        "dH": 6.3
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Tetrahydrofuran (THF)",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 617,
+        "names": "Tetrahydrofuran                             Tetrahydro-furan",
+        "dD": 16.8,
+        "dP": 5.7,
+        "dH": 8.0,
+        "Vm": 81.7,
+        "pdf_page": 491,
+        "printed_page": 466,
+        "source_line": "617    Tetrahydrofuran                             Tetrahydro-furan       16.8        5.7       8.0      81.7"
+      },
+      "workbook": {
+        "row": 91,
+        "dD": 16.8,
+        "dP": 5.7,
+        "dH": 8
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "1,4-dioxane",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 306,
+        "names": "1,4-Dioxane                                                [1,4]Dioxane",
+        "dD": 19.0,
+        "dP": 1.8,
+        "dH": 7.4,
+        "Vm": 85.7,
+        "pdf_page": 432,
+        "printed_page": 407,
+        "source_line": "306    1,4-Dioxane                                                [1,4]Dioxane             19.0        1.8       7.4      85.7"
+      },
+      "workbook": {
+        "row": 37,
+        "dD": 17.5,
+        "dP": 1.8,
+        "dH": 9
+      },
+      "notes": "Adopt handbook19.0/1.8/7.4; current core and official2013workbook17.5/1.8/9.0. Book values visually checked on PDF432 and repeated in book chapter tables."
+    },
+    {
+      "solvent": "Acetonitrile",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 10,
+        "names": "Acetonitrile                              Acetonitrile",
+        "dD": 15.3,
+        "dP": 18.0,
+        "dH": 6.1,
+        "Vm": 52.6,
+        "pdf_page": 373,
+        "printed_page": 348,
+        "source_line": "10     Acetonitrile                              Acetonitrile            15.3       18.0        6.1     52.6"
+      },
+      "workbook": {
+        "row": 10,
+        "dD": 15.3,
+        "dP": 18,
+        "dH": 6.1
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Dimethylformamide (DMF)",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 297,
+        "names": "Dimethyl Formamide                                     N,N-Dimethyl-",
+        "dD": 17.4,
+        "dP": 13.7,
+        "dH": 11.3,
+        "Vm": 77.0,
+        "pdf_page": 429,
+        "printed_page": 404,
+        "source_line": "297    Dimethyl Formamide                                     N,N-Dimethyl-             17.4       13.7       11.3     77.0"
+      },
+      "workbook": {
+        "row": 76,
+        "dD": 17.4,
+        "dP": 13.7,
+        "dH": 11.3
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Dimethylacetamide (DMAC)",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 285,
+        "names": "N,N-Dimethyl Acetamide                   N,N-Dimethyl-",
+        "dD": 16.8,
+        "dP": 11.5,
+        "dH": 10.2,
+        "Vm": 92.5,
+        "pdf_page": 427,
+        "printed_page": 402,
+        "source_line": "285    N,N-Dimethyl Acetamide                   N,N-Dimethyl-           16.8       11.5       10.2     92.5"
+      },
+      "workbook": {
+        "row": 75,
+        "dD": 16.8,
+        "dP": 11.5,
+        "dH": 10.2
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "1-Methyl-2-pyrrolidinone (NMP)",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 521,
+        "names": "N-Methyl-2-Pyrrolidone                         1-Methyl-pyrrolidin-2-",
+        "dD": 18.0,
+        "dP": 12.3,
+        "dH": 7.2,
+        "Vm": 96.5,
+        "pdf_page": 471,
+        "printed_page": 446,
+        "source_line": "521    N-Methyl-2-Pyrrolidone                         1-Methyl-pyrrolidin-2-    18.0       12.3        7.2     96.5"
+      },
+      "workbook": {
+        "row": 73,
+        "dD": 18,
+        "dP": 12.3,
+        "dH": 7.2
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Dimethylsulfoxide (DMSO)",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 303,
+        "names": "Dimethyl Sulfoxide                          Methylsulfinyl-methane",
+        "dD": 18.4,
+        "dP": 16.4,
+        "dH": 10.2,
+        "Vm": 71.3,
+        "pdf_page": 431,
+        "printed_page": 406,
+        "source_line": "303    Dimethyl Sulfoxide                          Methylsulfinyl-methane   18.4       16.4       10.2     71.3"
+      },
+      "workbook": {
+        "row": 36,
+        "dD": 18.4,
+        "dP": 16.4,
+        "dH": 10.2
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Toluene",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 637,
+        "names": "Toluene                                   Toluene",
+        "dD": 18.0,
+        "dP": 1.4,
+        "dH": 2.0,
+        "Vm": 106.8,
+        "pdf_page": 495,
+        "printed_page": 470,
+        "source_line": "637    Toluene                                   Toluene                 18.0        1.4        2.0    106.8"
+      },
+      "workbook": {
+        "row": 93,
+        "dD": 18,
+        "dP": 1.4,
+        "dH": 2
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Xylene",
+      "in_primary_domain": false,
+      "book": {
+        "source_number": 697,
+        "names": "Xylene                                    p-Xylene",
+        "dD": 17.6,
+        "dP": 1.0,
+        "dH": 3.1,
+        "Vm": 123.3,
+        "pdf_page": 507,
+        "printed_page": 482,
+        "source_line": "697    Xylene                                    p-Xylene                 17.6        1.0        3.1    123.3"
+      },
+      "workbook": {
+        "row": 94,
+        "dD": 17.6,
+        "dP": 1,
+        "dH": 3.1
+      },
+      "notes": "TableA.1No697 is named Xylene, ACD identity p-Xylene. Existing generic Xylene database label retained; mixture/isomer composition is not resolved by source. Book also gives o-Xylene17.8/1.0/3.1 separately."
+    },
+    {
+      "solvent": "Anisole",
+      "in_primary_domain": false,
+      "book": {
+        "source_number": 48,
+        "names": "Anisole                                  Methoxy-benzene",
+        "dD": 17.8,
+        "dP": 4.1,
+        "dH": 6.7,
+        "Vm": 119.1,
+        "pdf_page": 379,
+        "printed_page": 354,
+        "source_line": "48     Anisole                                  Methoxy-benzene        17.8        4.1        6.7    119.1"
+      },
+      "workbook": null,
+      "notes": ""
+    },
+    {
+      "solvent": "Hexane",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 417,
+        "names": "n-Hexane                                       n-Hexane",
+        "dD": 14.9,
+        "dP": 0.0,
+        "dH": 0.0,
+        "Vm": 131.6,
+        "pdf_page": 452,
+        "printed_page": 427,
+        "source_line": "417    n-Hexane                                       n-Hexane                  14.9        0          0      131.6"
+      },
+      "workbook": {
+        "row": 53,
+        "dD": 14.9,
+        "dP": 0,
+        "dH": 0
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Heptane",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 409,
+        "names": "Heptane                                        Heptane",
+        "dD": 15.3,
+        "dP": 0.0,
+        "dH": 0.0,
+        "Vm": 147.4,
+        "pdf_page": 450,
+        "printed_page": 425,
+        "source_line": "409    Heptane                                        Heptane                    15.3        0          0      147.4"
+      },
+      "workbook": {
+        "row": 52,
+        "dD": 15.3,
+        "dP": 0,
+        "dH": 0
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Pentane",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 550,
+        "names": "Pentane                                           Pentane",
+        "dD": 14.5,
+        "dP": 0.0,
+        "dH": 0.0,
+        "Vm": 116.2,
+        "pdf_page": 478,
+        "printed_page": 453,
+        "source_line": "550    Pentane                                           Pentane                 14.5       0           0      116.2"
+      },
+      "workbook": null,
+      "notes": ""
+    },
+    {
+      "solvent": "Octane",
+      "in_primary_domain": false,
+      "book": {
+        "source_number": 540,
+        "names": "Octane                                     Octane",
+        "dD": 15.5,
+        "dP": 0.0,
+        "dH": 0.0,
+        "Vm": 163.5,
+        "pdf_page": 475,
+        "printed_page": 450,
+        "source_line": "540    Octane                                     Octane                 15.5        0          0      163.5"
+      },
+      "workbook": null,
+      "notes": ""
+    },
+    {
+      "solvent": "Decane",
+      "in_primary_domain": false,
+      "book": {
+        "source_number": 196,
+        "names": "Decane                                                    Decane",
+        "dD": 15.7,
+        "dP": 0.0,
+        "dH": 0.0,
+        "Vm": 195.9,
+        "pdf_page": 410,
+        "printed_page": 385,
+        "source_line": "196    Decane                                                    Decane                    15.7        0          0      195.9"
+      },
+      "workbook": null,
+      "notes": ""
+    },
+    {
+      "solvent": "Cyclohexane",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 181,
+        "names": "Cyclohexane                              Cyclohexane",
+        "dD": 16.8,
+        "dP": 0.0,
+        "dH": 0.2,
+        "Vm": 108.7,
+        "pdf_page": 407,
+        "printed_page": 382,
+        "source_line": "181    Cyclohexane                              Cyclohexane               16.8        0          0.2    108.7"
+      },
+      "workbook": {
+        "row": 28,
+        "dD": 16.8,
+        "dP": 0,
+        "dH": 0.2
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Dichloromethane (DCM)",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 524,
+        "names": "Methylene Dichloride                      Dichloro-methane",
+        "dD": 18.2,
+        "dP": 6.3,
+        "dH": 6.1,
+        "Vm": 63.9,
+        "pdf_page": 472,
+        "printed_page": 447,
+        "source_line": "524    Methylene Dichloride                      Dichloro-methane       18.2        6.3        6.1     63.9"
+      },
+      "workbook": {
+        "row": 74,
+        "dD": 17,
+        "dP": 7.3,
+        "dH": 7.1
+      },
+      "notes": "Retain handbook18.2/6.3/6.1; workbook Methylene Chloride17.0/7.3/7.1. Methylene dichloride=dichloromethane alias."
+    },
+    {
+      "solvent": "Chloroform",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 156,
+        "names": "Chloroform                                  Trichloro-methane",
+        "dD": 17.8,
+        "dP": 3.1,
+        "dH": 5.7,
+        "Vm": 80.7,
+        "pdf_page": 402,
+        "printed_page": 377,
+        "source_line": "156    Chloroform                                  Trichloro-methane        17.8        3.1       5.7      80.7"
+      },
+      "workbook": {
+        "row": 26,
+        "dD": 17.8,
+        "dP": 3.1,
+        "dH": 5.7
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "Carbon Tetrachloride",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 122,
+        "names": "Carbon tetrachloride                     Tetrachloro-methane",
+        "dD": 17.8,
+        "dP": 0.0,
+        "dH": 0.6,
+        "Vm": 97.1,
+        "pdf_page": 395,
+        "printed_page": 370,
+        "source_line": "122    Carbon tetrachloride                     Tetrachloro-methane   17.8       0           0.6     97.1"
+      },
+      "workbook": null,
+      "notes": "Use TableA.1No122 explicitly labelled P for0DipoleMoment. Same page also offersNo862 P byGroupCont.16.1/8.3/0.0. Existing physically symmetric convention retained."
+    },
+    {
+      "solvent": "Diethyl ether",
+      "in_primary_domain": false,
+      "book": {
+        "source_number": 255,
+        "names": "Diethyl Ether                               Ethoxy-ethane",
+        "dD": 14.5,
+        "dP": 2.9,
+        "dH": 5.1,
+        "Vm": 104.8,
+        "pdf_page": 422,
+        "printed_page": 397,
+        "source_line": "255    Diethyl Ether                               Ethoxy-ethane           14.5        2.9        5.1    104.8"
+      },
+      "workbook": {
+        "row": 33,
+        "dD": 14.5,
+        "dP": 2.9,
+        "dH": 4.6
+      },
+      "notes": "Retain handbook dH5.1; official2013workbook lists4.6."
+    },
+    {
+      "solvent": "dimethyl carbonate",
+      "in_primary_domain": false,
+      "book": {
+        "source_number": 290,
+        "names": "Dimethyl Carbonate                                   Carbonic acid dimethyl",
+        "dD": 15.5,
+        "dP": 3.9,
+        "dH": 9.7,
+        "Vm": 84.2,
+        "pdf_page": 428,
+        "printed_page": 403,
+        "source_line": "290    Dimethyl Carbonate                                   Carbonic acid dimethyl   15.5        3.9        9.7     84.2"
+      },
+      "workbook": null,
+      "notes": ""
+    },
+    {
+      "solvent": "Propylene glycol methyl ether acetate",
+      "in_primary_domain": true,
+      "book": {
+        "source_number": 592,
+        "names": "Propylene Glycol Monomethyl Ether             Acetic acid 2-methoxy-",
+        "dD": 15.6,
+        "dP": 5.6,
+        "dH": 9.8,
+        "Vm": 137.1,
+        "pdf_page": 486,
+        "printed_page": 461,
+        "source_line": "592    Propylene Glycol Monomethyl Ether             Acetic acid 2-methoxy-    15.6        5.6        9.8    137.1"
+      },
+      "workbook": {
+        "row": 87,
+        "dD": 15.6,
+        "dP": 5.6,
+        "dH": 9.8
+      },
+      "notes": ""
+    },
+    {
+      "solvent": "water",
+      "in_primary_domain": false,
+      "book": {
+        "source_number": 696,
+        "names": "Water                                     Water",
+        "dD": 15.5,
+        "dP": 16.0,
+        "dH": 42.3,
+        "Vm": 18.0,
+        "pdf_page": 507,
+        "printed_page": 482,
+        "source_line": "696    Water                                     Water                    15.5       16.0       42.3     18.0"
+      },
+      "workbook": null,
+      "notes": "Use ordinary-waterNo696. Alternative sphere/miscibility parametersNo858/859 are not a replacement for pure-liquid water constants."
+    }
+  ]
+}
